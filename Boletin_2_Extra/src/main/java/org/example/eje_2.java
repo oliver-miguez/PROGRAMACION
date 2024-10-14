@@ -1,3 +1,4 @@
+//Te calcula de grados a farenheit y kelvin
 package org.example;
 import  java.util.Scanner;
 public class eje_2 {

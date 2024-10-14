@@ -1,3 +1,5 @@
+//Te da el total de tipos de billietes que tienes 
+
 package org.example;
 import  java.util.Scanner;
 public class eje_3 {
