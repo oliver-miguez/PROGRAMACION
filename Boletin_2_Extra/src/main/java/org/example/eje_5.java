@@ -31,11 +31,11 @@ public class eje_5 {
         soldo_fixo = a.nextFloat();
         System.out.println("Cantos km fas a diario: ");
         km = a.nextFloat();
-        System.out.println("Canto recibes en dieta: ");
+        System.out.println("Cuantos dias recibes dieta: ");
         dieta = a.nextFloat();
         System.out.println("Comisions: ");
         comisions = a.nextFloat();
-        soldo_bruto = (float) (soldo_fixo + 0.5 * comisions + 2 * km + (dieta+30));
+        soldo_bruto = (float) (soldo_fixo + 0.05 * comisions + 2 * km + (dieta*30));
         System.out.println("Teu soldo bruto e :"+ soldo_bruto);
 
 
