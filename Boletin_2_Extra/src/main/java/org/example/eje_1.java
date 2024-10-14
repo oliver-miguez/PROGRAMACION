@@ -1,4 +1,4 @@
-
+/*este programa te calcula el porcentaje de descuento */
 import java.util.Scanner;
 public  class eje_1{
     public static void main(String[]args){
