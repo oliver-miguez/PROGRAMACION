@@ -1,3 +1,4 @@
+//te dice el numero exacto de billetes utilizados para completar el valor introducido
 package org.example;
 import  java.util.Scanner;
 public class eje_4 {
