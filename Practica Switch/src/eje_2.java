@@ -1,5 +1,13 @@
-//haz un programa que te diga el numero que escribiste segun la decena y unidad introducida
+
 import java.util.Scanner;
+
+
+/**
+ * Convierte el numero introducido del 0 al 99 en su equivalente en letra
+ * @version 1.0
+ * @author Oliver Miguez Alonso
+ */
+
 public class eje_2 {
     public static <and> void main(String[]args){
         Scanner a = new Scanner(System.in);
