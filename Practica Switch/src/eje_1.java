@@ -1,6 +1,13 @@
-// te dice la nota
+
 
 import java.util.Scanner;
+
+/**
+ * Con la nota de tu examen, te muestra tu resultado, si es aprobado o no
+ * @version 1.0
+ * @author Oliver Miguez Alonso
+ */
+
 
 public class eje_1 {
     public static void main(String[] args) {
