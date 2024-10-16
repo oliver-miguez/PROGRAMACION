@@ -48,7 +48,7 @@ public class eje_2 {
         switch (unidad){
 
             case 0:
-                numero2 =" cero";
+                numero2 ="cero";
                 break;
             case 1:
                 numero2 ="uno";
@@ -98,7 +98,9 @@ public class eje_2 {
         else if (numero =="diez" && numero2 == "cinco"){
             System.out.println("Quince");
         }
-
+        else if (numero == "diez" && numero2 =="cero"){
+            System.out.println("Diez");
+        }
 
         else
         {
