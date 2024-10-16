@@ -17,6 +17,7 @@ public class eje_1 {
         System.out.println("Introduce el valor de tu nota en valores enteros: ");
         nota = a.nextInt();
 
+        //Hacemos switch para ver los diferentes casos , con las diferentes notas, para saber cual es tu resultado
         switch (nota) {
             case 1:
             case 2:
