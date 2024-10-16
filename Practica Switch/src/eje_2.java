@@ -1,5 +1,5 @@
 
-import java.util.Scanner;
+import java.util.Scanner;//para poder introducir cosas por consola
 
 
 /**
@@ -10,17 +10,27 @@ import java.util.Scanner;
 
 public class eje_2 {
     public static <and> void main(String[]args){
+
+        //Guarda los datos introducidos por consola
         Scanner a = new Scanner(System.in);
+
+       //Guarda el valor de decena
         String numero = "";
+
+        //Guarda el valor de unidades
         String numero2 = "";
-        int unidad = 10;
-        int decena = 9;
+
+        //para guardar los valores introducidos
+        int unidad ;
+        int decena ;
+
+        //Para preguntar sobre los numero que se van a introducir por consola
         System.out.println("Introduce tu decena del 1-9: ");
-        decena = a.nextInt();
+        decena = a.nextInt();//para guardar el numero introducido en el anterior System.out.println
         System.out.println("introduce la unidad del 0-9");
         unidad = a.nextInt();
 
-
+        //Discrimina distintas opciones de decenas
         switch (decena){
 
             case 1:
@@ -53,6 +63,7 @@ public class eje_2 {
 
 
         }
+        //Discrimina distintas opciones de unidades
         switch (unidad){
 
             case 0:
@@ -86,33 +97,38 @@ public class eje_2 {
                 numero2 ="nueve";
                 break;
         }
+
+
+        //para elaborar numero ("once")
         if (numero =="diez" && numero2 == "uno"){
             System.out.println("Once");
         }
-
+        //para elaborar el numero ("doce")
         else if (numero =="diez" && numero2 == "dos"){
             System.out.println("Doce");
         }
-
+        //para elaborar el numero ("trece")
         else if (numero =="diez" && numero2 == "tres"){
             System.out.println("Trece");
         }
 
-
+        // //para elaborar el numero ("catorce")
         else if (numero =="diez" && numero2 == "cuatro"){
             System.out.println("Catorce");
         }
-
+        //para elaborar el numero ("quince")
         else if (numero =="diez" && numero2 == "cinco"){
             System.out.println("Quince");
         }
+        //para elaborar el numero ("diez")
         else if (numero == "diez" && numero2 =="cero"){
             System.out.println("Diez");
         }
 
+        //elabora los casos no especiales
         else
         {
-            System.out.println(numero + "i" + numero2);
+            System.out.println(numero +  numero2);
         }
 
 
