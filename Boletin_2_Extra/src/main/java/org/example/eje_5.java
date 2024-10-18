@@ -10,15 +10,18 @@ Para calcular o soldo líquido debemos descontarlle ao soldo bruto:
  Retención a seguridade social : 36 €.
 
  */
-
-
 package org.example;
-
-
 import  java.util.Scanner;
+
+/**
+ * Calcula o soldo bruto e liquido
+ * @version 1.0
+ * @author Oliver Miguez Alonso
+ */
 
 public class eje_5 {
     public static void main(String[]args){
+        // Definir los valores que seran introducidos por pantalla
         float soldo_bruto;
         float soldo_liquido;
         float soldo_fixo;
@@ -26,6 +29,7 @@ public class eje_5 {
         float dieta;
         float comisions;
 
+        //Guarda los datos introducidos por pantalla
         Scanner a = new Scanner(System.in);
         System.out.println("Cal e o teu soldo fixo: ");
         soldo_fixo = a.nextFloat();
@@ -35,10 +39,11 @@ public class eje_5 {
         dieta = a.nextFloat();
         System.out.println("Comisions: ");
         comisions = a.nextFloat();
+        //calcula soldo bruto
         soldo_bruto = (float) (soldo_fixo + 0.05 * comisions + 2 * km + (dieta*30));
         System.out.println("Teu soldo bruto e :"+ soldo_bruto);
 
-
+        //calcula soldo liquido
         soldo_liquido = (float) (soldo_bruto-(soldo_bruto*0.18 + 36));
         System.out.println("O teu soldo Liquido e : "+ soldo_liquido);
 
