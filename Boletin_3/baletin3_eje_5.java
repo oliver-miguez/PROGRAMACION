@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Indica cual de los tres numeros es mayor
+ * Indica cual de los tres numeros es mayor.
  * @version 1.0
  * @author Oliver Miguez Alonso
  */
