@@ -11,7 +11,7 @@ public class eje_1 {
         Scanner sc = new Scanner(System.in);
 
         int numeros_introducidos = 0; //Revisa si solo se introducen 10 numeros
-        int numero_entero = 0;//la variable del numero que se introducirá
+        int numero_entero;//la variable del numero que se introducirá
         int negativo = 0;//para almacenar numeros negativos
         int positivo = 0;//para almacenar numeros positivos
         int cero = 0;//para almacenar los ceros introducidos
