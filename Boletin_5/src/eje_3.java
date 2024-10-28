@@ -1,14 +1,6 @@
-/**
- * Deseña un programa que calcule o área dun rectángulo cuxa base
- * e altura pides por teclado.
- * @author Oliver Miguez Alonso
- * @version 1.0
- */
-
-import java.util.Scanner;//Nos permite usar la funcion scanner en el programa
+import java.util.Scanner;
 public class eje_3 {
-    public static void main(String[]args) {
-
+    public static void main(String[]args){
         Scanner sc = new Scanner(System.in);//Nos permite introducir datos por consola
 
         double largo;//para definir lo largo que es el rectangulo
@@ -41,3 +33,6 @@ public class eje_3 {
 
     }//end static void
 }//end class
+
+
+
