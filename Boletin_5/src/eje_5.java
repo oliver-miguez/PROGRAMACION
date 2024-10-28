@@ -15,12 +15,31 @@ public class eje_5 {
 
         Scanner sc = new Scanner(System.in);//Permite introducir datos por consola
 
-        System.out.println("Introduce o numero de traballadores");
-        System.out.print("Introduce o valor do teu soldo");//pregunta por pantalla
-        int soldo = sc.nextInt();//almacena el valor introducido por consola
+        double traballadores = 0.0;//Para saber el numero total de trabajadores
+        double pregunta = 0.0;//Para cerrar el do while en caso de que se supere el numero de trabajadores introducidos por consola
+        double soldo;//para almacenar los valores de los sueldos
+        double pobre = 0.0; //trabajadores que ganan menos de 1000
+        System.out.println("Introduce o numero de traballadores");//Pregunta por consola
+        traballadores = sc.nextInt();//guarda los datos introducidos por consola
 
 
+         do{//hara el do mientras se cumpla el while
+             System.out.println("Introduce o valor do teu soldo:");//pregunta el valor del sueldo
+             soldo = sc.nextInt();//guada el valor del suelddo introducido
+             pregunta ++ ;//identifica el numero total de trabajadores al que le preguntamos su sueldo
 
+             if (soldo>=1000){//Identifica aquellos que ganan mas de mil euros
+                 System.out.println(" Este trabajador esta entre los que gana mil o mas de mil euros ");
+             }//end if
+             else{//si el trabajador no gana mil almacena el numero de trabajadores que ganan menos de 1000
+                 pobre ++;
+             }
+
+
+         }while(pregunta != traballadores);//mientras se cumpre que el numero de trabajadores no se supere
+        System.out.print("Hay "+ pobre + " trabajadores que ganan menos de 1000€");
+        double porcentaje = pobre/traballadores;//calcula el porcentaje de los que ganan menos de 1000 €
+        System.out.print("\n El porcentaje de trabajadores que ganan menos de 1000€ es "+ porcentaje + "%");
 
     }//end static void
 }//end class
