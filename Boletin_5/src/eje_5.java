@@ -6,7 +6,7 @@
  * negativos (utiliza como condición de fin un soldo 0).
  *
  * @author Oliver Miguez Alonso
- * @version 1.0
+ * @version 1.1
  */
 
 import java.util.Scanner;//Para poder utilizar la funcion Scanner
