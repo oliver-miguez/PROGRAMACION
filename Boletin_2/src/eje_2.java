@@ -9,7 +9,7 @@ public class eje_2{
         int l=3;
         int area=l*l;
         //resultado
-        System.out.println("El área de tu cuadrado de lado 3 es: "+area);
+        System.out.println("El área del cuadrado es "+area);
 
     }// end static void
 }//end class
