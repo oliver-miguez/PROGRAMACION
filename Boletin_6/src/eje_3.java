@@ -10,35 +10,37 @@ import java.util.Scanner;
 
 public class eje_3 {
     public static void main(String[]args){
-        int num;
-        System.out.println("1-Calcula area del cubo");
-        System.out.println("2-Calcula el volumen del cubo");
+        int num = 0;
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("1-Calcula area del cubo, 2-Calcula el volumen del cubo");
+        num = sc.nextInt();
+
         if(num==1){
             area();
         } else if (num == 2) {
             volumen();
         }
 
-
     }//end static main
 
     static void area(){
-        int a;//longitud del lado del cuadrado
+        int a = 0;//longitud del lado del cuadrado
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduzca el valor del lado del cubo");
         a = sc.nextInt();
         int area=(6 * a * a);
-        System.out.println(area);
+        System.out.println("area igual a "+area);
         sc.close();
 
     }//end area
     static  void  volumen(){
-        int b;// lado del cubo
+        int b = 0;// lado del cubo
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduce el valor del lado del cubo: ");
         b = sc.nextInt();
         int volumen = b*b*b;
-        System.out.println(volumen);
-    }
+        System.out.println("volumen igual a "+ volumen);
+    }//end volumen
 
 }//end class
