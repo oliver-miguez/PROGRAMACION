@@ -46,7 +46,7 @@ public class eje_3 {
     }//end area
 
     /**
-     * Valumen
+     * Volumen
      */
     static void volumen() {
         int b = 0;// lado del cubo
