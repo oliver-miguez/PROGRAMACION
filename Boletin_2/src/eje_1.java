@@ -9,7 +9,7 @@ public class eje_1{
         int a=3;
         //Operacion calculo de area
         int area=(b*a)/2;
-        System.out.println("El area de tu triángulo es: "+area);
-    }
+        System.out.println("El area de tu triángulo es: "+ area);
+    }//end static void
 
-}
+}//end class
