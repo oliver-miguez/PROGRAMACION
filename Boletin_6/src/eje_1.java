@@ -11,6 +11,7 @@ import java.util.Scanner;//permite utilizar el scanner
 public class eje_1 {
     /**
      * Método principal del Programa
+     *
      * @param args no usamos
      */
     public static void main(String[] args) {

@@ -12,6 +12,7 @@ import java.util.Scanner;
 public class eje_3 {
     /**
      * Método principal del programa
+     *
      * @param args no usamos
      */
     public static void main(String[] args) {
