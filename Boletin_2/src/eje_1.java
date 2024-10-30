@@ -5,7 +5,7 @@
 public class eje_1{
     public static void main(String[] args){
         //variables
-        int b=2;
+        int b=4;
         int a=3;
         //Operacion calculo de area
         int area=(b*a)/2;
