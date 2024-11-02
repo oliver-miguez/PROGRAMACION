@@ -8,7 +8,6 @@ import java.util.Scanner;
  * @author Oliver Miguez Alonso
  * @version 1.1
  */
-
 public class eje_3 {
     /**
      * Método principal del programa
@@ -16,7 +15,7 @@ public class eje_3 {
      * @param args no usamos
      */
     public static void main(String[] args) {
-        int num = 0;
+        int num;
 
         Scanner sc = new Scanner(System.in);//permite introducir datos por consola
         System.out.println("1-Calcula area del cubo, 2-Calcula el volumen del cubo");
@@ -35,7 +34,7 @@ public class eje_3 {
      * Area
      */
     static void area() {
-        int a = 0;//longitud del lado del cuadrado
+        int a;//longitud del lado del cuadrado
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduzca el valor del lado del cubo");
         a = sc.nextInt();
@@ -49,7 +48,7 @@ public class eje_3 {
      * Volumen
      */
     static void volumen() {
-        int b = 0;// lado del cubo
+        int b;// lado del cubo
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduce el valor del lado del cubo: ");
         b = sc.nextInt();

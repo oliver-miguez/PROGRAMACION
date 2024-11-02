@@ -6,7 +6,6 @@ import java.util.Scanner;//permite utilizar scanner
  * @author Oliver Miguez Alonso
  * @version 1.0
  */
-
 public class eje_2 {
     /**
      * Método principal del programa
