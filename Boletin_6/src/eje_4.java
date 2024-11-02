@@ -7,14 +7,14 @@ import java.util.Scanner;//Nos permite introducir datos por consola
  * @author Oliver Miguez Alonso
  * @version 1.0
  */
-
 public class eje_4 {
     /**
      * Método principal del programa
      * @param args No usamos
      */
     public static void main (String[]args){
-        tiempo();//LLama a la funcion tiempo e inicia todo lo que esta dentro de ella
+        //LLama a la funcion tiempo e inicia todo lo que esta dentro de ella
+        tiempo();
     }//end static main
 
     /**
