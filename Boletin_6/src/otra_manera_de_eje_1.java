@@ -15,14 +15,14 @@ public class otra_manera_de_eje_1 {
 
         int a = 10;
         int b = 4;
-        Enteros(a, b);//Muestra en la funcion main el programa de la funcion Enteros
+        enteros(a, b);//Muestra en la funcion main el programa de la funcion Enteros
 
     }//end static main
 
     /**
      * Numeros enteros
      */
-    static void Enteros(int num1, int num2) {
+    static void enteros(int num1, int num2) {
 
         int aux = num1;
         num1 = num2;
