@@ -15,14 +15,14 @@ public class eje_1 {
      */
     public static void main(String[] args) {
 
-        Enteros();//Muestra en la funcion main el programa de la funcion Enteros
+        enteros();//Muestra en la funcion main el programa de la funcion Enteros
 
     }//end static main
 
     /**
      * Numeros enteros
      */
-    static void Enteros() {
+    static void enteros() {
         int num1;
         int num2;
         Scanner sc = new Scanner(System.in);//Permite introducir datos por consola
