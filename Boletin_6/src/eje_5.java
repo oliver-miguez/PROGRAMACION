@@ -1,5 +1,3 @@
-import java.util.Scanner; //permite introducir datos por consola
-
 /**
  * Deseña unha función a que se lle pasan as horas e minutos de dous intantes de tempo co seguinte prototipo:
  * static int diferenciaMin (int hora1, int minuto1, int hora2, int minuto2)
@@ -42,7 +40,6 @@ public class eje_5 {
 
         int total_minutos1 = hora1 * 60 + minuto1;//minutos total 1
         int total_minuto2 = hora2 * 60 + minuto2;//minutos total 2
-        int oper = total_minuto2 - total_minutos1; // calculo de la diferencia
-        return oper; // Devuelve el resultado de la diferencia
+        return total_minuto2 - total_minutos1; // Devuelve el resultado de la diferencia
     }//end static int
 } //end class
