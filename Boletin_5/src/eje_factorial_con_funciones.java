@@ -18,8 +18,8 @@ public class eje_factorial_con_funciones {
      */
     static long factorial_recursivo(int n){
 
-        /**
-         * Si el valor n es 5, mientras n != 0  calculara el factorial
+        /*
+          Si el valor n es 5, mientras n != 0  calculara el factorial
          */
         long res;
         if (n==0) res = 1;
