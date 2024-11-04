@@ -16,22 +16,47 @@ public class eje_6 {
         int num1 = 220;
         int num2 = 284;
 
-        amigos(num1, num2);
+        amigos1(num1);
+        amigos2(num2);
 
     }//end static void
 
-    static void amigos(int num1, int num2) {
-        int suma=0;
+    /**
+     * Calcula la suma de los divisores del numero 1
+     * @param num1 numero introducido por el usuario
+     */
+    static void amigos1(int num1) {
+        int suma = 0;
 
-        for (int i = 1 ; i<num1; i++){
-            int resto = num1%i;
-            if (resto == 0){
-                suma = suma + i;
-                System.out.println(suma);
+        //calcula los divisores y los va sumando
+        for (int i = 1; i < num1; i++) {//Todos los numeros del 1 a 220
+            int resto = num1 % i;//calcula los divisores del 220
+            if (resto == 0) {//si el numero es divisor...
+                suma = suma + i;//suma el divisor
             }//end if
         }//end for
 
+        System.out.println(suma);//muestra el resultado de la suma de los divisores
 
     }//end amigos
+
+    /**
+     * Calcula la suma de los divisores del numero 2
+     * @param num2 numero introducido por el usuario
+     */
+    static void amigos2(int num2) {
+        int suma = 0;
+
+        //calcula los divisores y los va sumando
+        for (int i = 1; i < num2; i++) {//Todos los numeros del 1 a 220
+            int resto = num2 % i;//calcula los divisores del 220
+            if (resto == 0) {//si el numero es divisor...
+                suma = suma + i;//suma el divisor
+            }//end if
+        }//end for
+
+        System.out.println(suma);//muestra la suma de los divisores
+
+    }//end amigos 2
 
 }//end class
