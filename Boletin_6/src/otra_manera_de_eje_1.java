@@ -1,11 +1,9 @@
 
-import java.util.Scanner;//permite utilizar el scanner
-
 /**
  * Pregunta dos numeros enteros y te dice los numeros que estan entre esos dos numeros
  *
  * @author Oliver Miguez Alonso
- * @version 1.0
+ * @version 1.1
  */
 public class otra_manera_de_eje_1 {
     /**
@@ -17,7 +15,7 @@ public class otra_manera_de_eje_1 {
 
         int a = 10;
         int b = 4;
-        Enteros(a,b);//Muestra en la funcion main el programa de la funcion Enteros
+        Enteros(a, b);//Muestra en la funcion main el programa de la funcion Enteros
 
     }//end static main
 
