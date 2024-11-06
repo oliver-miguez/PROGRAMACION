@@ -6,7 +6,7 @@
  */
 public class eje_9 {
     /**
-     * Método principal del programa
+     * Método principal del programa.
      *
      * @param args no usamos
      */
