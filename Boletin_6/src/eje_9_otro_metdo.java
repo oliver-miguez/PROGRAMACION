@@ -19,6 +19,6 @@ public class eje_9_otro_metdo {
         int suma = a+ b;
         System.out.println(suma);
         return suma;
-    }//end fibonaci
+    }//end fibonaci.
 
 }//end class
