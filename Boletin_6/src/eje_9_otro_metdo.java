@@ -15,6 +15,13 @@ public class eje_9_otro_metdo {
         }//end for
 
     }//main
+
+    /**
+     * Realiza el calculo de fibonaci
+     * @param a numero para calcular fibonaci
+     * @param b numero para calcular fibonaci
+     * @return resultado de la operacion
+     */
     static int fibonaci(int a, int b){
         int suma = a+ b;
         System.out.println(suma);
