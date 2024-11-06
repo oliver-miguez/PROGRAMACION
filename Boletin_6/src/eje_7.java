@@ -20,7 +20,7 @@ public class eje_7 {
      */
     static long factorial_recursivo(int n){
 
-        /**
+        /*
          * Si el valor n es 5, mientras n != 0  calculara el factorial
          */
         long res; // resultado
