@@ -17,6 +17,16 @@ public class taboas {
         /*podemos introducir valores hasta el 4, del 0 al 4 */
 
 
+        edades[0] = 1;
+        edades[1] = 2;
+        edades[2] = 3;
+        edades[3] = 4;
+        edades[4] = 5;
+
+
+        //tambien vale esto
+        int[]cosas = new int[5]; //Para crear y definir el tamaño de una tabla se puede escribir tambien en una misma linea
+
 
          /*
          Sin embargos con tablas ya hechas como la tabla de edades , no hace falta definir entre corchetes la cantidad de entidades que
