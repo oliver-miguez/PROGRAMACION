@@ -41,3 +41,6 @@ public class eje_9 {
     }//end fibonaci
 
 }//end class
+ /*
+ NO HACE FALTA HACER DOS FUNCIONES !!!!
+  */
