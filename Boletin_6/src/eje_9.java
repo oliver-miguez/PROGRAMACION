@@ -11,7 +11,7 @@ public class eje_9 {
      * @param args no usamos
      */
     public static void main(String[] args) {
-        int n1=0; //numeros
+        int n1=0;
         int n2=1;
         int n3=0;
 
