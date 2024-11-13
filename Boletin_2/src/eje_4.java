@@ -20,7 +20,7 @@ public class eje_4{
         System.out.println("La sume de estos es:"+(a+b));
         System.out.println("La resta de los dos es:"+(a-b));
         System.out.println("El producto entre ellos es: "+a*b);
-        System.out.println("Su cociente es:"+a%b);
+        System.out.println("Su cociente es:"+a/b);
         s.close();//cierra el escaner
     }
 }
