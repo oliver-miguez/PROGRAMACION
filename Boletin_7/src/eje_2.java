@@ -16,14 +16,11 @@ public class eje_2 {
     public static void main(String[] args) {
         int[] notas = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 2, 3, 4, 5, 6, 7, 8, 9, 4, 5, 6, 6, 8, 9, 2, 3, 4, 5, 6, 7}; //almacena la nota de todos los estudiantes
         double[] notas_double = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 2, 3, 4, 5, 6, 7, 8, 9, 4, 5, 6, 6, 8, 9, 2, 3, 4, 5, 6, 7};//valores double para que la media pueda tener decimales
-
         //llama a las funciones
         notas(notas);
         media(notas_double);
         alta(notas);
-
     }//end main
-
     /**
      * Muestra si la nota del alumno es aprobado o suspenso
      *
@@ -40,9 +37,7 @@ public class eje_2 {
             }//end else
         }//end for
         return array;
-
     }//end notas
-
     /**
      * Calcula la media
      *
@@ -53,16 +48,12 @@ public class eje_2 {
         double suma = 0;//almacenara el total de la suma de todos los valores del array notas
         for (int i = 0; i < array2.length; i++) {//pasa uno por uno por los valores que se encuentran dentro del array notas
             suma = suma + array2[i];//suma todos los valores que tiene el array notas
-
         }//end for
-
         //calcula la media
         double media = suma / 30;
         System.out.println("la media es " + media);
         return array2;
-
     }//end media
-
     /**
      * Nota mas alta
      *
@@ -75,7 +66,6 @@ public class eje_2 {
             if (array3[i] > max) {//si encuenta un valor en el array mayor a maximo, introduce un nuevo valor maximo
                 max = array3[i];//tansforma el nuevo valor en el valor maximo
             }//end if
-
         }//end for
         System.out.println("la nota mas alta es " + max);
         return array3;

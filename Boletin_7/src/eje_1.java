@@ -1,4 +1,3 @@
-
 /**
  *  Realiza un programa que cree un array chamado “numeros” con 6 numeros aleatorios dun rango de 1 a 50 .
  *  Seguidamente visualiza o array o revés (0 primeiro elemento visualizaráse o último e asi sucesivamente).
@@ -17,7 +16,6 @@ public class eje_1{
         aplicando la funcion reverseArray
          */
         int [] reversa = reverseArray(numeros);//en el array creado en la funcion reverseArray se le dara los valores del array numeros
-
 
         //Muestra los valores que se encuentran dentro del array ya dado la vuelta
         for(int i = 0; i< reversa.length; i++){
@@ -45,8 +43,7 @@ public class eje_1{
             //result[2] = array[5-1-2] = array[3] = 34;
             //etc
 
-
-        }
+        }//end for
         return result;
     } // end reverseArray
 }//end class

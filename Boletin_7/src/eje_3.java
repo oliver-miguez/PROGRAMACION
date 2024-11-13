@@ -19,63 +19,23 @@ public class eje_3 {
                 "Daniel", "Paula", "Pablo", "Carla", "Diego", "Alba", "Marcos", "Noa", "Álvaro", "Emma", "Mario",
                 "Irene", "Adrián", "Laura", "Javier", "Claudia", "Sergio", "Ana", "Manuel", "Mónica", "David"};
 
-        mostrarAprobadosYSuspensos(notas,nomes);
-        calcularYMostrarMedia(notas);
-        mostrarNotaMasAlta(notas);
+        mostrarAprobados(notas, nomes);
+
     }//end mais
 
     /**
-     * Muestra si la nota del alumno es aprobada o suspendida.
-     *
-     * @param notas lista de notas de los alumnos
+     * Muestra los alumnos aprobados
+     * @param notas utiliza el array notas
+     * @param nomes utiliza el array de nomes
      */
-    static void mostrarAprobadosYSuspensos(int[] notas, String[] nomes) {
-        for(int j = 0; j< nomes.length;j++){
-            notas[j] = (int) Math.floor(Math.random() * 10.0) + 1;
-            System.out.println(nomes[j] + " a sacado: "+ notas[j]);
-        }//end for
-
-
-    }//end mostrarAprobadosYSuspensos
-
-
-
-
-
-
-
-
-
-    /**
-     * Calcula y muestra la media de las notas.
-     *
-     * @param notas array de notas
-     */
-    static void calcularYMostrarMedia(int[] notas) {
-        double suma = 0;
-
-        for (int nota : notas) {
-            suma += nota;
-        }//end for
-
-        double media = suma / notas.length;
-        System.out.println("La media es: " + media);
-    }//end calcularYMostrarMedia
-
-    /**
-     * Muestra la nota más alta.
-     *
-     * @param notas datos del array de notas
-     */
-    static void mostrarNotaMasAlta(int[] notas) {
-        int max = notas[0];
-
-        for (int nota : notas) {//crea una variable numero  tipo int para cada uno de los valores que se encuentran en el array numeros
-            if (nota > max) {//en caso de que algun numero sea mayor a max , este se convertira en el nuevo max
-                max = nota;
+    static void mostrarAprobados(int[] notas, String[] nomes) {
+        for (int j = 0; j < nomes.length; j++) { //Busca dentro de los valores del array nomes
+            notas[j] = (int) Math.floor(Math.random() * 10.0) + 1;//Para poner dar un valor a la nota de cada estudiante
+            if (notas[j] > 5) {//para verificar que solo muestre las notas aprobadas
+                System.out.println(nomes[j] + " a sacado: " + notas[j]);
             }//end if
         }//end for
 
-        System.out.println("La nota más alta es: " + max);
-    }//en mostrarNotasMasAlta
+
+    }//end mostrarAprobados
 }//end class
