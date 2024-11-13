@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 /**
  * Modifica o programa anterior e engadelle un array cos nomes dos alumnos
  * Visualiza a nota dun alumno determinado.
@@ -30,9 +29,6 @@ public class eje_3 {
         todos(notas,nomes,sc);
         mostrarAprobados(notas, nomes, sc);
         alumno_individual(notas, nomes, sc);
-
-
-
     }//end mais
 
     /**
@@ -63,10 +59,15 @@ public class eje_3 {
                 System.out.println(nomes[j] + " a sacado: " + notas[j]);
             }//end if
         }//end for
-
         System.out.println("____________________________________________________________________________");
     }//end mostrarAprobados
 
+    /**
+     * Muestra la nota de un alumno individualmente
+     * @param notas array de notas(generado aleatoriamente)
+     * @param nomes array de nombres
+     * @param sc Permite usar la funcion scanner
+     */
     static void alumno_individual(int[] notas, String[] nomes, Scanner sc) {
         System.out.println("Nota de un alumno individual: ");
         System.out.println("Introduzca el nombre del alumno: ");
@@ -92,6 +93,12 @@ public class eje_3 {
         }//end for
     }//end alumno_individual
 
+    /**
+     * Ordena de mayor a menor las notas y nombre de los alumnos
+     * @param notas array de notas (generado aleatoriamente)
+     * @param nomes array de nombres
+     * @param sc permite utilizar la funcion scanner
+     */
     static  void ordenar(int[] notas, String[] nomes, Scanner sc){
         /*
         todo
