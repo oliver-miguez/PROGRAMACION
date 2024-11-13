@@ -62,4 +62,8 @@ EN GENERAL TRATAMOS ESTOS CONCEPTOS
 # IDE
 A lo largo del curso hemos programado principal y unicamente el el Intellij 
 
+# Contribuidores
+
+Todos los contribuidores que aparecen registrados en mi github son todos cuentas mias con las que trabajo desde casa
+
 ## Oliver Miguez Alonso
