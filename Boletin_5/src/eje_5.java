@@ -38,7 +38,7 @@ public class eje_5 {
 
          }while(pregunta != traballadores);//mientras se cumpre que el numero de trabajadores no se supere
         System.out.print("Hay "+ pobre + " trabajadores que ganan menos de 1000€");
-        double porcentaje = pobre/traballadores;//calcula el porcentaje de los que ganan menos de 1000 €
+        double porcentaje = (pobre/traballadores)*100;//calcula el porcentaje de los que ganan menos de 1000 €
         System.out.print("\n El porcentaje de trabajadores que ganan menos de 1000€ es "+ porcentaje + "%");
 
     }//end static void
