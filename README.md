@@ -4,7 +4,7 @@
 
 >Aqui subiré todos mis trabajos y tareas de programacíon de todo el año
 
-![imagen]([https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKRZ1pKDHMJU3juCOVQuAi2uYfuqSbA5Py5g&s](https://okhosting.com/wp-content/uploads/2019/01/java.jpg))
+![imagen](https://okhosting.com/wp-content/uploads/2019/01/java.jpg)
 
 Hasta el momento hemos estado trabajando con:
 
