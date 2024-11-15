@@ -59,6 +59,10 @@ Centrados principalmente en programar directamente en el IDE
 
 EN GENERAL TRATAMOS ESTOS CONCEPTOS
 
+### Examen acabado:
+
+https://github.com/oliver-miguez/PROGRAMACION/tree/main/Examen_Programacion_1/src
+
 # IDE
 A lo largo del curso hemos programado principal y unicamente el el Intellij 
 
