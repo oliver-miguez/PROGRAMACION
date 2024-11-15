@@ -66,6 +66,8 @@ https://github.com/oliver-miguez/PROGRAMACION/tree/main/Examen_Programacion_1/sr
 # IDE
 A lo largo del curso hemos programado principal y unicamente el el Intellij 
 
+https://www.jetbrains.com/es-es/idea/
+
 # Contribuidores
 
 Todos los contribuidores que aparecen registrados en mi github son todos cuentas mias con las que trabajo desde casa
