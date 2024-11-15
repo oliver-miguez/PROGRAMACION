@@ -27,7 +27,7 @@ Boletines como:
 
 Boletin 4 
 
-Boletin 2
+[Boletin 2](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin_2/src)
 
 Que son boletines de practica de ordinogramas
 
