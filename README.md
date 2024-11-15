@@ -4,7 +4,7 @@
 
 >Aqui subiré todos mis trabajos y tareas de programacíon de todo el año
 
-![imagen](https://okhosting.com/wp-content/uploads/2019/01/java.jpg)
+![imagen](https://rosamarfil.es/tutoriales/wp-content/uploads/2019/08/java-logo-png.png)
 
 Hasta el momento hemos estado trabajando con:
 
