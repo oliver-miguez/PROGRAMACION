@@ -19,7 +19,7 @@ Hasta el momento hemos estado trabajando con:
 5-Matrices
 
 
-# Boletines
+## Boletines
 En todo lo que hemos llevado de todo el curso de DAM hemos visto un total de 7 boletines entre los cuales encontramos 
 el boletin 1 que mas que boletin eran ejercicios de conceptos.
 
@@ -45,8 +45,8 @@ Y por ultimo boletines como:
 
 Centrados principalmente en programar directamente en el IDE
 
-# Primer examen de programacion
-## En este examen entraran las siguientes cosas:
+## Primer examen de programacion
+### En este examen entraran las siguientes cosas:
 
 1- Creacion y utilizacion de funciones 
 
@@ -63,12 +63,12 @@ EN GENERAL TRATAMOS ESTOS CONCEPTOS
 
 https://github.com/oliver-miguez/PROGRAMACION/tree/main/Examen_Programacion_1/src
 
-# IDE
+## IDE
 A lo largo del curso hemos programado principal y unicamente el el Intellij 
 
 https://www.jetbrains.com/es-es/idea/
 
-# Contribuidores
+## Contribuidores
 
 Todos los contribuidores que aparecen registrados en mi github son todos cuentas mias con las que trabajo desde casa
 
