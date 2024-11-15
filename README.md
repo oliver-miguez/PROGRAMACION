@@ -25,7 +25,7 @@ el boletin 1 que mas que boletin eran ejercicios de conceptos.
 
 Boletines como:
 
-Boletin 4 
+[Boletin 4](https://github.com/oliver-miguez/PROGRAMACION/blob/main/Ordinogramas.pdf) 
 
 [Boletin 2](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin_2/src)
 
@@ -33,15 +33,15 @@ Que son boletines de practica de ordinogramas
 
 Y por ultimo boletines como:
 
-Boletin 2 extra
+[Boletin 2 extra](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin_2_Extra)
 
-Boletin 3
+[Boletin 3](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin_3)
 
-Boletin 5 
+[Boletin 5](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin_5/src)
 
-Boletin 6
+[Boletin 6](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin_6)
 
-Boletin 7 
+[Boletin 7](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin_7/src) 
 
 Centrados principalmente en programar directamente en el IDE
 
