@@ -62,7 +62,7 @@ public class eje_3 {
     static void mostrarAprobados(int[] notas, String[] nomes, Scanner sc) {
         System.out.println("Nota de los alumnos aprobados: ");
         for (int j = 0; j < notas.length; j++) { //Busca dentro de los valores del array nomes
-            if (notas[j] > 5) {//para verificar que solo muestre las notas aprobadas
+            if (notas[j] >= 5) {//para verificar que solo muestre las notas aprobadas
                 System.out.println(nomes[j] + " a sacado: " + notas[j]);
             }//end if
         }//end for
@@ -106,8 +106,8 @@ public class eje_3 {
             for(int j=0; j< ordenar.length; j++){
                 Arrays.sort(ordenar);
             }//end for
+            System.out.println(ordenar);
         }//end for
-        System.out.println(ordenar);
 
     }//end mayor_menor
 
