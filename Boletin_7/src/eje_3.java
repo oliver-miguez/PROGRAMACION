@@ -1,3 +1,6 @@
+import org.w3c.dom.ls.LSOutput;
+
+import java.util.Arrays;
 import java.util.Scanner;
 /**
  * Modifica o programa anterior e engadelle un array cos nomes dos alumnos
@@ -29,6 +32,7 @@ public class eje_3 {
         todos(notas,nomes,sc);
         mostrarAprobados(notas, nomes, sc);
         alumno_individual(notas, nomes, sc);
+        mayor_menor(notas, nomes, sc);
     }//end mais
 
     /**
@@ -38,10 +42,13 @@ public class eje_3 {
      * @param sc Permite usar Scanner
      */
     static void todos(int []notas,String[]nomes,Scanner sc){
+        int notas_max = notas[0];   //toma la primera nota como la más alta
         System.out.println("Nota de todos los alumnos: ");
         for (int j = 0; j < nomes.length; j++) {//Busca dentro de los valores del array nomes
-            System.out.println(nomes[j] + " a sacado: " + notas[j]);
+            System.out.println(nomes[j] + " a sacado: " + notas[j]);//muestra el nombre y la nota de todos los alumnos
+
         }//end for
+        //separacion entre apartados
     System.out.println("____________________________________________________________________________");
     }//end todos
 
@@ -61,13 +68,6 @@ public class eje_3 {
         }//end for
         System.out.println("____________________________________________________________________________");
     }//end mostrarAprobados
-
-
-
-
-
-
-
 
 
     /**
@@ -92,16 +92,23 @@ public class eje_3 {
                 break;
             }//end for
         }//end for
-
-
-
-
     }//end alumno individual
 
+    /**
+     * Crea una funcion que ordena las notas de mayor a menor
+     */
+    static void mayor_menor(int[] notas, String[] nomes, Scanner sc) {
+        int[]ordenar = new int[notas.length]; // da los valores de notas a ordenar
+        //deberia darle los valores que tiene almacenados el array notas a ordenar
+        for(int i = 0 ; i< notas.length; i++){
+            notas[i] = ordenar[i];
+            //supuestamente ordenar el array ordenar de mayor a menor
+            for(int j=0; j< ordenar.length; j++){
+                Arrays.sort(ordenar);
+            }//end for
+        }//end for
+        System.out.println(ordenar);
 
-
-
-
-
+    }//end mayor_menor
 
 }//end class
