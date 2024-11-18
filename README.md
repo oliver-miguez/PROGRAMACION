@@ -70,6 +70,6 @@ https://www.jetbrains.com/es-es/idea/
 
 ## Contribuidores
 
-Todos los contribuidores que aparecen registrados en mi github son todos cuentas mias con las que trabajo desde casa
+Todos los contribuidores que aparecen registrados en mi github son todos cuentas mias con las que trabajo desde casa u otras localizaciones 
 
 ## Oliver Miguez Alonso
