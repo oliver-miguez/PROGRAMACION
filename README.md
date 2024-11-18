@@ -16,7 +16,7 @@ Hasta el momento hemos estado trabajando con:
 
 4-Funciones
 
-5-Matrices
+5-Matrices/Arrays
 
 
 ## Boletines
