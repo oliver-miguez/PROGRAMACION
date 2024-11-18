@@ -62,6 +62,14 @@ public class eje_3 {
         System.out.println("____________________________________________________________________________");
     }//end mostrarAprobados
 
+
+
+
+
+
+
+
+
     /**
      * Muestra la nota de un alumno individualmente
      * @param notas array de notas(generado aleatoriamente)
@@ -69,43 +77,31 @@ public class eje_3 {
      * @param sc Permite usar la funcion scanner
      */
     static void alumno_individual(int[] notas, String[] nomes, Scanner sc) {
-        System.out.println("Nota de un alumno individual: ");
-        System.out.println("Introduzca el nombre del alumno: ");
-        String alumnos = sc.next();
 
-        for (int i = 0; i < nomes.length; i++) { //busca dentro de la tabla nomes
-            if (nomes[i].equalsIgnoreCase(alumnos)) { //verifica si el nombre introducido en alumnos es igual al nombre del array nomes
+        System.out.println("Introduce el nombre de un alumno: ");
+        String alumno = sc.next();
+
+        for (int i = 0; i<nomes.length; i++){//entra en el array de nomes
+            if (nomes[i].equalsIgnoreCase(alumno)){//compara el nombre que ha introducido con los que hay en el array nomes
+                System.out.println("La nota de " + nomes[i] + " es: " + notas[i]);
                 /*
-                Aunque no usemaos el parametro i con notas en el for, en este caso se podria usar debido a
-                que nomes y notas contienen una relacion paralela, ya que el nombre que muestra el array
-                de notas debe coincidir con el array de nomes
-                Ej: notas[5] y nomes[5] tienen que coincidir para que
-                a la hora de mostrar el nombre del alumno y la nota de este mismo se corresponda con
-                el espacio que ambos dos comparten en los arrays, en este caso el espacio 5
+                La variable notas puede utilizar el [i] debido a que el array nomes y notas estan relacionados entre si
+                Cuando el array nomes vale -> nomes[5] el array notas va a valer siempre notas[5]
+                para que coincida el nombre de alumno 5 con la nota 5 que es la del propio alumno
                  */
-                System.out.println(nomes[i] + " ha sacado: " + notas[i]);
-                return;//te muestra solo la nota y el nombre del alumno  sin mostrar el resto
-            }//end if
-            else{
-                System.out.println("Nombre no encontrado");
-                return;//muestra una vez el system anterior sin escribirlo tantas veces como numero introducido por consola
-            }//end else
+                break;
+            }//end for
         }//end for
-    }//end alumno_individual
 
-    /**
-     * Ordena de mayor a menor las notas y nombre de los alumnos
-     * @param notas array de notas (generado aleatoriamente)
-     * @param nomes array de nombres
-     * @param sc permite utilizar la funcion scanner
-     */
-    static  void ordenar(int[] notas, String[] nomes, Scanner sc){
-        /*
-        todo
-        ordenar de mayor a menor las notas y los nombres
-        Idea:
-        guardar en una variable max las notas mas altas, y cuando tenga las notas mas altas , mostrar el resto
-        posiblemente utilizando un i-- en el for que accede a las notas
-         */
-    }//end ordenar
+
+
+
+    }//end alumno individual
+
+
+
+
+
+
+
 }//end class
