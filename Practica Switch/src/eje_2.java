@@ -1,150 +1,96 @@
-
 import java.util.Scanner;//para poder introducir cosas por consola
-
-
 /**
  * Convierte el numero introducido del 0 al 99 en su equivalente en letra
  * @version 1.0
  * @author Oliver Miguez Alonso
  */
-
 public class eje_2 {
-    public static <and> void main(String[]args){
+    public static void main(String[]args){
 
-        //Guarda los datos introducidos por consola
-        Scanner a = new Scanner(System.in);
+        Scanner a = new Scanner(System.in);//Para introducir codigo por pantalla
+        int numero;//variable con la que podremos definir decenas y unidades
 
-       //Guarda el valor de decena
-        String numero = "";
+        System.out.println("Introduce el numero: ");//Te permite escribir por pantalla
+        numero = a.nextInt();//Almacena la info introducida por pantalla
 
-        //Guarda el valor de unidades
-        String numero2 = "";
-
-        //para guardar los valores introducidos
-        int unidad ;
-        int decena ;
-
-        //Para preguntar sobre los numero que se van a introducir por consola
-        System.out.println("Introduce tu decena del 1-9: ");
-        decena = a.nextInt();//para guardar el numero introducido en el anterior System.out.println
-        System.out.println("introduce la unidad del 0-9");
-        unidad = a.nextInt();
+        //Definen los valores de las decenas y unidades
+        int decena = numero/10; //Extrae el valor de la decena del numero del numero introducido
+        int unidades = numero % 10;//Extrae el valor de la unidad del numero introducido
+        String decena_guardar  = "";//almacena la decena del numero introducido
+        String unidad_guardar = "";//almacena la unidad del numero introducido
 
         //Discrimina distintas opciones de decenas
         switch (decena){
-
-            case 1:
-                numero = ("diez");
+            case 1  :
+                if(unidades == 1) unidad_guardar = "once";
+                else if(unidades == 2) unidad_guardar = "doce";
+                else if(unidades == 3) unidad_guardar = "trece";
+                else if(unidades == 4) unidad_guardar = "catorce";
+                else if(unidades == 5) unidad_guardar = "quince";
+                else decena_guardar = "dez";
                 break;
             case 2 :
-                numero = ("veinte");
+                decena_guardar = ("vinte");
                 break;
             case 3:
-               numero = ("treinta");
+                decena_guardar = ("trinta");
                 break;
             case 4:
-                numero = ("cuarenta");
+                decena_guardar = ("corenta");
                 break;
             case 5:
-                numero = ("cincuenta");
+                decena_guardar = ("cincuenta");
                 break;
             case 6:
-                numero =("sesenta");
+                decena_guardar =("sesenta");
                 break;
             case 7:
-                numero =("setenta");
+                decena_guardar =("setenta");
                 break;
             case 8:
-                numero =("ochenta");
+                decena_guardar =("oitenta");
                 break;
             case 9:
-                numero =("noventa");
+                decena_guardar =("noventa");
                 break;
+        }//Switch decenas
 
-
-        }
-        //Discrimina distintas opciones de unidades
-        switch (unidad){
-
-            case 0:
-                numero2 ="cero";
-                break;
+        //Discrimina las distintas opciones de las unidades
+        switch (unidades){
             case 1:
-                numero2 ="uno";
+                if (decena != 1) unidad_guardar = "un";
                 break;
-            case 2:
-                numero2 ="dos";
+            case 2 :
+                if (decena != 1) unidad_guardar = "dous";
                 break;
             case 3:
-                numero2 ="tres";
+                if (decena != 1) unidad_guardar = "tres";
                 break;
             case 4:
-                numero2 ="cuatro";
+                if (decena != 1) unidad_guardar = "catro";
                 break;
             case 5:
-                numero2 ="cinco";
+                if (decena != 1) unidad_guardar = "cinco";
                 break;
             case 6:
-                numero2 ="seis";
+                if(decena==1) unidad_guardar="aseis";
+                else unidad_guardar =("seis");
                 break;
             case 7:
-                numero2 ="siete";
+                if(decena==1) unidad_guardar="asete";
+                else unidad_guardar =("sete");
                 break;
             case 8:
-                numero2 ="ocho";
+                if(decena==1) unidad_guardar="aoio";
+                else unidad_guardar =("oito");
                 break;
             case 9:
-                numero2 ="nueve";
+                if(decena==1) unidad_guardar="anove";
+                else unidad_guardar =("nove");
                 break;
-        }
+        }//Switch unidades
 
+    System.out.println(decena_guardar + unidad_guardar);
 
-        //para elaborar numero ("once")
-        if (numero =="diez" && numero2 == "uno"){
-            System.out.println("Once");
-        }
-        //para elaborar el numero ("doce")
-        else if (numero =="diez" && numero2 == "dos"){
-            System.out.println("Doce");
-        }
-        //para elaborar el numero ("trece")
-        else if (numero =="diez" && numero2 == "tres"){
-            System.out.println("Trece");
-        }
-
-        // //para elaborar el numero ("catorce")
-        else if (numero =="diez" && numero2 == "cuatro"){
-            System.out.println("Catorce");
-        }
-        //para elaborar el numero ("quince")
-        else if (numero =="diez" && numero2 == "cinco"){
-            System.out.println("Quince");
-        }
-        //para elaborar el numero ("diez")
-        else if (numero == "diez" && numero2 =="cero"){
-            System.out.println("Diez");
-        }
-
-        //elabora los casos no especiales
-        else
-        {
-            System.out.println(numero +  numero2);
-        }
-
-
-
-
-
-
-
-
-
-
-
-    }
-
-
-
-
-    }
-
+    }//static void
+}//class
