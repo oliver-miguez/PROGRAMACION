@@ -1,5 +1,3 @@
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.Arrays;
 import java.util.Scanner;
 /**
@@ -8,6 +6,7 @@ import java.util.Scanner;
  * Visualiza unha lista co nome dos alumnos aprobados.
  * Fai unha lista ordenada por orden crecente de notas.
  * Visualiza a nota dun alumno determinado que pides por teclado.
+ * @author Oliver Miguez Alonso
  */
 public class eje_3 {
     /**
@@ -29,20 +28,18 @@ public class eje_3 {
             notas[j] = (int) Math.floor(Math.random() * 10.0) + 1;
         }//end for
 
-        todos(notas,nomes,sc);
-        mostrarAprobados(notas, nomes, sc);
+        todos(notas,nomes);
+        mostrarAprobados(notas, nomes);
         alumno_individual(notas, nomes, sc);
-        mayor_menor(notas, nomes, sc);
+        mayor_menor(notas,nomes);
     }//end mais
 
     /**
      * Muestra la nota que sacaron todos los alumnos
      * @param notas tabla de notas (valores aleatorios)
      * @param nomes nombre de la tabla nomes
-     * @param sc Permite usar Scanner
-     */
-    static void todos(int []notas,String[]nomes,Scanner sc){
-        int notas_max = notas[0];   //toma la primera nota como la más alta
+     * */
+    static void todos(int []notas,String[]nomes){
         System.out.println("Nota de todos los alumnos: ");
         for (int j = 0; j < nomes.length; j++) {//Busca dentro de los valores del array nomes
             System.out.println(nomes[j] + " a sacado: " + notas[j]);//muestra el nombre y la nota de todos los alumnos
@@ -57,9 +54,8 @@ public class eje_3 {
      *
      * @param notas utiliza el array notas
      * @param nomes utiliza el array de nomes
-     * @param sc
      */
-    static void mostrarAprobados(int[] notas, String[] nomes, Scanner sc) {
+    static void mostrarAprobados(int[] notas, String[] nomes) {
         System.out.println("Nota de los alumnos aprobados: ");
         for (int j = 0; j < notas.length; j++) { //Busca dentro de los valores del array nomes
             if (notas[j] >= 5) {//para verificar que solo muestre las notas aprobadas
@@ -90,25 +86,30 @@ public class eje_3 {
                 para que coincida el nombre de alumno 5 con la nota 5 que es la del propio alumno
                  */
                 break;
-            }//end for
+            }//end if
         }//end for
+        System.out.println("____________________________________________________________________________");
+        System.out.println("Te ordena las notas de mayor a menor: ");
     }//end alumno individual
 
     /**
      * Crea una funcion que ordena las notas de mayor a menor
      */
-    static void mayor_menor(int[] notas, String[] nomes, Scanner sc) {
-        int[]ordenar = new int[notas.length]; // da los valores de notas a ordenar
-        //deberia darle los valores que tiene almacenados el array notas a ordenar
-        for(int i = 0 ; i< notas.length; i++){
-            notas[i] = ordenar[i];
-            //supuestamente ordenar el array ordenar de mayor a menor
-            for(int j=0; j< ordenar.length; j++){
-                Arrays.sort(ordenar);
-            }//end for
-            System.out.println(ordenar);
+    static void mayor_menor(int[] notas, String[]nomes) {
+        Arrays.sort(notas);
+        for (int i = 0; i < notas.length; i++) {
+            int temp = notas[i];
+            notas[i] = notas[notas.length - 1 - i];
+            notas[notas.length - 1 - i] = temp;
         }//end for
 
+        // Imprimir los resultados
+        for (int i = 0; i < notas.length; i++) {
+            if (notas[i] >= 0) {
+                System.out.println(nomes[i] + " a sacado " + notas[i]);
+            }//end if
+
+        }
     }//end mayor_menor
 
 }//end class
