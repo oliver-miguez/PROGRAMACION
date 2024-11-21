@@ -1,4 +1,3 @@
-import com.sun.source.tree.BreakTree;
 
 import java.util.Scanner;
 /**
@@ -19,8 +18,8 @@ public class eje_5 {
         for (int j = 0; j < numeros.length; j++) {
             numeros[j] = (int) Math.floor(Math.random() * 10.0) + 1;
         }//end for
-        for(int i = 0; i < numeros.length; i++){
-            System.out.println(numeros[i]);
+        for (int numero : numeros) {
+            System.out.println(numero);
         }//end for
         System.out.println("_______");
         indice(numeros,sc);
@@ -30,7 +29,6 @@ public class eje_5 {
      * Funcion que pregunta por el numero y devuelve indice o -1
      * @param numeros para acceder a los valores del array
      * @param sc permite utilizar el metodo scaner
-     * @return indice o -1
      */
     static void indice(int[] numeros, Scanner sc) {
         System.out.println("Introduce un numero: ");
