@@ -2,6 +2,9 @@ import java.util.Scanner; //nos permite utilizar el scanner en el programa
 /**
  * Pide hora , minutos ,segundos, asi como el tiempo que se quiere ampliar
  * A aplicacion mostrara a hora actualizada
+ *
+ *
+ * EXAMEN CORREGIDO: solo habia que cambiar el if  por el while
  * @author Oliver Miguez Alonso
  * @version 1.0
  */
@@ -32,17 +35,17 @@ public class Examen {
             segundos = segundos+segamp; // aumenta el valor de los segundo añadiendo los segundo ampliados
 
             //para aumentar los minutos en caso de que los segundos sean mayor a 60
-            if (segundos >=60){
+            while (segundos >=60){
                 minutos = minutos + 1;
                 segundos = segundos - 60;
             }//end if
 
             //para aunmentar las horas en caso de que los minutos sean mayor a 60
-            if(minutos >= 60){
+            while(minutos >= 60){
                 hora = hora +1;
                 minutos = minutos-60;
             }//end if
-            if(hora >= 24){
+            while(hora >= 24){
                 System.out.println("La hora a superado los limites, introduciremos valores dias :");
                 int dia=0;
                 dia = dia + 1;
