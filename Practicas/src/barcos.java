@@ -11,18 +11,18 @@ public class barcos {
 
         //coordenadas de los barcos, donde hay un uno hay un trozo de barco
         barcos = new int[][]{
-                {1,1,1,1,0},
+                {4,4,4,4,0},
                 {0,0,0,0,0},
-                {0,0,1,1,0},
-                {0,0,0,0,0},
-                {0,1,0,0,0}
+                {0,0,0,0,2},
+                {0,0,0,0,2},
+                {0,0,1,0,0}
         };
 
         //coordenadas de la cuadrícula donde están los barcos
     int i = 0;
     int j = 0;
 
-    //te enseña las coordenadas por pantalla
+    //te enseña todas las coordenadas por pantalla
     do{
         do{
             System.out.println(barcos[i][j]);

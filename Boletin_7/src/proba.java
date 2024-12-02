@@ -1,7 +1,6 @@
 public class proba {
     public static void main(String[]args){
 
-        //comprobacion de igualdad
         /*
         Las tablas no son iguales ,debido a que el programa no se fija en su contenido sino en su
         posicion en la memoria, por ello nos da que son distintas
