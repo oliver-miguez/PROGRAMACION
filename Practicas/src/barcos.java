@@ -7,10 +7,10 @@
 public class barcos {
     public static void main(String[] args) {
 
-        int[][] barcos;
+        int[][] tablero;
 
         //coordenadas de los barcos, donde hay un uno hay un trozo de barco
-        barcos = new int[][]{
+        tablero = new int[][]{
                 {4,4,4,4,0},
                 {0,0,0,0,0},
                 {0,0,0,0,2},
@@ -18,6 +18,10 @@ public class barcos {
                 {0,0,1,0,0}
         };
 
+        recorrerTablero(tablero);
+
+        /*
+        Muestra lass corder
         //coordenadas de la cuadrícula donde están los barcos
     int i = 0;
     int j = 0;
@@ -25,15 +29,22 @@ public class barcos {
     //te enseña todas las coordenadas por pantalla
     do{
         do{
-            System.out.println(barcos[i][j]);
+            System.out.println(tablero[i][j]);
             j++;
         }while(j<5);
         i++;
         j=0;
     }while(i<5);
 
-
+*/
 
     }//end main
+
+    /**
+     * Función que recorre el tablero
+     * @param tablero array inicial
+     */
+    private static void recorrerTablero(int[][] tablero) {
+    }//end recorrerTablero
 }//end class
 
