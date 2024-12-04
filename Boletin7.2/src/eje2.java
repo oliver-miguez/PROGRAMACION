@@ -29,7 +29,7 @@ public class eje2 {
         //muestra el valor que tienen las coordenadas introducidas
         System.out.println(mapa[coordenada1][coordenada2]);//muestra la posicion de las coordenadas
 
-        while(mapa[coordenada1][coordenada2] != "tesoro"){
+        while(!mapa[coordenada1][coordenada2].equals("tesoro")){
             System.out.println("No encuentras lo que necesitas en esta sala, sigue buscando");
             System.out.println("Elige la primera coordenada: ");
             coordenada1 = sc.nextInt();
@@ -39,7 +39,7 @@ public class eje2 {
             //muestra el valor que tienen las coordenadas introducidas
             System.out.println(mapa[coordenada1][coordenada2]);//muestra la posicion de las coordenadas
         }//end while
-        if(mapa[coordenada1][coordenada2]=="tesoro"){
+        if(mapa[coordenada1][coordenada2].equals("tesoro")){
             System.out.println("VICTORIA!!!");
         }
 
