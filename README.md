@@ -43,6 +43,8 @@ Y por ultimo boletines como:
 
 [Boletin 7](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin_7/src) 
 
+[Boletin 7.2](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin7.2/src)
+
 Centrados principalmente en programar directamente en el IDE
 
 ## Primer examen de programacion
