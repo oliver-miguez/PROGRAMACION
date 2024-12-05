@@ -9,9 +9,8 @@ public class comparar_arrays {
         int[]b = {1,2,3,4,5};
 
         //llama a la función para ver si son o no iguales
-        if(compararTablas(a,b)== true){
-            System.out.println("true");
-        }//end if
+        //en este caso si son iguales muestra true, si no, aplica los métodos de la función
+        if(compararTablas(a, b) == true) System.out.println("true");
 
     }//end main
 
