@@ -60,13 +60,13 @@ public class eje3 {
         String postre = sc.next();
 
         //accede al array del menu
-        for(int i = 0; i< menu.length; i++){
-            for(int j = 0; j< menu[0].length; j++){
+        //for(int i = 0; i< menu.length; i++){
+          //  for(int j = 0; j< menu[0].length; j++){
             //comprueba si el valor introducido por el usuario se encuentra en el array
+            //todo intentar de alguna manera  que compruebe si los valores  introducidos estan en el array y printearlos
 
-
-            }//end for
-        }//end for
+            //}//end for
+        //}//end for
     }//end pedido
 
 }//end class
