@@ -1,4 +1,3 @@
-import javax.sound.midi.Soundbank;
 import java.util.Scanner;
 /**
  * Crear unha táboa (bidimensional) onde as filas sexan días da seman e as columnas as horas do día.

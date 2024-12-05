@@ -18,24 +18,40 @@ public class eje3 {
                 {"filete","pescado","chuleta","bacalao"},
                 {"helado","te","cafe","tarta"}
         };
+        //muestra el menu
+        System.out.println("____________________");
         System.out.println("Menu del restaurante");
         System.out.println("____________________");
         mostrarMenu(menu);
+        //muestra el pedido
+        System.out.println("___________________");
         System.out.println("Pedido del cliente");
         System.out.println("___________________");
         pedido(menu,sc);
     }//end main
 
+    /**
+     * Muestra el menu original al usuario antes de realizar el pedido
+     * @param menu array original en el que se encuentra todos los datos del menu
+     */
     static void mostrarMenu(String[][]menu){
+        //accede al array meny
         for(int i = 0; i < menu.length; i++){
             for(int j = 0; j < menu[0].length; j++){
+                //muestra los valores que tiene el array menu
                 System.out.print(menu[i][j]+ " ");
             }//end for
             System.out.println("\n");
         }//end for
     }//end mostrarMenu
 
+    /**
+     * Pide al usuario que realice su pedido, y se lo muestra por pantalla
+     * @param menu array inicial del menu
+     * @param sc permite introducir datos por consola
+     */
     static void pedido(String[][]menu,Scanner sc ){
+        //preguntas para almacenar los valores del menu que elige el usuario
         System.out.println("Elige el primer plato: ");
         String primero = sc.next();
         System.out.println("Elige el segundo plato: ");
@@ -43,8 +59,10 @@ public class eje3 {
         System.out.println("Elige postre: ");
         String postre = sc.next();
 
+        //accede al array del menu
         for(int i = 0; i< menu.length; i++){
             for(int j = 0; j< menu[0].length; j++){
+            //comprueba si el valor introducido por el usuario se encuentra en el array
 
 
             }//end for
