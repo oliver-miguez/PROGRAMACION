@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * Comparar tablas
  * @author Oliver Miguez Alonso
@@ -11,6 +13,9 @@ public class comparar_arrays {
         //llama a la función para ver si son o no iguales
         //en este caso si son iguales muestra true, si no, aplica los métodos de la función
         if(compararTablas(a, b) == true) System.out.println("true");
+
+        //como comparar dos arrays con el método array
+        System.out.println(Arrays.equals(a,b));
 
     }//end main
 
@@ -28,9 +33,6 @@ public class comparar_arrays {
         }//end if
         //en caso contrario
         else {
-            //definimos un booleano igual para cuando sean los arrays iguales devuelve el valor igual que es true
-            boolean igual = true;
-
             //accedemos al array para comprobar sus valores
             for (int i = 0; i < a.length; i++) {
                 //comparamos los valores de a con los valores de b
@@ -39,9 +41,10 @@ public class comparar_arrays {
                     System.out.println("false");
                     return false;
                 }//end if
-
             }//end for
-            return igual;
+
+            //como no es falsa devuelve true
+            return true;
         }//end else
 
     }//end compararTablas
