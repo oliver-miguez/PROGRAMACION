@@ -8,6 +8,8 @@ public class eje {
         System.out.println("Elige una asignatura: ");
         String op = sc.next();
 
+        int BD;
+
         String[][]horario = {
                 {"BD","BD","BD","BD","PRG","PRG","PRG"},
                 {"BD","BD","BD","SI","SI","SASP","IPE"},
@@ -17,10 +19,12 @@ public class eje {
         };
 
         //comprueba que el valor op se encuentre dentro del array
-        boolean encontrado = false;
-        for (String[] fila : horario) {
-            for (String valor : fila) {
-                if (valor == op) { encontrado = true; break; } }
+        for(String i = 0; horario.length; i++){
+            for(String j = 0; horario[0].length; j++){
+                if (j == "BD"){
+                    BD++;
+                }
+            }
         }
 
     }//end main

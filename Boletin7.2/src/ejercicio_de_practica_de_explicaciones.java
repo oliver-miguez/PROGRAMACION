@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 /**
  * Inserción de un elemento en una lista ordenada
- * si el valor esta en la tabla , no lo introducimo
+ * si el valor esta en la tabla , no lo introducimos
  * si no esta en la tabla , lo introducimos
  * @author Oliver Miguez Alonso
  */
