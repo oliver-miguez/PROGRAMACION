@@ -72,6 +72,8 @@ https://github.com/oliver-miguez/PROGRAMACION/tree/main/Examen_Programacion_1/sr
 
 ### Examen acabado:
 
+https://github.com/oliver-miguez/PROGRAMACION/tree/main/Examen2
+
 
 ## IDE
 A lo largo del curso hemos programado principal y unicamente el el Intellij 
