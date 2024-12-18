@@ -35,6 +35,19 @@ public class practica_con_strings {
 
         //pone un símbolo
         System.out.println("Un texto mas y mas \f");
+
+        //concatenación entre String y char
+        System.out.println("O quinto caracter de nome é "+ nome.charAt(4));
+
+        //separa en distintas lineas cada espacio o , en un texto
+        String trabaLinguas = ("Tres tristes tigres comian trigo");
+        String[]palabras = trabaLinguas.split(" ");
+
+        for(String pala :palabras){
+            System.out.println(pala);
+        }
+
+
     }//end main
 }//end class
 
