@@ -20,7 +20,7 @@ Hasta el momento hemos estado trabajando con:
 
 
 ## Boletines
-En todo lo que hemos llevado de todo el curso de DAM hemos visto un total de 7 boletines entre los cuales encontramos 
+En todo lo que hemos llevado de todo el curso de DAM hemos visto un total de 8 boletines entre los cuales encontramos 
 el boletin 1 que mas que boletin eran ejercicios de conceptos.
 
 Boletines como:
