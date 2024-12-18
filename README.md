@@ -48,11 +48,12 @@ Y por ultimo boletines como:
 Centrados principalmente en programar directamente en el IDE
 
 ## Primer examen de programación
-### En este examen entraran las siguientes cosas:
+### En este examen entraron las siguientes cosas:
 
 1- Creacion y utilizacion de funciones 
 
 2- Trabajar adecuadamente con operadores
+
 3- Condicionales de todo tipo 
 
 4-Recursividad y sobrecarga
@@ -67,7 +68,9 @@ https://github.com/oliver-miguez/PROGRAMACION/tree/main/Examen_Programacion_1/sr
 
 ## Segundo examen de programación
 ### En este examen entraron las siguiente cosas:
+
 1- Todo lo visto en el examen anterior
+
 2- Arrays unidimensionales y bidimensionales
 
 ### Examen acabado:
