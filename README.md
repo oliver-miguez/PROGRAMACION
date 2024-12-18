@@ -79,7 +79,7 @@ https://github.com/oliver-miguez/PROGRAMACION/tree/main/Examen2
 
 
 ## IDE
-A lo largo del curso hemos programado principal y unicamente el el Intellij 
+A lo largo del curso hemos programado principal y unicamente en el Intellij 
 
 https://www.jetbrains.com/es-es/idea/
 
