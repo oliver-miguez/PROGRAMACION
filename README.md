@@ -47,7 +47,7 @@ Y por ultimo boletines como:
 
 Centrados principalmente en programar directamente en el IDE
 
-## Primer examen de programacion
+## Primer examen de programación
 ### En este examen entraran las siguientes cosas:
 
 1- Creacion y utilizacion de funciones 
@@ -64,6 +64,14 @@ EN GENERAL TRATAMOS ESTOS CONCEPTOS
 ### Examen acabado:
 
 https://github.com/oliver-miguez/PROGRAMACION/tree/main/Examen_Programacion_1/src
+
+## Segundo examen de programación
+### En este examen entraron las siguiente cosas:
+1- Todo lo visto en el examen anterior
+2- Arrays unidimensionales y bidimensionales
+
+### Examen acabado:
+
 
 ## IDE
 A lo largo del curso hemos programado principal y unicamente el el Intellij 
