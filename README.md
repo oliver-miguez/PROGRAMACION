@@ -20,7 +20,7 @@ Hasta el momento hemos estado trabajando con:
 
 
 ## Boletines
-En todo lo que hemos llevado de todo el curso de DAM hemos visto un total de 8 boletines entre los cuales encontramos 
+En todo lo que hemos llevado de todo el curso de DAM hemos visto un total de 9 boletines entre los cuales encontramos 
 el boletin 1 que mas que boletin eran ejercicios de conceptos.
 
 Boletines como:
@@ -44,6 +44,8 @@ Y por ultimo boletines como:
 [Boletin 7](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin_7/src) 
 
 [Boletin 7.2](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin7.2/src)
+
+[Boletin 8](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin%208/src)
 
 Centrados principalmente en programar directamente en el IDE
 
