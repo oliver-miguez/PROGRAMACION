@@ -11,6 +11,6 @@ public class eje8 {
             System.out.println("iguales");
         }else{
             System.out.println("distintos");
-        }
+        }//end else
     }//end main
 }//end class
