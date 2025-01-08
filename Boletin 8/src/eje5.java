@@ -1,5 +1,6 @@
 /**
  * Conta as vocais e as consoantes do String “java java java”. OLLO COS ESPAZOS!
+ * @author Oliver Miguez Alonso
  */
 public class eje5 {
     public static void main(String[] args) {
