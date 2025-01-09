@@ -10,8 +10,8 @@ public class barcos {
 
         int[][] tablero;
 
-        //coordenadas de los barcos, donde hay un uno hay un trozo de barco
-        tablero = new int[][]{
+        //coordenadas de los barcos, donde hay un uno hay un trozo de barco.
+        tablero = new int[][ ]{
                 {4,4,4,4,0},
                 {0,0,0,0,0},
                 {0,0,0,0,2},
