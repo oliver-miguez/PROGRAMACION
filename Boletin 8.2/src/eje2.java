@@ -1,4 +1,3 @@
-import javax.swing.*;
 
 /**
  * Inserte o caracter entre cada letra da cadea. Ex: separar e ‘,’ debería devolver s,e,p,a,r,a,r
@@ -8,6 +7,10 @@ import javax.swing.*;
  * @author Oliver Miguez Alonso
  */
 public class eje2 {
+    /**
+     * Metodo principal del programa
+     * @param args no usamos
+     */
     public static void main(String[] args) {
         String cadea = "Esto es una cadena de texto";
         String caracter = ",";
@@ -19,15 +22,31 @@ public class eje2 {
         System.out.println(cadaTres());
     }//end main
 
+    /**
+     * Remplaza los espacios en blanco por el valor de la variable caracter
+     * @param texto String cadena original
+     * @param tamanoTexto Tamaño del String
+     * @param caracter variable inicial
+     * @return el nuevo texto cambiado
+     */
     public static String remplazar(String texto, int tamanoTexto,String caracter){
-        String newTexto = texto.replace("",caracter);
-        return newTexto.substring(1,tamanoTexto-1);
+        String newTexto = texto.replace("",caracter); //remplaza los espacios en blanco por el caracter
+        return newTexto.substring(1,tamanoTexto-1); //Permite quitar el primer y ultimo caracter
     }//end remplazar
 
+    /**
+     * Cambia los espacios en blanco por \
+     * @param cadea String cadea original
+     * @return Cadena cambiada
+     */
     public static String cambio (String cadea){
         return cadea.replace(" ","\\_");
     }//end
 
+    /**
+     * Remplaza los numeros por X
+     * @return el texto cambiado
+     */
     public static String remplazoPorX(){
         String texto = "La clave es : 1234";
         return texto.replaceAll("\\d","X");// el \\d hace referencia a todos los numeros , entonces remplaza todos los numeros por x
