@@ -19,7 +19,7 @@ public class eje2 {
         System.out.println(remplazar(cadea,tamanoCadea,caracter));
         System.out.println(cambio(cadea));
         System.out.println(remplazoPorX());
-        System.out.println(cadaTres());
+        //System.out.println(cadaTres());
     }//end main
 
     /**
@@ -53,8 +53,11 @@ public class eje2 {
 
     }//end remplazo
 
-    public static String cadaTres(){
-        String texto = "123456789";
+//    public static String cadaTres(){
+//        String texto = "123456789";
+//
+//
+//    }//end cada tres
 
-    }//end cada tres
+
 }//end class
