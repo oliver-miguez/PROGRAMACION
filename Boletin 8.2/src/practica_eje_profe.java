@@ -20,6 +20,7 @@ public class practica_eje_profe {
         System.out.println(tamaño(palabraAdivinar));
 
     }//end main
+
     /**
      * Muestra por pantalla el texto con "_"
      * @param texto String original
@@ -31,5 +32,21 @@ public class practica_eje_profe {
         }//end for
         return newTexto;
     }//end tamaño
+
+    /**
+     * Pide la letra con la que el usuario intentará adivinar la palabra
+     * @return letra o palabra con la que el usuario quiere adivinar
+     */
+    public static String letra(){
+        Scanner sc = new Scanner(System.in);
+        String letra = "";
+        do{
+            System.out.println("Introduce una letra");
+            letra = sc.next();
+        }while (letra.isEmpty());
+        return letra;
+    }//end letra
+
+
 
 }//end class
