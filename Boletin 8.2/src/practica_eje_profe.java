@@ -109,7 +109,7 @@ public class practica_eje_profe {
             boolean acertada = false; // crea una variable con la que comprobara si existe o no el la palabra original
             for (int i = 0; i < desglose.length; i++) { //recorre el array de chars
                 if (desglose[i] == letra.charAt(0)) { //comprueba si en el array de chars existe alguna letra igual a la Letra introducida por el usuario
-                    progreso[i] = letra.charAt(0); //Si existe un letra que es igual a algún char del original, actualiza el array progreso
+                    progreso[i] = letra.charAt(0); //Si existe una letra que es igual a algún char del original, actualiza el array progreso
                     acertada = true; // y le da el valor de verdadero, es decir que si existe en el array original
                 }
             }
