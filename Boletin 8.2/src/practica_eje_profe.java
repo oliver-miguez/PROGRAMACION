@@ -15,46 +15,21 @@ public class practica_eje_profe {
      */
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-
         String palabraAdivinar = "chorizo";
-        System.out.println(mostrar(palabraAdivinar));
+
+        System.out.println(tamaño(palabraAdivinar));
 
     }//end main
-
     /**
-     * Muestra por pantalla cuantas letras tiene sin decirte que letras son
-     * @param palabraAdivinar String Original
-     * @return devuelve el numero necesario de caracteres para adivinar la palabra
+     * Muestra por pantalla el texto con "_"
+     * @param texto String original
      */
-    public static String mostrar(String palabraAdivinar){
-        String textoNuevo = "";
-        for(int i = 0; i < palabraAdivinar.length(); i++ ){
-            textoNuevo = textoNuevo + "_";
+    public static String tamaño(String texto){
+        String newTexto = "";
+        for(int i = 0;i < texto.length(); i++){
+            newTexto = newTexto + "_";
         }//end for
-        return textoNuevo;
-    }//end mostrar
+        return newTexto;
+    }//end tamaño
 
-    /**
-     * Devuelve la letra introducida por el usuario para que no introduzca un valor vacio
-     * @return devuelve un valor NO vacio
-     */
-    public static String devolver(){
-        Scanner sc =new Scanner(System.in);
-        String letra = "";
-        do{
-            System.out.println("Introduce una letra:");
-            letra = sc.next();
-            }while(letra.isEmpty());
-        return letra;
-
-    }//end devolver
-
-    public static String comprobarLetra(String letra, String palabraAdivinar){
-        for (int i = 0; i < palabraAdivinar.length();i++ ){
-            if(palabraAdivinar.charAt(i)==letra){
-                palabraAdivinar.setChar
-            }
-        }//end for
-    }//end comprobar letra
 }//end class
