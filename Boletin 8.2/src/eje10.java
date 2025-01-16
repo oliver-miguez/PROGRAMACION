@@ -15,7 +15,6 @@ public class eje10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String contrasena ; // variable donde almacena la contraseña del usuario
-        String contra;
        // char[]arrayContrasena = contrasena.toCharArray(); //crea un array del String contraseña
 
         //Booleanos para comprobar qsi tiene los requisitos necesarios
