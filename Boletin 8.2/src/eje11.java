@@ -18,18 +18,15 @@ public class eje11 {
         String nome;
 
         //pregunta y almacena el nombre introducido
-        System.out.println("Introduce tu nombre y apellido: ");
+        System.out.println("Introduce tu nombre: ");
         nome  = sc.next();
+        System.out.println("Introduce el apellido");
+        String apellido = sc.next();
 
         //transforma el String del nombre a mayusculas
         nome = nome.toUpperCase().trim(); //transforma en mayusculas y quita los espacios en blanco
-        System.out.println(nome);
-
-
-
-
-
-
+        apellido = apellido.toUpperCase().trim();
+        System.out.println(nome + apellido);
 
     }//end main
 }//end class
