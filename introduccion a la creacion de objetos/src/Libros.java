@@ -13,11 +13,19 @@ public class Libros {
 
 
     public boolean venderLibro(int cantidadVenta){
-        //todo - por hacer
+        if(cantidad >= cantidadVenta){
+            actualizarCantidad(-cantidadVenta);
+            return true;
+        }//end if
+    else return false;
     }//end vendeLibro
 
-    public int registrarEntradaLibro(int cantidadEntrada){
-        //todo - por hacer
+    public void registrarEntradaLibro(int cantidadEntrada){
+        actualizarCantidad(cantidadEntrada);
     }//end comprarLibro
 
-}//end class Libros
+    private  void actualizarCantidad(int cantidadActualizar){
+        cantidad = cantidad +cantidadActualizar;
+    }//end actualizarCantidad
+
+}//end class
