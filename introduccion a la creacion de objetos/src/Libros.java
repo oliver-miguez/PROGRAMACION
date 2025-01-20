@@ -11,7 +11,16 @@ public class Libros {
     private double precio;
     private int cantidad;
 
+    //Inicializa todas las clases de libro
+    public Libros(String tit, String aut, int  pax, double prez, int cant){
+        titulo = tit;
+        autor = aut;
+        numPaginas = pax;
+        precio = prez;
+        cantidad = cant;
+    }//end libros
 
+    //función para vender libros
     public boolean venderLibro(int cantidadVenta){
         if(cantidad >= cantidadVenta){
             actualizarCantidad(-cantidadVenta);
@@ -20,10 +29,12 @@ public class Libros {
     else return false;
     }//end vendeLibro
 
+    //función para registrar la cantidad libros nuevos añadidos al stock
     public void registrarEntradaLibro(int cantidadEntrada){
         actualizarCantidad(cantidadEntrada);
     }//end comprarLibro
 
+    //registra la cantidad de libros nuevos llegados al stock
     private  void actualizarCantidad(int cantidadActualizar){
         cantidad = cantidad +cantidadActualizar;
     }//end actualizarCantidad
