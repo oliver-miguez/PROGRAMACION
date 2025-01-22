@@ -59,14 +59,17 @@ public class Libros {
     }//end setAutor
 
     public void  setNumPaginas(int novoNumPax){
-        numPaginas = novoNumPax;
+        if(novoNumPax > 0) numPaginas = novoNumPax;
+        else System.out.println("O numero de páxinas debe ser maior a 0");
     }//end setNumPaginas
 
     public void setPrecio(double novoPrecio){
-        precio = novoPrecio;
+        if(precio > 0 ) precio = novoPrecio;
+        else System.out.println("O precio ten que ser maior a 0");
     }//end setPrecio
     public void setCantidad(int novaCantidad){
-        cantidad = novaCantidad;
+        if(cantidad > 0)cantidad = novaCantidad;
+        else System.out.println("A cantidade ten que ser menor a 0");
     }//end setCantidad
 
     /*End setters*/
