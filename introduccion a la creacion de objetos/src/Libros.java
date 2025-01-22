@@ -15,9 +15,9 @@ public class Libros {
     public Libros(String tit, String aut, int  pax, double prez, int cant){
         titulo = tit;
         autor = aut;
-        numPaginas = pax;
-        precio = prez;
-        cantidad = cant;
+        setNumPaginas(pax);
+        setPrecio(prez);
+        setCantidad(cant);
     }//end libros
 
     /* Forma de permitir utilizar las funciones privadas de "libro"*/

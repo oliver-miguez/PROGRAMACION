@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Libros quijote = new Libros("Quijote","Cervantes",555,40,1);
+        Libros quijote = new Libros("Quijote","Cervantes",555,-40,1);
         quijote.setTitulo("ELLLL Quijote");
         quijote.setAutor("El churumbel");
 
