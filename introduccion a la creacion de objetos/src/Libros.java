@@ -64,11 +64,11 @@ public class Libros {
     }//end setNumPaginas
 
     public void setPrecio(double novoPrecio){
-        if(precio > 0 ) precio = novoPrecio;
+        if(novoPrecio > 0 ) precio = novoPrecio;
         else System.out.println("O precio ten que ser maior a 0");
     }//end setPrecio
     public void setCantidad(int novaCantidad){
-        if(cantidad > 0)cantidad = novaCantidad;
+        if(novaCantidad > 0)cantidad = novaCantidad;
         else System.out.println("A cantidade ten que ser menor a 0");
     }//end setCantidad
 
