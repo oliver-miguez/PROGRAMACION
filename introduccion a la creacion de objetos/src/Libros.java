@@ -46,6 +46,29 @@ public class Libros {
 
     /* end forma de utilizar funciones privadas*/
 
+    /* SETTERS ! Deben de ser siempre públicos y no devuelven nunca nada */
+    //Los setters permiten cambiar los valores de las funciones de libro
+
+    //En este caso para cambiar el valor de titulo
+    public void setTitulo(String novoTitulo){
+        titulo = novoTitulo;
+    }//end setTitulo
+
+    public void  setAutor(String novoAutor){
+        autor = novoAutor;
+    }//end setAutor
+
+    public void  setNumPaginas(int novoNumPax){
+        numPaginas = novoNumPax;
+    }//end setNumPaginas
+
+    public void setPrecio(double novoPrecio){
+        precio = novoPrecio;
+    }//end setPrecio
+    public void setCantidad(int novaCantidad){
+        cantidad = novaCantidad;
+    }//end setCantidad
+
     //función para vender libros
     public boolean venderLibro(int cantidadVenta){
         if(cantidad >= cantidadVenta){
