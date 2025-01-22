@@ -1,3 +1,5 @@
+import jdk.jshell.spi.SPIResolutionException;
+
 /**
  * Clase que representa a un libro
  * @author Oliver Miguez Alonso
@@ -20,15 +22,31 @@ public class Libros {
         cantidad = cant;
     }//end libros
 
-    //como el valor es privado, el metodo get permite acceder a sus valores
-    public String getAutor(){
-        return autor;
-    }//end getAutor
+    /* Forma de permitir utilizar las funciones privadas de "libro"*/
 
     //actúa de la misma manera que el getAutor
     public String getTitulo(){
         return titulo;
     }//end getTitulo
+
+    //como el valor es privado, el metodo get permite acceder a sus valores
+    public String getAutor(){
+        return autor;
+    }//end getAutor
+
+    public int getNumPaginas(){
+        return numPaginas;
+    }//end getNumPaginas
+
+    public double getPrecio(){
+        return precio;
+    }//end getPrecio
+
+    public int getCantidad(){
+        return cantidad;
+    }//end getCantidad
+
+    /* end forma de utilizar funciones privadas*/
 
     //función para vender libros
     public boolean venderLibro(int cantidadVenta){
