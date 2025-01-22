@@ -14,7 +14,7 @@ public class eje11 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        //datos introducido por consola
+        //datos introducidos por consola
         String nome;
 
         //pregunta y almacena el nombre introducido
@@ -23,8 +23,8 @@ public class eje11 {
         System.out.println("Introduce el apellido");
         String apellido = sc.next();
 
-        //transforma el String del nombre a mayusculas
-        nome = nome.toUpperCase().trim(); //transforma en mayusculas y quita los espacios en blanco
+        //transforma el String del nombre a mayúsculas
+        nome = nome.toUpperCase().trim(); //transforma en mayúsculas y quita los espacios en blanco
         apellido = apellido.toUpperCase().trim();
         System.out.println(nome + apellido);
 
