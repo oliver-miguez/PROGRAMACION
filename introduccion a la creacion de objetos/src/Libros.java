@@ -11,7 +11,7 @@ public class Libros {
     private double precio;
     private int cantidad;
 
-    //Inicializa todas las clases de libro
+    //Inicializa todas las propiedades de libro
     public Libros(String tit, String aut, int  pax, double prez, int cant){
         titulo = tit;
         autor = aut;
