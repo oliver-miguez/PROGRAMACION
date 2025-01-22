@@ -5,8 +5,8 @@
 public class Libros {
     //propiedades de clase libro
     //Representa el formato de clase que usaremos(public, private) el tipo (String, int) y el nombre de la clase
-    public String titulo;
-    public String autor;
+    private String titulo;
+    private String autor;
     private int numPaginas;
     private double precio;
     private int cantidad;
@@ -19,6 +19,16 @@ public class Libros {
         precio = prez;
         cantidad = cant;
     }//end libros
+
+    //como el valor es privado, el metodo get permite acceder a sus valores
+    public String getAutor(){
+        return autor;
+    }//end getAutor
+
+    //actúa de la misma manera que el getAutor
+    public String getTitulo(){
+        return titulo;
+    }//end getTitulo
 
     //función para vender libros
     public boolean venderLibro(int cantidadVenta){
