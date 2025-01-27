@@ -24,7 +24,6 @@ public class eje_1 {
 
         //transforma el String a devolver de la función en una nueva variable para usarla en la main
         String palabraDividida = divPalabra(palabra,secuencias);
-        System.out.println(palabraDividida);
 
     }//end main
 
@@ -44,12 +43,10 @@ public class eje_1 {
 
             secuencia = secuencia + 1; //para mostrar las letras siguientes de la palabra
             pos ++;//posición inicial con la que muestra la palabra
-
-            //permite que la secuencia no sea mayor a la palabra para que no provoque fallos de out of bands
-            if (secuencia > palabra.length()){
-                secuencia = palabra.length();
-            }//end if
-
+            if(secuencia > palabra.length()){
+                System.out.println("Limite maximo alcanzado");
+                break;
+            }
         }//end for
         return nuevaPalabra;
     }//end divPalabra
