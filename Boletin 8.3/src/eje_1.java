@@ -14,7 +14,7 @@ public class eje_1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        //Preguntas realizadas al usuario
+        //Preguntas realizadas al usuario.
         String palabra = "Frigorífico";
         System.out.println("La palabra es: "+ palabra);
 
