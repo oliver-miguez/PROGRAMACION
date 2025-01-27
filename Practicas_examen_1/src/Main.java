@@ -1,0 +1,129 @@
+import java.util.Scanner;
+
+/**
+ * Menu matematico                                                                                                                  
+ * Programa que crea un menu con distintas operaciones matematicas                                                                  
+ * Usando todo lo aprendido hasta el momento                                                                                        
+ *
+ * @author Oliver Miguez Alonso                                                                                                     
+ * @version 1.0
+ */
+public class Main {
+    /**
+     * Metodo principal del programa                                                                                                
+     *
+     * @param args no uso                                                                                                           
+     */
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);//Permite introducir datos por consola                                                  
+        int op = 0;//numero de opciones que tendra el menu                                                                          
+        int divisions =0;
+        int multiplicacions = 0;
+        int sumas = 0;
+        int restas=0;
+
+
+
+        while (op != 5) { //crea el menu                                                                                            
+            System.out.println("1-suma");
+            System.out.println("2-resta");
+            System.out.println("3-multiplicacion");
+            System.out.println("4-Division");
+            System.out.println("5-salir");
+            op = sc.nextInt();
+            switch (op) {
+                case 1://opcion suma                                                                                                
+                    System.out.println( "resultado:"+ suma(sumas,sc));//llama a la funcion suma
+                    break;
+
+                case 2://opcion resta                                                                                               
+                    System.out.println( "resultado:"+ resta(restas,sc));//llama a la funcion resta
+                    break;
+
+                case 3://opcion multiplicacion                                                                                      
+                    System.out.println( "resultado:"+ multiplicacion(multiplicacions,sc));//Llama a la funcion multiplicacion
+                    break;
+
+                case 4: //opcion division                                                                                           
+                    System.out.println( "resultado:"+ division(divisions,sc));
+                    break;
+                case 5://salir                                                                                                      
+                    System.out.println("saliendo...");
+                    break;
+
+                default:
+                    System.out.println("Opcion no valida, eliga otra");
+
+
+            }//end switch                                                                                                           
+
+        }//end while                                                                                                                
+
+
+        sc.close();//cierra el scanner                                                                                              
+    }//end main                                                                                                                     
+
+    /**
+     * Funcion que calcula la suma de dos numeros introducido por el usuario                                                        
+     *
+     * @return devuelve suma                                                                                                        
+     */
+    static int suma(int sumas, Scanner sc) { //llamamos en la funcion suma el scanner de la main para poder utilizarlo               
+        System.out.println("Introduce un numero: ");//pregunta por consola                                                          
+        int num1 = sc.nextInt();//almacena el valor introducido por consola                                                         
+        System.out.println("Introduce el segundo numero: ");
+        int num2 = sc.nextInt();
+
+        return sumas = num1 + num2;
+
+    }//end suma                                                                                                                     
+
+    /**
+     * Funcion que calcula la resta de dos numeros                                                                                  
+     *
+     * @return devuelve el valor de la resta                                                                                        
+     */
+    static int resta(int restas, Scanner sc) {//llamamos en la funcion resta el scanner de la main para poder utilizarlo             
+        System.out.println("Introduce un numero: ");//pregunta por consola                                                          
+        int num1 = sc.nextInt();//almacena el valor introducido por consola                                                         
+        System.out.println("Introduce el segundo numero: ");
+        int num2 = sc.nextInt();
+
+
+        return restas = num1 - num2;// devuelve el valor resta                                                                      
+
+    }//end resta                                                                                                                    
+
+    /**
+     * Funcion que calcula la multiplicacion entre dos numeros                                                                      
+     *
+     * @return devuelve el valor de la multiplicacion                                                                               
+     */
+    static int multiplicacion(int multiplicacions, Scanner sc) {//llamamos en la funcion multiplicacion el scanner de la main para p
+        System.out.println("Introduce un numero: ");//pregunta por consola                                                          
+        int num1 = sc.nextInt();//almacena el valor introducido por consola                                                         
+        System.out.println("Introduce el segundo numero: ");
+        int num2 = sc.nextInt();
+
+
+        return multiplicacions = num1 * num2;
+
+    }//end multiplicacion                                                                                                           
+
+    /**
+     * Funcion encargada de dividir dos numeros introducidos                                                                        
+     *
+     * @return devuelve el valor de la division                                                                                     
+     */
+    static int division(int divisions, Scanner sc) {//llamamos en la funcion division el scanner de la main para poder utilizarlo    
+        System.out.println("Introduce un numero: ");//pregunta por consola                                                          
+        int num1 = sc.nextInt();//almacena el valor introducido por consola                                                         
+        System.out.println("Introduce el segundo numero: ");
+        int num2 = sc.nextInt();
+
+
+        return divisions = num1 / num2;
+
+    }//end division                                                                                                                 
+
+}//end class                                                                                                                        

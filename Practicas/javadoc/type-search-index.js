@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"dous_numero_enteiros"},{"p":"<Unnamed>","l":"funciones_numero_n_elevado_a_numero_m"},{"p":"<Unnamed>","l":"Main"}];updateSearchResults();
