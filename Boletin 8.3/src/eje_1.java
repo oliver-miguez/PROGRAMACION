@@ -23,8 +23,8 @@ public class eje_1 {
         int secuencias = sc.nextInt();
 
         //transforma el String a devolver de la función en una nueva variable para usarla en la main
-        String palabraDividida = divPalabra(palabra,secuencias);
-
+        //String palabraDividida = divPalabra(palabra,secuencias);
+        divPalabra(palabra,secuencias);
     }//end main
 
     /**
@@ -32,7 +32,7 @@ public class eje_1 {
      * @param palabra String original
      * @param secuencia Secuencia en la que se desea dividir la palabra
      */
-    public static String divPalabra( String palabra, int secuencia){
+    public static  void divPalabra( String palabra, int secuencia){
         String nuevaPalabra = "";//almacena las palabras divididas
         int pos = 0;//almacenar la posición inicial del nuevo String en cada secuencia
 
@@ -40,15 +40,15 @@ public class eje_1 {
         for ( int i = 0; i < palabra.length(); i++ ){
             nuevaPalabra = palabra.substring(pos,secuencia); //divide la palabra en valor a la secuencia
             System.out.println(nuevaPalabra); //muestra las palabras divididas
-
             secuencia = secuencia + 1; //para mostrar las letras siguientes de la palabra
             pos ++;//posición inicial con la que muestra la palabra
+
             if(secuencia > palabra.length()){
                 System.out.println("Limite maximo alcanzado");
                 break;
-            }
+            }//end if
         }//end for
-        return nuevaPalabra;
+
     }//end divPalabra
 
 }//end class
