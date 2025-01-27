@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @author Oliver Miguez Alonso
  * @version  1.0
  */
-public class Main {
+public class eje_1 {
     /**
      * Metodo principal del programa
      * @param args no usamos
@@ -15,7 +15,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         //Preguntas realizadas al usuario
-        String palabra = "frigorífico";
+        String palabra = "Frigorífico";
         System.out.println("La palabra es: "+ palabra);
 
         //Almacena en cuántas veces quiere partir la palabra(de tres letras en tres, de cuatro en cuatro ...)
@@ -35,7 +35,8 @@ public class Main {
      */
     public static String divPalabra( String palabra, int secuencia){
         String nuevaPalabra = "";//almacena las palabras divididas
-        int pos = 0;
+        int pos = 0;//almacenar la posición inicial del nuevo String en cada secuencia
+
         //Divide la palabra en la secuencia deseada por el usuario
         for ( int i = 0; i < palabra.length(); i++ ){
             nuevaPalabra = palabra.substring(pos,secuencia); //divide la palabra en valor a la secuencia
