@@ -1,6 +1,13 @@
 public class eje_1_profe {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
+        String[]secFrigorifico;
+
+        secFrigorifico = palabraNsecuencias("Frigorifico",4);
+
+        for( int i = 0; i < secFrigorifico.length;i++){
+            System.out.println(secFrigorifico[i]);
+        }//end for
     }//end main
 
     /**
@@ -21,5 +28,6 @@ public class eje_1_profe {
         }//end for
         return  secuencias;
     }//end palabraNsecuencias
+
 }//end class
 
