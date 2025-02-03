@@ -51,21 +51,25 @@ public class Main {
      */
     public static void frecuencia(String frase){
         int repeticiones;
-        String[]palabras = frase.split(" "); //crea un array
+        String[]palabras = frase.split(" "); //crea un array formado por las distintas palabras que forman la frase
+
+        //Compara dos arrays iguales , para contar cuantas veces se repite un palabra
         for(int i = 0; i < palabras.length; i ++){
-            repeticiones = 0;
+            repeticiones = 0;//Reinicia el contador de repeticiones de palabra para que no guarde el mismo valor para todas las palabras
             for(int j = 0; j < palabras.length; j ++){
-                if(Objects.equals(palabras[i], palabras[j])){
+                if(Objects.equals(palabras[i], palabras[j])){ //comprueba si se repite alguna de las palabras
                     repeticiones ++;
                 }//end if
             }//end for
-            System.out.println(palabras[i] + repeticiones);
+            System.out.println(palabras[i] + repeticiones); //Muestras la palabra y el número de veces que se repite
         }//end for
-
-
-
-
     }//end frecuencia
 
+    /**
+     * Cuenta las letras de cada palabra de la frase
+     */
+    public static void  letras(){
+
+    }//end media
 
 }//end class
