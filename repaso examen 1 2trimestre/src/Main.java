@@ -65,11 +65,6 @@ public class Main {
         }//end for
     }//end frecuencia
 
-    /**
-     * Cuenta las letras de cada palabra de la frase
-     */
-    public static void  letras(){
 
-    }//end media
 
 }//end class
