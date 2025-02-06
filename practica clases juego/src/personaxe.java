@@ -29,7 +29,8 @@ public class personaxe {
     //para cambiarlos a nuestro antojo
     public personaxe(String nom, int vida, int rest, int forza, int vel, int exp, String apariencia, String[]habilidades, String[]equipamiento){
         nome = nom;
-        this.vida = vida; // el this se utiliza para difenenciar entre el "vida" de la clase y el "vida" de la función, se puede quitar si cambiamos el nombre de "vida" en alguno de ambos campos
+        // el this se utiliza para diferenciar entre el "vida" de la clase y el "vida" de la función, se puede quitar si cambiamos el nombre de "vida" en alguno de ambos campos
+        this.vida = vida; //setVida(vida) otra forma de darle valor a "vida" en este caso
     }//end personaxe
 
 
