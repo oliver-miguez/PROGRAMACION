@@ -31,7 +31,60 @@ public class personaxe {
         nome = nom;
         // el this se utiliza para diferenciar entre el "vida" de la clase y el "vida" de la función, se puede quitar si cambiamos el nombre de "vida" en alguno de ambos campos
         this.vida = vida; //setVida(vida) otra forma de darle valor a "vida" en este caso
+        resistencia = rest;
+        this.forza = forza;
+        velocidade =vel;
+        experiencia = exp;
+        this.apariencia = apariencia;
+        this.habilidades = new String[5];
+        sethabilidades(habilidades);
+        this.equipamiento = new String[5];
+        setequipamiento(equipamiento);
+
     }//end personaxe
+
+    /**
+     * Habilidades que tiene el personaje
+     * @param habilidades propiedad obtenida del objeto de personaje
+     */
+    public void sethabilidades(String[]habilidades){
+        int numHabilidades = habilidades.length; //Cuenta el total de habilidades que tiene en total el personaje
+        //si superan el valor de 5 que fue el que le proporcionamos en en array, solo cogerá los 5 primeros valores
+
+        //verifica que solamente pueda tener hasta cinco habilidades
+        if (numHabilidades > 5){
+            numHabilidades = 5;
+        }//end if
+
+        for(int i = 0; i < numHabilidades; i++){
+            this.habilidades[i] = habilidades[i];
+        }//end for
+
+    }//end setHabilidades
+
+    /**
+     * Define el funcionamiento del equipamiento
+     * @param equipamiento
+     */
+    public void setequipamiento(String[]equipamiento){
+        int numEquipamientos = equipamiento.length; //Cuenta el total de habilidades que tiene en total el personaje
+        //si superan el valor de 5 que fue el que le proporcionamos en en array, solo cogerá los 5 primeros valores
+
+        //verifica que solamente pueda tener hasta cinco habilidades
+        if (numEquipamientos > 5){
+            numEquipamientos = 5;
+        }//end if
+
+        for(int i = 0; i < numEquipamientos; i++){
+            this.equipamiento[i] = equipamiento[i];
+        }//end for
+    }//end setEquipamiento
+
+    public static void main(String[]args){
+        String[] hab = {"saltar", "disparar", "transformarse","X-ray"};
+        String[] equip = {"pistola","katana","lanzallamas", "Ballesta"};
+        personaxe mario = new personaxe("Mario bros",5,6,7,8,9,"rojo",hab,equip);
+    }//end main
 
 
 }//end class
