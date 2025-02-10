@@ -44,6 +44,22 @@ public class personaxe {
     }//end personaxe
 
     /**
+     * Asigna al nombre un valor
+     * @param nome nome del personaje
+     */
+    public void setNome(String nome){
+        this.nome = nome;
+    }//setNome
+
+    //Los gets no reciben parámetros
+    /**
+     * @return devuelve el nuevo valor de nombre
+     */
+    public String getNome(){
+        return nome;
+    }//end getNome
+
+    /**
      * Habilidades que tiene el personaje
      * @param habilidades propiedad obtenida del objeto de personaje
      */
@@ -80,6 +96,10 @@ public class personaxe {
         }//end for
     }//end setEquipamiento
 
+    /**
+     * Metodo principal de la clase
+     * @param args no usamos
+     */
     public static void main(String[]args){
         String[] hab = {"saltar", "disparar", "transformarse","X-ray"};
         String[] equip = {"pistola","katana","lanzallamas", "Ballesta"};
