@@ -64,7 +64,8 @@ public class personaxe {
      * @param vida valor introducido
      */
     public void setVida(int vida){
-        if(vida > 5) this.vida = 5 ;
+        if(vida >= 0 && vida < 6) this.vida = vida ;
+        else this.vida = 3;
     }//end setVida
 
     /**
@@ -75,7 +76,8 @@ public class personaxe {
     }//end get vida
 
     public void setResistencia(int resistencia){
-        if(resistencia > 5) this.resistencia = 5;
+        if(resistencia >=0 && resistencia <  5) this.resistencia = resistencia;
+        else this.resistencia = 0;
     }//setResistencia
 
     public int getResistencia(){
@@ -83,7 +85,8 @@ public class personaxe {
     }//end getResistencia
 
     public void setForza(){
-        if(forza > 5) this.forza = 5;
+        if(forza >= 0 && forza < 5) this.forza = forza;
+        else this.forza = 0;
     }//end setForza
 
     public int getForza(){
@@ -91,7 +94,9 @@ public class personaxe {
     }//end getForza
 
     public void setVelocidade(int velocidade){
-        if(velocidade > 5) this.velocidade = 5;
+        if(velocidade >= 0 && velocidade < 5) this.velocidade = velocidade;
+        else this.velocidade = 0;
+
     }//end SetVelocidade
 
     public int getVelocidade(){
@@ -108,7 +113,7 @@ public class personaxe {
 
     public void setApariencia(String apariencia){
         this.apariencia = apariencia;
-    }
+    }//end setApariencia
 
     public String getApariencia(){
         return apariencia;
