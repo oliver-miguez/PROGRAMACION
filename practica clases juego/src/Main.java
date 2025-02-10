@@ -12,10 +12,14 @@ public class Main {
 
 
         Punto p1 = new Punto(0,3);
-        Punto p2 = new Punto(-15, 30);
+        Punto p2 = new Punto(-15);
+
+        p1.setX(-10);
 
         System.out.println("Coordenada x de p1 : " + p1.getX());
         System.out.println("Coordenada x de p2 : " + p2.getX());
+        System.out.println("Coordenada x de p2 : " + p2.getY());
+
 
     }//end main
 }//end class

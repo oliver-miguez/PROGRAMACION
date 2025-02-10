@@ -7,20 +7,21 @@ public class Punto {
         y = 0;
     }//endPunto
     public Punto(double w){
-        x = w;
-        y = w;
+        setX(w);
+        setY(w);
     }//endPunto
     public Punto(int w){
-        x = w;
-        y = w;
+        setX(w);
+        setY(w);
     }//endPunto
     public Punto(double x, double y){
-        this.x = x;
-        this.y = y;
+        setX(x);
+        setY(y);
+
     }//endPunto
     public Punto(int x, int y){
-        this.x = x;
-        this.y = y;
+        setX(x);
+        setY(y);
     }//endPunto
 
 
