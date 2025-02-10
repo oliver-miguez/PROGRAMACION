@@ -64,7 +64,7 @@ public class personaxe {
      * @param vida valor introducido
      */
     public void setVida(int vida){
-        if(vida >= 0 && vida < 6) this.vida = vida ;
+        if(vida >= 0 && vida <= 5) this.vida = vida ;
         else this.vida = 3;
     }//end setVida
 
@@ -76,7 +76,7 @@ public class personaxe {
     }//end get vida
 
     public void setResistencia(int resistencia){
-        if(resistencia >=0 && resistencia <  5) this.resistencia = resistencia;
+        if(resistencia >=0 && resistencia <=  5) this.resistencia = resistencia;
         else this.resistencia = 0;
     }//setResistencia
 
@@ -85,7 +85,7 @@ public class personaxe {
     }//end getResistencia
 
     public void setForza(){
-        if(forza >= 0 && forza < 5) this.forza = forza;
+        if(forza >= 0 && forza <= 5) this.forza = forza;
         else this.forza = 0;
     }//end setForza
 
@@ -94,7 +94,7 @@ public class personaxe {
     }//end getForza
 
     public void setVelocidade(int velocidade){
-        if(velocidade >= 0 && velocidade < 5) this.velocidade = velocidade;
+        if(velocidade >= 0 && velocidade <= 5) this.velocidade = velocidade;
         else this.velocidade = 3;
 
     }//end SetVelocidade
@@ -104,7 +104,7 @@ public class personaxe {
     }//end getVelocidade
 
     public void setExperiencia(int experiencia){
-        if(experiencia > 5 ) this.experiencia = experiencia;
+        if(experiencia >= 0 && experiencia <= 5 ) this.experiencia = experiencia;
         else this.experiencia = 0;
     }//setExperiencia
 
