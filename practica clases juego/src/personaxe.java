@@ -60,6 +60,63 @@ public class personaxe {
     }//end getNome
 
     /**
+     * Asigna un valor de vida
+     * @param vida valor introducido
+     */
+    public void setVida(int vida){
+        if(vida > 5) this.vida = 5 ;
+    }//end setVida
+
+    /**
+     * @return el nuevo valor de vida
+     */
+    public int getVida(){
+        return vida;
+    }//end get vida
+
+    public void setResistencia(int resistencia){
+        if(resistencia > 5) this.resistencia = 5;
+    }//setResistencia
+
+    public int getResistencia(){
+        return resistencia;
+    }//end getResistencia
+
+    public void setForza(){
+        if(forza > 5) this.forza = 5;
+    }//end setForza
+
+    public int getForza(){
+        return forza;
+    }//end getForza
+
+    public void setVelocidade(int velocidade){
+        if(velocidade > 5) this.velocidade = 5;
+    }//end SetVelocidade
+
+    public int getVelocidade(){
+        return velocidade;
+    }//end getVelocidade
+
+    public void setExperiencia(int experiencia){
+        if(experiencia > 5 ) this.experiencia = 5;
+    }//setExperiencia
+
+    public int getExperiencia(){
+        return experiencia;
+    }//end getExperiencia
+
+    public void setApariencia(String apariencia){
+        this.apariencia = apariencia;
+    }
+
+    public String getApariencia(){
+        return apariencia;
+    }//end getApariencia
+
+
+
+    /**
      * Habilidades que tiene el personaje
      * @param habilidades propiedad obtenida del objeto de personaje
      */
