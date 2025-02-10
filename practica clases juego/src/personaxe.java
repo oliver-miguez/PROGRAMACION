@@ -33,7 +33,7 @@ public class personaxe {
         this.vida = vida; //setVida(vida) otra forma de darle valor a "vida" en este caso
         resistencia = rest;
         this.forza = forza;
-        velocidade =vel;
+        setVelocidade(vel);
         experiencia = exp;
         this.apariencia = apariencia;
         this.habilidades = new String[5];
