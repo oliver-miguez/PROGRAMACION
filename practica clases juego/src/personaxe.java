@@ -95,7 +95,7 @@ public class personaxe {
 
     public void setVelocidade(int velocidade){
         if(velocidade >= 0 && velocidade < 5) this.velocidade = velocidade;
-        else this.velocidade = 0;
+        else this.velocidade = 3;
 
     }//end SetVelocidade
 
@@ -104,7 +104,8 @@ public class personaxe {
     }//end getVelocidade
 
     public void setExperiencia(int experiencia){
-        if(experiencia > 5 ) this.experiencia = 5;
+        if(experiencia > 5 ) this.experiencia = experiencia;
+        else this.experiencia = 0;
     }//setExperiencia
 
     public int getExperiencia(){
