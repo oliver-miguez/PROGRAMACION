@@ -30,15 +30,13 @@ public class personaxe {
     public personaxe(String nom, int vida, int rest, int forza, int vel, int exp, String apariencia, String[]habilidades, String[]equipamiento){
         nome = nom;
         // el this se utiliza para diferenciar entre el "vida" de la clase y el "vida" de la función, se puede quitar si cambiamos el nombre de "vida" en alguno de ambos campos
-        this.vida = vida; //setVida(vida) otra forma de darle valor a "vida" en este caso
-        resistencia = rest;
-        this.forza = forza;
+        setVida(vida); //setVida(vida) otra forma de darle valor a "vida" en este caso
+        setResistencia(rest);
+        setForza(forza);
         setVelocidade(vel);
-        experiencia = exp;
+        setExperiencia(exp);
         this.apariencia = apariencia;
-        this.habilidades = new String[5];
         sethabilidades(habilidades);
-        this.equipamiento = new String[5];
         setequipamiento(equipamiento);
 
     }//end personaxe
@@ -84,7 +82,7 @@ public class personaxe {
         return resistencia;
     }//end getResistencia
 
-    public void setForza(){
+    public void setForza(int forza){
         if(forza >= 0 && forza <= 5) this.forza = forza;
         else this.forza = 0;
     }//end setForza
@@ -127,6 +125,7 @@ public class personaxe {
      * @param habilidades propiedad obtenida del objeto de personaje
      */
     public void sethabilidades(String[]habilidades){
+        this.habilidades = new String[5];
         int numHabilidades = habilidades.length; //Cuenta el total de habilidades que tiene en total el personaje
         //si superan el valor de 5 que fue el que le proporcionamos en en array, solo cogerá los 5 primeros valores
 
@@ -150,6 +149,7 @@ public class personaxe {
      * @param equipamiento
      */
     public void setequipamiento(String[]equipamiento){
+        this.equipamiento = new String[5];
         int numEquipamientos = equipamiento.length; //Cuenta el total de habilidades que tiene en total el personaje
         //si superan el valor de 5 que fue el que le proporcionamos en en array, solo cogerá los 5 primeros valores
 
