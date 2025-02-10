@@ -141,6 +141,10 @@ public class personaxe {
 
     }//end setHabilidades
 
+    public String[] getHabilidades(){
+        return habilidades;
+    }//end getHabilidades
+
     /**
      * Define el funcionamiento del equipamiento
      * @param equipamiento
@@ -158,6 +162,10 @@ public class personaxe {
             this.equipamiento[i] = equipamiento[i];
         }//end for
     }//end setEquipamiento
+
+    public String[] getEquipamiento(){
+            return equipamiento;
+    }//end getEquipamiento
 
     /**
      * Metodo principal de la clase
