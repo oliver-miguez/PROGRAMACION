@@ -2,6 +2,10 @@ public class Punto {
     private double x;
     private double y;
 
+    /*
+    CONSTRUCTORES
+     */
+
     public Punto(){
         x = 0;
         y = 0;
@@ -25,7 +29,9 @@ public class Punto {
     }//endPunto
 
 
-    //SETS Y GETS
+    /*
+    SETS Y GETS
+    */
 
     public void setX(double x){
         if(x >= 0 ) this.x = x;
