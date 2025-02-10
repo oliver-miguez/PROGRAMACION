@@ -24,12 +24,18 @@ public class Punto {
     }//endPunto
 
 
-    //SETERS Y GETERS
+    //SETS Y GETS
 
     public void setX(double x){
         if(x >= 0 ) this.x = x;
         else x = 0;
     }//end setX
+
+    public void setX(int x){//para comprobar que se pueden hacer sets de los mismos valores pero de distintos tipos
+        if(x >= 0 ) this.x = x;
+        else x = 0;
+    }//end setX
+
     public double getX (){
         return x;
     }//end getX
@@ -38,6 +44,12 @@ public class Punto {
         if(y >= 0 ) this.y = y;
         else y = 0;
     }//end setY
+
+    public void setY(int y){ //para comprobar que se pueden hacer sets de los mismos valores pero de distintos tipos
+        if(y >= 0 ) this.y = y;
+        else y = 0;
+    }//end setY
+
     public double getY (){
         return y;
     }//end getY
