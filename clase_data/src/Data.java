@@ -6,14 +6,12 @@ public class Data {
     private int dia ;
     private int mes ;
     private int ano ;
-    private String data;
 
     //constructor de la clase
-    public Data(int dia, int mes , int ano , String data){
-        setDia(dia);
-        setMes(mes);
+    public Data(int dia, int mes , int ano ){
         setAno(ano);
-        setData(data);
+        setMes(mes);
+        setDia(dia);
     }//end Data
 
 
@@ -26,10 +24,7 @@ public class Data {
     }//end getDia
 
     public void setDia(int dia) {
-        int[]diaMes = {31,28,31,30,31,30,31,31,30,31,30,31}; //dias totales de cada mes
-        int diasMax = diaMes [ mes - 1 ];
-        if ((eBisiesto() == true) && mes == 2) diasMax = 29;
-        if (dia > 0 && dia < diasMax + 1) this.dia = dia;
+        if (dia > 0 && dia < diasMes() + 1) this.dia = dia; //coge el valor diasMes del metodo
         else this.dia = 1;
     }//end setDia
 
@@ -54,13 +49,6 @@ public class Data {
     }//end setAno
 
 
-    public String getData() {
-        return data;
-    }//end getData
-
-    public void setData(String data) {
-        this.data = data;
-    }//end setData
 
     //END SETTERS Y GETTERS
 
@@ -72,9 +60,10 @@ public class Data {
      * @return true si es bisiesto o false si no lo es
      */
     private boolean eBisiesto(){
-        if((ano % 4 == 0) && (ano % 100 == 0) ||(ano % 400 == 0)) return  true;
+        if((ano % 4 == 0) && (ano % 100 != 0) ||(ano % 400 == 0)) return  true;
             else return false;
     }//end eBisiesto
+
 
     /**
      * Permite incrementar el dia en 1
@@ -86,6 +75,14 @@ public class Data {
         return diasMes;
     }//end incrementarDia
 
+
+    public void incrementarDia(){
+        if(dia == diasMes()){
+            dia = 1;
+            incrementarMes();
+        }//end if
+        else dia++;
+    }//end incrementarDia
 
     /**
      * Permite incrementar en 1 el mes
@@ -107,6 +104,9 @@ public class Data {
         ano++;
     }//end incrementarAno
 
+    public void mostrarData(){
+        System.out.println(dia+"/"+ mes+ "/"+ ano);
+    }//end mostrarData
 
 
 }//end class
