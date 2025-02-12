@@ -10,14 +10,18 @@ public class Main {
     public static void main(String[] args) {
 
         //FECHA ACTUAL
-        int diaOriginal = 29;
+        int diaOriginal = 28;
         int mesOriginal = 2;
         int anoOriginal = 2034;
         String data = diaOriginal+"/"+ mesOriginal+ "/"+ anoOriginal;
+        String nuevaData = "";
 
         //Muestra la data original para comparar y verificar los métodos
         Data nueva = new Data(diaOriginal, mesOriginal, anoOriginal,data);
         System.out.println(nueva.getData());
+
+        //Incrementos
+
 
 
     }//end main
