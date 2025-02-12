@@ -3,13 +3,13 @@
  * @author Oliver Miguez Alonso
  */
 public class Data {
-    private int dia;
-    private int mes;
-    private int ano;
+    private int dia ;
+    private int mes ;
+    private int ano ;
     private String data;
 
     //constructor de la clase
-    public Data(){
+    public Data(int dia, int mes , int ano , String data){
         setDia(dia);
         setMes(mes);
         setAno(ano);
