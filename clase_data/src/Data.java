@@ -65,7 +65,6 @@ public class Data {
     //END SETTERS Y GETTERS
 
 
-
     //MÉTODOS
 
     /**
@@ -76,6 +75,16 @@ public class Data {
         if((ano % 4 == 0) && (ano % 100 == 0) ||(ano % 400 == 0)) return  true;
             else return false;
     }//end eBisiesto
+
+    /**
+     * Permite incrementar el dia en 1
+     */
+    private int diasMes(){
+        int[]diaMaxMes = {31,28,31,30,31,30,31,31,30,31,30,31}; //dias totales de cada mes
+        int diasMes = diaMaxMes [ mes - 1 ];
+        if ((eBisiesto() == true) && mes == 2) diasMes = 29;
+        return diasMes;
+    }//end incrementarDia
 
 
     /**
