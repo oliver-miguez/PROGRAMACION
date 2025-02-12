@@ -77,12 +77,27 @@ public class Data {
             else return false;
     }//end eBisiesto
 
+
+    /**
+     * Permite incrementar en 1 el mes
+     */
+    public void incrementarMes(){
+        if ( mes == 12){
+            mes = 1;
+            incrementarAno();
+        }//end if
+        else{
+            mes ++;
+        }//end else
+    }//end incrementarMes
+
     /**
      * Aumenta en 1 el año
      */
     public void incrementarAno(){
         ano++;
     }//end incrementarAno
+
 
 
 }//end class
