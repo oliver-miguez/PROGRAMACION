@@ -54,6 +54,10 @@ public class Circulo extends Punto{ //crea una clase circulo que hereda todo de 
          return perimetro;
     }//end calculoPerimetro
 
+    public String toString(){
+        return "O centro do circulo é : "+ super.toString() +" \n O radio é " + radio; //el super.toString coge el toString de la clase "Punto"
+    }//end toString
+
 
 
 
