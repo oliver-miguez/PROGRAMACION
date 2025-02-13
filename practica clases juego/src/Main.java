@@ -26,5 +26,17 @@ public class Main {
         System.out.println(p1); //utiliza el metodo toString modificado en la propia clase para que nos muestre el resultado de las coordenadas
 
 
+        //Pruebas con clase círculo
+        Circulo circulo1 = new Circulo(1,2,3);
+
+        System.out.print("El radio de la circunferencia es: ");
+        System.out.println(circulo1.calculoDiametro());
+
+        System.out.print("El area del circulo es :");
+        System.out.println(circulo1.calculoArea());
+
+        System.out.print("El perimetro del circulo es :");
+        System.out.println(circulo1.calculoPerimetro());
+
     }//end main
 }//end class
