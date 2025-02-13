@@ -92,9 +92,6 @@ public class Data {
         else return false;
     }//end dataIgual
 
-//    public boolean compare(Data outraData){
-//
-//    }//end compare
 
 
 
