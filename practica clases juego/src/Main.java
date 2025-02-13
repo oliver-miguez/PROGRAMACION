@@ -27,7 +27,13 @@ public class Main {
 
 
         //Pruebas con clase círculo
-        Circulo circulo1 = new Circulo(1,2,3);
+        Circulo circulo1 = new Circulo(5,4,3);
+
+        //utilizar toString directa e indirectamente
+        System.out.println(circulo1.toString());
+        //System.out.println(circulo1);
+
+        System.out.println("Coordenadas  X de circulo 1: " + circulo1.getX()); //hereda el metodo de getX de la clase punto
 
         System.out.print("El radio de la circunferencia es: ");
         System.out.println(circulo1.calculoDiametro());
