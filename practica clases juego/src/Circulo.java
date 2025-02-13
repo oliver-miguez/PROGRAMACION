@@ -7,9 +7,13 @@ public class Circulo extends Punto{ //crea una clase circulo que hereda todo de 
     //declaración de propiedades
     private double radio;
 
-    //constructor
+    //CONSTRUCTOR
+    //Para definir al constructor necesitamos los variables de la superclase "Punto"
     public Circulo (double x, double y, double r){
-        super ( x, y); //inicializa una superclase
+
+        super (x, y); //inicializa una superclase, hace referencia a la clase que hereda --> this.Punto(x,y)
+
+        setRadio(r);
 
     }//end constructor
 }//end Circulo
