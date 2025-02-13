@@ -61,4 +61,10 @@ public class Punto {
         return y;
     }//end getY
 
+    //reescribimos la variable equals que afecta en la main , para comparar los dos puntos
+    public boolean equals(Punto outroPunto){
+        if((x == outroPunto.x) && y == outroPunto.y ) return true;
+        else return false;
+    }//end equals
+
 }//end class
