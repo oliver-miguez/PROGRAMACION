@@ -13,7 +13,7 @@ public class Circulo extends Punto{ //crea una clase circulo que hereda todo de 
 
         super (x, y); //inicializa una superclase, hace referencia a la clase que hereda --> this.Punto(x,y)
 
-        radio = r;
+        radio = r; // ¡OJO VA A DAR ERROR DE HERENCIA! Una buena técnica, que evita problemas es usar get y set (esto es una práctica)
 
     }//end constructor
 }//end Circulo
