@@ -44,5 +44,14 @@ public class Main {
         System.out.print("El perimetro del circulo es :");
         System.out.println(circulo1.calculoPerimetro());
 
+        /*
+         todo
+         1-getters y setters
+         2-extender circulo
+         3-robustecer la calidad de datos que nos da
+         4-Revisar si al introducir valores negativos se fastidia el programa
+         */
+
+
     }//end main
 }//end class
