@@ -1,3 +1,7 @@
+/**
+ * Muestra unas coordenadas
+ * @author Oliver Miguez Alonso
+ */
 public class Punto {
     private double x;
     private double y;
@@ -62,12 +66,17 @@ public class Punto {
     }//end getY
 
 
-    //METODOS DE OBJET (equals)
+    //METODOS DE OBJET (equals, toString)
 
     //reescribimos la variable equals que afecta en la main , para comparar los dos puntos
     public boolean equals(Punto outroPunto){
         if((x == outroPunto.x) && (y == outroPunto.y) ) return true;
         else return false;
     }//end equals
+
+    public String toString(){
+        //el this.getClass() coge la propia clase de Punto y el getName muestra el nombre de Punto por pantallla
+        return "A coordenada x  da clase " + this.getClass().getName() +" é : " +x + "  \nA coordenada y é : " + y;
+    }//end toString
 
 }//end class

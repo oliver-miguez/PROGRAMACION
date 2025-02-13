@@ -11,7 +11,7 @@ public class Main {
         System.out.println("A velocidade de goku e : " +goku.getVelocidade()); //consulta a propiedade velocidade en Personaxe
 
 
-        Punto p1 = new Punto(0,0);
+        Punto p1 = new Punto(1,7);
         Punto p2 = new Punto(-15); //como solo permite valores negativos lo iguala a 0
 
         p1.setX(-10);
@@ -22,6 +22,8 @@ public class Main {
 
         //devuelve verdadero o falso en caso de que sean o no iguales, sin embargo va a dar error aunque cambie el valor de -15 a 0
         System.out.println(p1.equals(p2));
+
+        System.out.println(p1); //utiliza el metodo toString modificado en la propia clase para que nos muestre el resultado de las coordenadas
 
 
     }//end main
