@@ -3,10 +3,12 @@
  * @author Oliver Miguez Alonso
  */
 public class Circulo extends Punto{ //crea una clase circulo que hereda todo de la clase punto
+
     //declaración de propiedades
+    private double radio;
 
     //constructor
-    public Circulo (){
+    public Circulo (double x, double y, double r){
 
     }//end constructor
 }//end Circulo
