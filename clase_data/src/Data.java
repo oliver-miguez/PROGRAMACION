@@ -79,6 +79,8 @@ public class Data {
         return "A data é " + dia+"/"+ mes + "/"+ ano;
     }//end toString
 
+    //FUNCIONES QUE DESEMPEÑA LA CLASE OBJET DE STRING ; TENEMOS QUE DEFINIRLA EN LA CLASE
+
     /*
      el data que hay de variable es el objeto Data que pertenece a la
      clase que creamos Data, el cual al igual que la clase contiene también el dia el mes y el año
@@ -89,6 +91,12 @@ public class Data {
         if((dia == outraData.dia) && ( mes == outraData.mes) && ( ano == outraData.ano))return  true;
         else return false;
     }//end dataIgual
+
+//    public boolean compare(Data outraData){
+//
+//    }//end compare
+
+
 
 
     public void incrementarDia(){
