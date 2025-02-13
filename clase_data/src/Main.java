@@ -15,6 +15,9 @@ public class Main {
         diaDeHoxe.incrementarMes();
         diaDeHoxe.incrementarAno();
         diaDeHoxe.mostrarData();
+
+        System.out.println(diaDeHoxe.toString());
+
         //Incrementos
 
 

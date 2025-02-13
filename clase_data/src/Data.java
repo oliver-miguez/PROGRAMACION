@@ -75,6 +75,21 @@ public class Data {
         return diasMes;
     }//end incrementarDia
 
+    public String toString(){
+        return "A data é " + dia+"/"+ mes + "/"+ ano;
+    }//end toString
+
+    /*
+     el data que hay de variable es el objeto Data que pertenece a la
+     clase que creamos Data, el cual al igual que la clase contiene también el dia el mes y el año
+
+     Compara los valores de las propiedades del objeto , y las compara con las propiedades de otro objeto
+     */
+    public boolean dataIgual(Data outraData){
+        if((dia == outraData.dia) && ( mes == outraData.mes) && ( ano == outraData.ano))return  true;
+        else return false;
+    }//end dataIgual
+
 
     public void incrementarDia(){
         if(dia == diasMes()){
