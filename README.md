@@ -51,6 +51,8 @@ Y por ultimo boletines como:
 
 [Boletin 8.3](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin%208.3)
 
+Ademas de varios ejercicios fuera de boletines practicando clases y métodos 
+
 Centrados principalmente en programar directamente en el IDE
 
 # Primer Trimestre
