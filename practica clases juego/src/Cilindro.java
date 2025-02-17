@@ -9,6 +9,16 @@ public class Cilindro extends Circulo{
         setAltura(h);
     }//end cilindro
 
+    /*
+    TODO
+    Método de cilindro
+    1-Punto Radio Altura
+
+    2-Circulo Altura
+
+    Nuevas Clases
+    TODO -crear clase Prisma(como cubo, etc) y clase esfera con sus distintos métodos
+    */
 
     public double getAltura() {
         return altura;
