@@ -91,7 +91,10 @@ https://github.com/oliver-miguez/PROGRAMACION/tree/main/Examen2
 ### En este examen entraron las siguientes cosas:
 
 1-Clase String
-1-Clase Character 
+
+2-Clase Character 
+
+### Examen acabado: 
 
 
 ## IDE
