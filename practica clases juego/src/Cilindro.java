@@ -2,12 +2,14 @@ public class Cilindro extends Circulo{
 
 
     private double altura;
+    //CONSTRUCTORES
 
-    //CONSTRUCTOR
+    //Constructor que recibe los valores de Círculo y incluye la altura
     public Cilindro(double x, double y, double r,double h) {
         super(x, y, r);
         setAltura(h);
     }//end cilindro
+
 
     /*
     TODO
@@ -43,6 +45,7 @@ public class Cilindro extends Circulo{
 
     }//end calculoArea
 
+    @Override
     public String toString(){
         return "O cilindro ten: \n" +super.toString() + "\n" + " \nAltura "+ altura;
 
