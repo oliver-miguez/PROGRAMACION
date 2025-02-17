@@ -11,8 +11,8 @@ public class Main {
         System.out.println("A velocidade de goku e : " +goku.getVelocidade()); //consulta a propiedade velocidade en Personaxe
 
 
-        Punto p1 = new Punto(1,7);
-        Punto p2 = new Punto(-15); //como solo permite valores negativos lo iguala a 0
+        Centro p1 = new Centro(1,7);
+        Centro p2 = new Centro(-15); //como solo permite valores negativos lo iguala a 0
 
         p1.setX(-10);
 
@@ -51,6 +51,7 @@ public class Main {
          3-robustecer la calidad de datos que nos da
          4-Revisar si al introducir valores negativos se fastidia el programa
          */
+
 
 
     }//end main

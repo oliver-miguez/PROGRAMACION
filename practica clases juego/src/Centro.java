@@ -2,7 +2,7 @@
  * Muestra unas coordenadas
  * @author Oliver Miguez Alonso
  */
-public class Punto {
+public class Centro {
     private double x;
     private double y;
 
@@ -10,24 +10,24 @@ public class Punto {
     CONSTRUCTORES
      */
 
-    public Punto(){
+    public Centro(){
         x = 0;
         y = 0;
     }//endPunto
-    public Punto(double w){
+    public Centro(double w){
         setX(w);
         setY(w);
     }//endPunto
-    public Punto(int w){
+    public Centro(int w){
         setX(w);
         setY(w);
     }//endPunto
-    public Punto(double x, double y){
+    public Centro(double x, double y){
         setX(x);
         setY(y);
 
     }//endPunto
-    public Punto(int x, int y){
+    public Centro(int x, int y){
         setX(x);
         setY(y);
     }//endPunto
@@ -69,7 +69,7 @@ public class Punto {
     //METODOS DE OBJET (equals, toString)
 
     //reescribimos la variable equals que afecta en la main , para comparar los dos puntos
-    public boolean equals(Punto outroPunto){
+    public boolean equals(Centro outroPunto){
         if((x == outroPunto.x) && (y == outroPunto.y) ) return true;
         else return false;
     }//end equals

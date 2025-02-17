@@ -1,8 +1,10 @@
+import org.w3c.dom.css.CSSImportRule;
+
 /**
  * Distintas operaciones que se pueden realizar con un círculo
  * @author Oliver Miguez Alonso
  */
-public class Circulo extends Punto{ //crea una clase circulo que hereda todo de la clase punto
+public class Circulo extends Centro { //crea una clase circulo que hereda todo de la clase punto
 
 
 
@@ -18,6 +20,28 @@ public class Circulo extends Punto{ //crea una clase circulo que hereda todo de 
         radio = r; // ¡OJO VA A DAR ERROR DE HERENCIA! Una buena técnica, que evita problemas es usar get y set (esto es una práctica)
 
     }//end constructor
+
+//    public Circulo(){
+//        super();
+//        radio = 0;
+//    }
+//
+//
+//    public Circulo (int x , int y , int r){
+//        super(x, y);
+//        radio = r;
+//    }
+//    public Circulo(double w, double r){
+//        super(w, w);
+//        radio = r;
+//    }
+//
+//    public Circulo(int x, int y,int r){
+//        super(x, y);
+//        radio = r;
+//    }
+//
+
 
     public double getRadio() {
         return radio;
@@ -54,6 +78,8 @@ public class Circulo extends Punto{ //crea una clase circulo que hereda todo de 
          return perimetro;
     }//end calculoPerimetro
 
+
+    @Override
     public String toString(){
         return "O centro do circulo é : "+ super.toString() +" \n O radio é " + radio; //el super.toString coge el toString de la clase "Punto"
     }//end toString
