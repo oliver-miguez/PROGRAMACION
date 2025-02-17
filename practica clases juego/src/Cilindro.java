@@ -26,4 +26,15 @@ public class Cilindro extends Circulo{
     public double volumenCilindro(){
         return calculoArea() * altura;
     }//end cilindro
+
+
+    public double calculoSuperficie(){
+        return 2 * super.calculoArea() + super.calculoPerimetro() * altura;
+
+    }//end calculoArea
+
+    public String toString(){
+
+    }//end toString
+
 }//end class
