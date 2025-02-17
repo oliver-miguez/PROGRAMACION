@@ -4,8 +4,9 @@ public class Cilindro extends Circulo{
     private double altura;
 
     //CONSTRUCTOR
-    public Cilindro(double x, double y, double r) {
+    public Cilindro(double x, double y, double r,double h) {
         super(x, y, r);
+        altura = h;
     }//end cilindro
 
 
