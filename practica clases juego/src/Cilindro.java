@@ -34,7 +34,7 @@ public class Cilindro extends Circulo{
     }//end calculoArea
 
     public String toString(){
-        return "O cilindro ten: \n" +super.toString() + "\n" + "\nAltura"+ altura;
+        return "O cilindro ten: \n" +super.toString() + "\n" + " \nAltura "+ altura;
 
     }//end toString
 

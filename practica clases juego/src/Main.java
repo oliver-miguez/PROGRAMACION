@@ -44,8 +44,13 @@ public class Main {
         System.out.print("El perimetro del circulo es :");
         System.out.println(circulo1.calculoPerimetro());
 
-        Cilindro cilindro1 = new Cilindro(2,3,5,2);
-        System.out.println("El volumen del Cilindro es: " + cilindro1.volumenCilindro());
+
+        //PRUEBA DE CLASE CILINDRO
+
+        Cilindro cilindro1 = new Cilindro(2,3,4,5);
+        System.out.println(cilindro1.toString());
+        System.out.println("O volumen do Cilindro e: " + cilindro1.volumenCilindro());
+        System.out.println("A superficie do cilindro e " + cilindro1.calculoSuperficie());
 
 
     }//end main
