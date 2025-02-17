@@ -53,6 +53,8 @@ Y por ultimo boletines como:
 
 Centrados principalmente en programar directamente en el IDE
 
+# Primer Trimestre
+
 ## Primer examen de programación
 ### En este examen entraron las siguientes cosas:
 
