@@ -49,6 +49,8 @@ Y por ultimo boletines como:
 
 [Boletin 8.2](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin%208.2/src)
 
+[Boletin 8.3](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin%208.3)
+
 Centrados principalmente en programar directamente en el IDE
 
 ## Primer examen de programación
@@ -80,6 +82,16 @@ https://github.com/oliver-miguez/PROGRAMACION/tree/main/Examen_Programacion_1/sr
 ### Examen acabado:
 
 https://github.com/oliver-miguez/PROGRAMACION/tree/main/Examen2
+
+
+# Segundo Trimestre
+
+## Primer Examen
+
+### En este examen entraron las siguientes cosas:
+
+1-Clase String
+1-Clase Character 
 
 
 ## IDE
