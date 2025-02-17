@@ -6,7 +6,7 @@ public class Cilindro extends Circulo{
     //CONSTRUCTOR
     public Cilindro(double x, double y, double r,double h) {
         super(x, y, r);
-        altura = h;
+        setAltura(h);
     }//end cilindro
 
 
@@ -23,7 +23,6 @@ public class Cilindro extends Circulo{
      * @return el volumen
      */
     public double volumenCilindro(){
-        double volumen = calculoArea() * altura;
-        return volumen;
+        return calculoArea() * altura;
     }//end cilindro
 }//end class
