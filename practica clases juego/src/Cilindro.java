@@ -14,8 +14,9 @@ public class Cilindro extends Circulo{
         return altura;
     }//end get
 
-    public void setAltura(double altura) {
-        this.altura = altura;
+    public void setAltura(double h) {
+        if( h < 0 ) altura = 0; // si el valor de h es negativo lo transforma a 0 en caso contrario lo deja en positivo
+        else  altura = h;
     }//End set
 
     /**
