@@ -56,6 +56,7 @@ public class Main {
 
         //PRUEBA contaCorrente
 
+        System.out.println(ContaCorrente.getContadorContas());
 
         ContaCorrente cont1 = new ContaCorrente(1000,"123R","ES1231231","PEPIÑO",2);
         System.out.println(cont1.sacarDinero());
@@ -69,7 +70,7 @@ public class Main {
         ContaCorrente cont3 = new ContaCorrente(3000,"234F", "ES1234123123","PEPIÑA", 1);
         System.out.println(cont3.modificarDatos());
 
-        System.out.println("Total de contas rexistradas: "+ ContaCorrente.contadorContas);
+        System.out.println("Total de contas rexistradas: "+ ContaCorrente.getContadorContas());
 
 
     }//end main

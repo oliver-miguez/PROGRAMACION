@@ -9,7 +9,7 @@ public class ContaCorrente {
     private String nomeTitular;
     private String numeroConta;
     private  String nif;
-    public static int contadorContas = 0;
+    private static int contadorContas = 0;
 
 
     //CONSTRUCTOR
@@ -40,7 +40,7 @@ public class ContaCorrente {
     }
 
 
-
+    //como la varibale de contadorContas es estatica tenemos que definir el get y el set como estaticos a diferencia del resto
     public static int getContadorContas() {
         return contadorContas;
     }
@@ -48,6 +48,10 @@ public class ContaCorrente {
         ContaCorrente.contadorContas = contadorContas;
     }
 
+/*
+TODO
+1- REVISAR EL SET NIF Y EL METODO DE MODIFICACION DE DATOS PORQUE EL NIF NO LO REALIZA CORRECTAMENTE
+ */
 
     public String getNif() {
         return nif;
@@ -69,6 +73,7 @@ public class ContaCorrente {
         }//end else
 
     }//end setnif
+
 
 
     public String getNumeroConta() {
