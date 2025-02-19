@@ -53,5 +53,24 @@ public class Main {
         System.out.println("A superficie do cilindro e " + cilindro1.calculoSuperficie());
 
 
+
+        //PRUEBA contaCorrente
+
+
+        ContaCorrente cont1 = new ContaCorrente(1000,"123R","ES1231231","PEPIÑO",2);
+        System.out.println(cont1.sacarDinero());
+
+
+        ContaCorrente cont2 = new ContaCorrente(2000,"234F", "ES1234123123","PEPIÑA", 1);
+        System.out.println(cont2.ingresarDiñeiro());
+
+
+
+        ContaCorrente cont3 = new ContaCorrente(3000,"234F", "ES1234123123","PEPIÑA", 1);
+        System.out.println(cont3.modificarDatos());
+
+        System.out.println("Total de contas rexistradas: "+ ContaCorrente.contadorContas);
+
+
     }//end main
 }//end class
