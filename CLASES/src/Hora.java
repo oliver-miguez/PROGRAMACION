@@ -1,18 +1,16 @@
 public class Hora {
-
-
     //PARÁMETROS
+    enum FormatoHora {DOCE, VINTECATRO} //Fuerza a la variable a tener uno de los dos valors
+
+    private  FormatoHora formato;
     private int horas;
-
-
     private int minutos;
-
-
     private int segundos;
 
 
     //CONSTRUCTOR
-    public Hora(int h, int m, int s){
+    public Hora(int h, int m, int s , String formato){
+        setFormato(formato);
         setHoras(h);
         setMinutos(m);
         setSegundos(s);
@@ -46,4 +44,34 @@ public class Hora {
         if (segundos >= 0 && segundos < 60) this.segundos = segundos;
         else this.segundos = 0;
     }
+
+    public FormatoHora getFormato() {
+        return formato;
+    }
+
+    public void setFormato(String formato) {
+        if(formato.toUpperCase().equals("DOCE")||formato.toUpperCase().equals("VINTECATRO")){
+            this.formato = FormatoHora.valueOf(formato);
+        }
+        else {
+            if (formato.equals("12")){
+                this.formato = FormatoHora.DOCE;
+            }
+            else this.formato = FormatoHora.VINTECATRO;
+        }
+    }
+
+    @Override
+    public String toString(){
+        String cadeaHora;
+        if(formato == FormatoHora.VINTECATRO){
+         cadeaHora = ("A hora é: "+ horas+ ":"+ minutos+ ":"+ segundos);
+        }//end if
+        else {
+            if (horas > 11) cadeaHora = ("A hora é: "+ (horas - 12)+ ":"+ minutos+ ":"+ segundos+"PM");
+            else cadeaHora = ("A hora é: "+ horas+ ":"+ minutos+ ":"+ segundos + "AM");
+        }//end else
+        return cadeaHora;
+    }//toString
+
 }//end class
