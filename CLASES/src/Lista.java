@@ -19,12 +19,11 @@ public class Lista {
     // CONSTRUCTOR
     public Lista() {
         this.taboa = new int[0]; //Inicializa el array a 0 elementos
-        this.numElementos = 0;
     }
 
     // OBTENER NÚMERO DE ELEMENTOS
-    public int obterNumeroDeElementos() {
-        return numElementos; //Devuelve el número de elementos de la lista (tamaño del array)
+    public int numeroDeElementos() {
+        return taboa.length;
     }//end obterNumeroDeElementos
 
 
@@ -35,13 +34,23 @@ public class Lista {
         int[] nuevaTaboa = new int[numElementos + 1];
         System.arraycopy(taboa, 0, nuevaTaboa, 0, taboa.length); //crea un nuevo array a partir de otro array copiando los elementos de uno a otro
 
-        //lista = Arrays.copyOf(lista, lista.length + 1); //Otra forma de hacerlo
+        /*lista = Arrays.copyOf(lista, lista.length + 1); //Otra forma de hacerlo*/
         //lista = Arrays.copyOf(lista, numElementos + 1); //Otra forma de hacerlo
 
-        nuevaTaboa[numElementos-1] = numero;
-        taboa = nuevaTaboa;
-        numElementos++;
-    }
+        taboa [taboa.length] = numero;
+    }//end insertarNumeroFinal
 
+
+
+
+    public int retirarElemento(){
+        if (taboa.length == 0) return -1;
+        else{
+            int[] nuevaTaboa = new int[numElementos - 1];
+            System.arraycopy(taboa, 0, nuevaTaboa, 0, taboa.length - 1);
+            return taboa[taboa.length - 1];
+
+        }//end else
+    } //end retirarElemento
 
 }
