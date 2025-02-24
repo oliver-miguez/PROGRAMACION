@@ -70,7 +70,7 @@ public class Lista2 {
     }//end engadirPrimeiro
 
     /**
-     * Muestra la lista
+     * Recorre todos los valores y los muestra
      */
     public void listar(){
     }//end listar
