@@ -4,7 +4,7 @@ public class Node {
 
     public Node(int valor, Node nodoSeguinte){
         setValor(valor);
-        nodoSeguinte(nodoSeguinte);
+        setNodoSeguinte(nodoSeguinte);
 
     }//end Lista2
 
@@ -19,7 +19,7 @@ public class Node {
     public Node  getnodoSeguinte(){
         return nodoSeguinte;
     }
-    public void nodoSeguinte(Node nodoSeguinte){
+    public void setNodoSeguinte(Node nodoSeguinte){
         this.nodoSeguinte = nodoSeguinte;
     }
 

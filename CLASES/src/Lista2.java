@@ -53,6 +53,11 @@ public class Lista2 {
            while (nodoActual.getnodoSeguinte() != null){
                nodoActual = nodoActual.getnodoSeguinte();
            }//end while
+
+            nodoActual.setNodoSeguinte(novoNode);
+           tamaño++;
+
+
         }//end else
 
     }//end engadirUltimo
