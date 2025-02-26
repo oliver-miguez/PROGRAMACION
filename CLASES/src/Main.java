@@ -73,5 +73,9 @@ public class Main {
         System.out.println("Total de contas rexistradas: "+ ContaCorrente.getContadorContas());
 
 
+            Lista2 lista = new Lista2();
+            lista.engadirUltimo(5);
+            lista.engadirUltimo(7);
+            lista.engadirUltimo(-16);
     }//end main
 }//end class
