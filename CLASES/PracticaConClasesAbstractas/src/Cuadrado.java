@@ -19,8 +19,9 @@ public class Cuadrado extends Figura_Xeométrica{
         return lado;
     }//end getLado
 
-    public void setLado(double lado){
-        if(lado < 0) this.lado = Math.abs(lado); //si el lado es negativo se le asigna el valor absoluto,asegura siempre un valor positivo
+    public void setLado(double l){
+        if(l < 0) lado = Math.abs(l); //si el lado es negativo se le asigna el valor absoluto,asegura siempre un valor positivo
+        else lado = l;
     }//end setLado
 
     @Override

@@ -16,7 +16,7 @@ public  abstract class Figura_Xeométrica extends Punto_Abstracto {
         super(x, y);
     }//end constructor
 
-    //un perimetro en principio es indefinido
+    //un perímetro en principio es indefinido
     public double calcularPerimetro(){
         //mientras no se defina devuelve 0
         return 0.0;

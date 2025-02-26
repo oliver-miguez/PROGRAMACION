@@ -57,7 +57,7 @@ public class Main {
 
 
         //PRUEBA contaCorrente
-
+/*
         System.out.println(ContaCorrente.getContadorContas());
 
         ContaCorrente cont1 = new ContaCorrente(1000,"123R","ES1231231","PEPIÑO",2);
@@ -80,12 +80,12 @@ public class Main {
             lista.engadirUltimo(7);
             lista.engadirUltimo(-16);
 
-
+*/
         //PRUEBA DE CLASES ABSTRACTAS
 
         PuntoCentro punto1 = new PuntoCentro();
         Cuadrado cuadrado1 = new Cuadrado(2,3,5);
         System.out.println("superficie cadrado: "+ cuadrado1.calcularArea());
-        System.out.println(cuadrado1);
+        System.out.println("perimetro cadrado: "+ cuadrado1.calcularPerimetro());
     }//end main
 }//end class
