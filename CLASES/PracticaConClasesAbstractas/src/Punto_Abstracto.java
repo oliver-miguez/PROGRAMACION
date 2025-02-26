@@ -11,7 +11,7 @@
  *
  * @author Oliver Miguez Alonso
  */
-public class Punto_Abstracto {
+public abstract class Punto_Abstracto {
     //Atributos del objeto
     private double x;
     private double y;
@@ -50,5 +50,8 @@ public class Punto_Abstracto {
         else this.y = y;
     }//end setY
 
+    //MÉTODO ABSTRACTO DE LA CADENA
 
+    //tipo toString
+    public  abstract String aCadea();
 }// end class

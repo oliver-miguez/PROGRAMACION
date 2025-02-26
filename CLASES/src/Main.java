@@ -77,5 +77,10 @@ public class Main {
             lista.engadirUltimo(5);
             lista.engadirUltimo(7);
             lista.engadirUltimo(-16);
+
+
+        //Pracitca con clases abstractas
+        PuntoCentro punto1 = new PuntoCentro();
+
     }//end main
 }//end class
