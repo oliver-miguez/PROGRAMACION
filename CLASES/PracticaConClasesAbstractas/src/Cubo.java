@@ -1,3 +1,7 @@
+/**
+ * Clase Cubo que hereda de Solido y FiguraGeometrica
+ * @author Oliver Miguez Alonso
+ */
 public class Cubo extends Solido {
     private double lado;
 
