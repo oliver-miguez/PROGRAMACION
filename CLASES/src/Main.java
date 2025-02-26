@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 /**
  * Clase principal del juego
  * @author Oliver Migeuz Alonso
@@ -79,8 +81,11 @@ public class Main {
             lista.engadirUltimo(-16);
 
 
-        //Pracitca con clases abstractas
-        PuntoCentro punto1 = new PuntoCentro();
+        //PRUEBA DE CLASES ABSTRACTAS
 
+        PuntoCentro punto1 = new PuntoCentro();
+        Cuadrado cuadrado1 = new Cuadrado(2,3,5);
+        System.out.println("superficie cadrado: "+ cuadrado1.calcularArea());
+        System.out.println(cuadrado1);
     }//end main
 }//end class
