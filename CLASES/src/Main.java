@@ -46,6 +46,7 @@ public class Main {
         System.out.print("El perimetro del circulo es :");
         System.out.println(circulo1.calculoPerimetro());
 
+        System.out.println("____________________________________________________________________--");
 
         //PRUEBA DE CLASE CILINDRO
 
@@ -81,6 +82,8 @@ public class Main {
             lista.engadirUltimo(-16);
 
 */
+        System.out.println("____________________________________________________________________--");
+
         //PRUEBA DE CLASES ABSTRACTAS
 
         PuntoCentro punto1 = new PuntoCentro();
@@ -88,11 +91,24 @@ public class Main {
         System.out.println("superficie cadrado: "+ cuadrado1.calcularArea());
         System.out.println("perimetro cadrado: "+ cuadrado1.calcularPerimetro());
 
+        System.out.println("____________________________________________________________________--");
+
+
         Cubo cubo1  = new Cubo(5,3,2);
         System.out.println("Volumen del cubo: "+ cubo1.calcularVolumen());
         System.out.println("Area del cubo: "+ cubo1.calcularArea());
         System.out.println("Perimetro del cubo: "+ cubo1.calcularPerimetro()); // no deberia ser un metodo abstracto pero bueno
         System.out.println(cubo1.aCadea());
+
+        System.out.println("____________________________________________________________________--");
+
+        Can can1 = new Can("Ombongo",2);
+        System.out.println("Nome do can: "+can1.getNome());
+        System.out.println("Idade do can: "+can1.getIdade());
+        System.out.println(can1.cogerPalo());
+        can1.desprazarse();
+
+        System.out.println("____________________________________________________________________--");
 
     }//end main
 }//end class
