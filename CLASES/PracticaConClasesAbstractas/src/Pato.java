@@ -1,4 +1,4 @@
-public class Pato extends Animal{
+public class Pato extends Mamifero{
 
     //CONSTRUCTOR
     public Pato(String nome, int idade){
@@ -13,4 +13,9 @@ public class Pato extends Animal{
     public void desprazarse() {
         System.out.println("Nada pola auga");
     }//end metodo abstracti
+
+    @Override
+    public void parir() {
+        System.out.println("Es oviparo");
+    }
 }
