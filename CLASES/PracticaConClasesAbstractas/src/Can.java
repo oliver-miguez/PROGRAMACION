@@ -1,4 +1,4 @@
-public class Can extends Mamifero{
+public class Can extends Mamifero implements Son{
 
     public Can(String nome, int idade){
         super(nome, idade);
@@ -15,5 +15,10 @@ public class Can extends Mamifero{
     @Override
     public void parir() {
         System.out.println("Si es mamifero");
+    }
+
+    @Override
+    public void voz() {
+        System.out.println("Ehiiiiaaaaa");
     }
 }

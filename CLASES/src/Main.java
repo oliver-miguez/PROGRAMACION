@@ -110,5 +110,9 @@ public class Main {
 
         System.out.println("____________________________________________________________________--");
 
+        Can pepe = new Can("FungaFunga",3);
+        pepe.desprazarse();
+        pepe.voz();
+
     }//end main
 }//end class
