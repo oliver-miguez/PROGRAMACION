@@ -1,3 +1,5 @@
 public interface Son {
-    void voz();
+
+
+    public void voz();
 }
