@@ -12,7 +12,7 @@ public class Vivenda extends Inmobiliaria {
 
     //CONSTRUCTOR
 
-    public Vivenda(String direcion, int numero, String localidade, int prezo, boolean eAluguer, String portal, String piso, int numeroHabitacions, PlazaGaraxe plaza, String observacions) {
+    public Vivenda(String direcion, int numero, String localidade, int prezo, boolean eAluguer, String portal, String piso, int numeroHabitacions, PlazaGaraxe garaxe, String observacions) {
 
         super(direcion, numero, localidade, prezo, eAluguer);
         setNumeroHabitacions(numeroHabitacions);
