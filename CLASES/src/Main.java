@@ -110,9 +110,14 @@ public class Main {
 
         System.out.println("____________________________________________________________________--");
 
-        Can pepe = new Can("FungaFunga",3);
-        pepe.desprazarse();
-        pepe.voz();
+//        Can pepe = new Can("FungaFunga",3);
+//        pepe.desprazarse();
+//        pepe.voz();
+//    so
 
+        //APLICACION DE INTERFACES EXTENDIDAS ENTRE SO CON CLASE CANGURO
+        Canguro cang1 = new Canguro("Samuel", 3);
+        cang1.ronroneo();
+        cang1.voz();
     }//end main
 }//end class
