@@ -2,23 +2,23 @@ public class Traballador extends Asociacion{
 
     //PROPIEDADES
 
-    private int dataIngrso;
+    private int dataIngreso;
 
     //CONSTRUCTOR
-        public Traballador(String dni, String nombre, int dataIngrso){
+        public Traballador(String dni, String nombre, int dataIngreso){
             super(dni, nombre);
-            setDataIngrso(dataIngrso);
+            setDataIngreso(dataIngreso);
         }//end Constructor
 
 
     //GETTERS Y SETTERS
 
     public int getDataIngrso() {
-        return dataIngrso;
+        return dataIngreso;
     }//end getDataIngreso
 
-    public void setDataIngrso(int dataIngrso) {
-        this.dataIngrso = dataIngrso;
+    public void setDataIngreso(int dataIngrso) {
+        this.dataIngreso = dataIngrso;
     }//end setDataIngreso
 
 
@@ -27,7 +27,8 @@ public class Traballador extends Asociacion{
 
     @Override
     public String aCadea() {
-        return getDni()+ getNombre()+ dataIngrso;
+        return getDni()+ " " + getNombre()+ " " + dataIngreso;
+        // return super.aCadea + dataIngreso <--- Otra forma de hacerlo
     }//end a cadea
 
 
