@@ -15,7 +15,7 @@ public class Main {
         Vivenda vivenda1 = new Vivenda("Garcia borbon", 2,"Vigo", 1000, true, "segundo", "Terceiro ", 6,plaza1,"Nada");
         System.out.println(vivenda1);
 
-        Socioa
+
 
     }//end static
 }//end main
