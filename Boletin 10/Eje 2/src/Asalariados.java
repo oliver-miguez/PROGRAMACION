@@ -1,13 +1,13 @@
-public class Asalariados extends Traballador {
+public class Asalariados extends Traballador implements gastosIngresos {
 
     //PROPIEDADES
 
-    private String saldo;
+    private double saldo;
     private String cargo;
 
     //CONSTRUCTOR
 
-    public Asalariados(String dni, String nombre, int dataIngrso, String soldo, String cargo){
+    public Asalariados(String dni, String nombre, int dataIngrso, int soldo, String cargo){
         super(dni, nombre, dataIngrso);
         setSaldo(soldo);
         setCargo(cargo);
@@ -15,11 +15,11 @@ public class Asalariados extends Traballador {
 
     //GETTERS Y SETTERS
 
-    public String getSaldo() {
+    public double getSaldo() {
         return saldo;
     }//end getSaldo
 
-    public void setSaldo(String saldo) {
+    public void setSaldo(double saldo) {
         this.saldo = saldo;
     }//end setSaldo
 
@@ -31,6 +31,8 @@ public class Asalariados extends Traballador {
         this.cargo = cargo;
     }//end setCargo
 
-
-
+    @Override
+    public double gastosIngresos() {
+        return -saldo -saldo * 15 / 100;
+    }
 }//end class
