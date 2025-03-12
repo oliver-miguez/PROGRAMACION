@@ -1,5 +1,5 @@
 public interface calculoImporte {
 
-    int  calculadoraImporte();
+    double  calculadoraImporte();
 
 }//end interface

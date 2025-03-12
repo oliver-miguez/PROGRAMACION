@@ -1,4 +1,4 @@
-public class PrazasGaraxe extends Inmoviliaria {
+public class PrazasGaraxe extends Inmoviliaria implements calculoImporte {
     //PROPIEDADES
     private int ancho;
     private int largo;
@@ -49,4 +49,10 @@ public class PrazasGaraxe extends Inmoviliaria {
     public String aCadea() {
         return "A praza de garaxe localizase na rua: "+ getRua()+" de numero :"+ getNumero()+ " na localidade de : "+ getLocalidade()+ " con un precio de :"+ getPrezo()+" ademais esta para : "+ iseAlugada()+ " con un ancho de "+ ancho+ " e un largo de "+ largo;
     }//end aCadea
+
+
+    @Override
+    public double calculadoraImporte() {
+        return getPrezo() * 0.03;
+    }//end calculadora
 }//end class
