@@ -1,0 +1,128 @@
+Index: Boletin7.2/.idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Boletin7.2/.idea/modules.xml b/Boletin7.2/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1733299618769)
++++ b/Boletin7.2/.idea/modules.xml	(date 1733299618769)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/Boletin7.2.iml" filepath="$PROJECT_DIR$/Boletin7.2.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: Boletin7.2/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Boletin7.2/.idea/misc.xml b/Boletin7.2/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1733299618821)
++++ b/Boletin7.2/.idea/misc.xml	(date 1733299618821)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: Boletin7.2/Boletin7.2.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Boletin7.2/Boletin7.2.iml b/Boletin7.2/Boletin7.2.iml
+new file mode 100644
+--- /dev/null	(date 1733299618733)
++++ b/Boletin7.2/Boletin7.2.iml	(date 1733299618733)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: Boletin7.2/.idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Boletin7.2/.idea/vcs.xml b/Boletin7.2/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1733299678701)
++++ b/Boletin7.2/.idea/vcs.xml	(date 1733299678701)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: Boletin7.2/.idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Boletin7.2/.idea/.gitignore b/Boletin7.2/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1733299623265)
++++ b/Boletin7.2/.idea/.gitignore	(date 1733299623265)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: Boletin7.2/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Boletin7.2/.gitignore b/Boletin7.2/.gitignore
+new file mode 100644
+--- /dev/null	(date 1733299616573)
++++ b/Boletin7.2/.gitignore	(date 1733299616573)
+@@ -0,0 +1,29 @@
++### IntelliJ IDEA ###
++out/
++!**/src/main/**/out/
++!**/src/test/**/out/
++
++### Eclipse ###
++.apt_generated
++.classpath
++.factorypath
++.project
++.settings
++.springBeans
++.sts4-cache
++bin/
++!**/src/main/**/bin/
++!**/src/test/**/bin/
++
++### NetBeans ###
++/nbproject/private/
++/nbbuild/
++/dist/
++/nbdist/
++/.nb-gradle/
++
++### VS Code ###
++.vscode/
++
++### Mac OS ###
++.DS_Store
+\ No newline at end of file

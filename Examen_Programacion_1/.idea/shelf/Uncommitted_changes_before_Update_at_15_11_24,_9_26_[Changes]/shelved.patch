@@ -1,0 +1,204 @@
+Index: ../Boletin_7/src/eje_3.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/**\n * Modifica o programa anterior e engadelle un array cos nomes dos alumnos\n * Visualiza a nota dun alumno determinado.\n * Visualiza unha lista co nome dos alumnos aprobados.\n * Fai unha lista ordenada por orden crecente de notas.\n * Visualiza a nota dun alumno determinado que pides por teclado.\n */\npublic class eje_3 {\n    /**\n     * Método principal del programa.\n     *\n     * @param args no usamos\n     */\n    public static void main(String[] args) {\n        // Almacena las notas de todos los estudiantes\n        int[] notas = new int[30];\n        // Almacena los nombres de los estudiantes\n        String[] nomes = {\"Aitana\", \"Hugo\", \"Valeria\", \"Mateo\", \"Lucía\", \"Alejandro\", \"Sofía\", \"Lucas\", \"Martina\",\n                \"Daniel\", \"Paula\", \"Pablo\", \"Carla\", \"Diego\", \"Alba\", \"Marcos\", \"Noa\", \"Álvaro\", \"Emma\", \"Mario\",\n                \"Irene\", \"Adrián\", \"Laura\", \"Javier\", \"Claudia\", \"Sergio\", \"Ana\", \"Manuel\", \"Mónica\", \"David\"};\n\n        mostrarAprobados(notas, nomes);\n\n    }//end mais\n\n    /**\n     * Muestra los alumnos aprobados\n     * @param notas utiliza el array notas\n     * @param nomes utiliza el array de nomes\n     */\n    static void mostrarAprobados(int[] notas, String[] nomes) {\n        for (int j = 0; j < nomes.length; j++) { //Busca dentro de los valores del array nomes\n            notas[j] = (int) Math.floor(Math.random() * 10.0) + 1;//Para poner dar un valor a la nota de cada estudiante\n            if (notas[j] > 5) {//para verificar que solo muestre las notas aprobadas\n                System.out.println(nomes[j] + \" a sacado: \" + notas[j]);\n            }//end if\n        }//end for\n\n\n    }//end mostrarAprobados\n}//end class
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Boletin_7/src/eje_3.java b/../Boletin_7/src/eje_3.java
+--- a/../Boletin_7/src/eje_3.java	(revision 0db57069ec248bb5175cfbee729bf22072ae15a6)
++++ b/../Boletin_7/src/eje_3.java	(date 1731501978743)
+@@ -13,15 +13,15 @@
+      */
+     public static void main(String[] args) {
+         // Almacena las notas de todos los estudiantes
+-        int[] notas = new int[30];
++        int[] notas = new int[30];//Crea una lista en la que almacenara el valor de 30 notas distintas, una para cada persona
+         // Almacena los nombres de los estudiantes
+         String[] nomes = {"Aitana", "Hugo", "Valeria", "Mateo", "Lucía", "Alejandro", "Sofía", "Lucas", "Martina",
+                 "Daniel", "Paula", "Pablo", "Carla", "Diego", "Alba", "Marcos", "Noa", "Álvaro", "Emma", "Mario",
+                 "Irene", "Adrián", "Laura", "Javier", "Claudia", "Sergio", "Ana", "Manuel", "Mónica", "David"};
+ 
+-        mostrarAprobados(notas, nomes);
++        mostrarAprobados(notas, nomes);//muestra los alumnos aprobados
+ 
+-    }//end mais
++    }//end main
+ 
+     /**
+      * Muestra los alumnos aprobados
+@@ -30,12 +30,11 @@
+      */
+     static void mostrarAprobados(int[] notas, String[] nomes) {
+         for (int j = 0; j < nomes.length; j++) { //Busca dentro de los valores del array nomes
+-            notas[j] = (int) Math.floor(Math.random() * 10.0) + 1;//Para poner dar un valor a la nota de cada estudiante
++            notas[j] = (int) Math.floor(Math.random() * 10.0) + 1;//Da un valor aleatorio la nota de cada estudiante
+             if (notas[j] > 5) {//para verificar que solo muestre las notas aprobadas
+                 System.out.println(nomes[j] + " a sacado: " + notas[j]);
+             }//end if
+         }//end for
+-
+-
+     }//end mostrarAprobados
++
+ }//end class
+\ No newline at end of file
+Index: ../Practica Switch/src/prueba_eje_2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.Scanner;//para poder introducir cosas por consola\n/**\n * Convierte el numero introducido del 0 al 99 en su equivalente en letra\n * @version 1.0\n * @author Oliver Miguez Alonso\n */\npublic class prueba_eje_2 {\n    public static void main(String[] args) {\n\n        //Guarda los datos introducidos por consola\n        Scanner a = new Scanner(System.in);\n\n        //Guarda el valor de decena\n        String decenas_guardar = \"\";\n\n        //Guarda el valor de unidades\n        String unidades_guardar = \"\";\n\n\n\n        //para guardar los valores introducidos\n        int unidad;\n        int decena;\n\n        //Para preguntar sobre los numero que se van a introducir por consola\n        System.out.println(\"Introduce tu decena del 1-9: \");\n        decena = a.nextInt();//para guardar el numero introducido en el anterior System.out.println\n        System.out.println(\"introduce la unidad del 0-9\");\n        unidad = a.nextInt();\n\n// guardar el valor de las decenas\n        switch (decena){\n            //si la decena es 0\n            case 0:\n                if(decena==0){\n                    decena =0;\n                    System.out.println(\"cero\");\n                    break;\n                }\n            case 1: // casos especiales\n                if (decena == 1)\n                {\n                    if(unidad == 1){\n                        System.out.println(\"Once\");\n                    }\n                    if(unidad == 2){\n                        System.out.println(\"Doce\");\n                    }\n\n                    if(unidad == 3){\n                        System.out.println(\"Trece\");\n                    }\n                    if (unidad == 4){\n                        System.out.println(\"Catorce\");\n                    }\n                    if(unidad == 5){\n                        System.out.println(\"Quince\");\n                    }\n\n\n                    else{\n                        if (decena !=0) {\n                            decenas_guardar = (\"Diez\");\n                        }\n                        else{\n                            System.out.println(unidades_guardar);\n                        }\n                    }\n\n                }\n                break;\n\n                //para explicar los multiplos de diez\n            case 2:\n                decenas_guardar = (\"Veinte\");\n                break;\n            case 3:\n                decenas_guardar = (\"Trenta\");\n                break;\n\n            case 4:\n                decenas_guardar = (\"Cuarenta\");\n                break;\n\n            case 5:\n                decenas_guardar = (\"Cincuenta\");\n                break;\n            case 6:\n                decenas_guardar = (\"Sesenta\");\n                break;\n            case 7:\n                decenas_guardar = (\"Setenta\");\n                break;\n            case 8:\n                decenas_guardar = (\"Ochenta\");\n                break;\n            case 9:\n                decenas_guardar = (\"Noventa\");\n                break;\n\n\n\n            }//swich decena\n\n\n // guardar el valor  de la unidades\n        switch (unidad){\n\n            case 1:\n                if (decena != 0){//para la unidad de un numero que tenga decena\n                    unidades_guardar = (\"iuno\");\n                }\n                else{\n                    System.out.println(\"uno\");//para un numero que no tenga decena, solo la unidad\n                }\n                break;\n\n                case 2:\n                if (decena != 0){\n                    unidades_guardar = (\"idos\");\n\n                }\n               else{\n                   System.out.println(\"dos\");\n                }\n                break;\n\n            case 3:\n                if (decena != 0){\n                    unidades_guardar = (\" itres\");\n                }\n                else{\n                    System.out.println(\"tres\");\n                }\n                break;\n\n            case 4:\n                if (decena != 0){\n                    unidades_guardar = (\"icuatro\");\n                }\n                else{\n                    System.out.println(\"cuatro\");\n                }\n                break;\n\n            case 5:\n                if (decena != 0){\n                    unidades_guardar = (\"icinco\");\n                }\n                else{\n                    System.out.println(\"cinco\");\n                }\n                break;\n\n            case 6:\n                if (decena != 0){\n                    unidades_guardar = (\"iseis\");\n                }\n                else{\n                    System.out.println(\"seis\");\n                }\n                break;\n\n            case 7:\n                if (decena != 0){\n                    unidades_guardar = (\"isiete\");\n                }\n                else{\n                    System.out.println(\"siete\");\n                }\n                break;\n\n            case 8:\n                if (decena != 0){\n                    unidades_guardar = (\"iocho\");\n                }\n                else{\n                    System.out.println(\"ocho\");\n                }\n                break;\n\n            case 9:\n                if (decena != 0){\n                    unidades_guardar = (\"inueve\");\n                }\n                else{\n                    System.out.println(\"nueve\");\n                }\n                break;\n        }//swich unidad\n\n        //Print del resultado\n        System.out.println(decenas_guardar + unidades_guardar);\n\n    }//public class\n\n}//class
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Practica Switch/src/prueba_eje_2.java b/../Practica Switch/src/prueba_eje_2.java
+--- a/../Practica Switch/src/prueba_eje_2.java	(revision 0db57069ec248bb5175cfbee729bf22072ae15a6)
++++ b/../Practica Switch/src/prueba_eje_2.java	(date 1731483658928)
+@@ -1,9 +1,11 @@
+ import java.util.Scanner;//para poder introducir cosas por consola
++
+ /**
+  * Convierte el numero introducido del 0 al 99 en su equivalente en letra
+  * @version 1.0
+  * @author Oliver Miguez Alonso
+  */
++
+ public class prueba_eje_2 {
+     public static void main(String[] args) {
+ 
+@@ -16,11 +18,11 @@
+         //Guarda el valor de unidades
+         String unidades_guardar = "";
+ 
+-
+-
+         //para guardar los valores introducidos
+         int unidad;
+         int decena;
++        int numero;
++
+ 
+         //Para preguntar sobre los numero que se van a introducir por consola
+         System.out.println("Introduce tu decena del 1-9: ");
+@@ -108,7 +110,7 @@
+ 
+             case 1:
+                 if (decena != 0){//para la unidad de un numero que tenga decena
+-                    unidades_guardar = ("iuno");
++                    unidades_guardar = ("y uno");
+                 }
+                 else{
+                     System.out.println("uno");//para un numero que no tenga decena, solo la unidad
+@@ -117,7 +119,7 @@
+ 
+                 case 2:
+                 if (decena != 0){
+-                    unidades_guardar = ("idos");
++                    unidades_guardar = (" y dos");
+ 
+                 }
+                else{
+@@ -127,7 +129,7 @@
+ 
+             case 3:
+                 if (decena != 0){
+-                    unidades_guardar = (" itres");
++                    unidades_guardar = (" y tres");
+                 }
+                 else{
+                     System.out.println("tres");
+@@ -136,7 +138,7 @@
+ 
+             case 4:
+                 if (decena != 0){
+-                    unidades_guardar = ("icuatro");
++                    unidades_guardar = (" y cuatro");
+                 }
+                 else{
+                     System.out.println("cuatro");
+@@ -145,7 +147,7 @@
+ 
+             case 5:
+                 if (decena != 0){
+-                    unidades_guardar = ("icinco");
++                    unidades_guardar = (" y cinco");
+                 }
+                 else{
+                     System.out.println("cinco");
+@@ -154,7 +156,7 @@
+ 
+             case 6:
+                 if (decena != 0){
+-                    unidades_guardar = ("iseis");
++                    unidades_guardar = (" y seis");
+                 }
+                 else{
+                     System.out.println("seis");
+@@ -163,7 +165,7 @@
+ 
+             case 7:
+                 if (decena != 0){
+-                    unidades_guardar = ("isiete");
++                    unidades_guardar = (" y siete");
+                 }
+                 else{
+                     System.out.println("siete");
+@@ -172,7 +174,7 @@
+ 
+             case 8:
+                 if (decena != 0){
+-                    unidades_guardar = ("iocho");
++                    unidades_guardar = (" y ocho");
+                 }
+                 else{
+                     System.out.println("ocho");
+@@ -181,7 +183,7 @@
+ 
+             case 9:
+                 if (decena != 0){
+-                    unidades_guardar = ("inueve");
++                    unidades_guardar = (" y nueve");
+                 }
+                 else{
+                     System.out.println("nueve");
+Index: ../Boletin_6/src/eje_9_fibonacci.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Boletin_6/src/eje_9_fibonacci.java b/../Boletin_6/src/eje_9_fibonacci.java
+new file mode 100644
+--- /dev/null	(date 1731486762680)
++++ b/../Boletin_6/src/eje_9_fibonacci.java	(date 1731486762680)
+@@ -0,0 +1,9 @@
++public class eje_9_fibonacci {
++    public static void main(String[]args){
++
++    }//main
++    static void fib(){
++        long res =0;
++
++    }//end fib
++}//end class
+Index: ../Practicas/src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.Scanner;//permite introducir datos por consola\n\n/**\n * Apuntes\n *\n * @author Oliver Miguez Alonso\n */\npublic class Main {\n    /**\n     * Método principal del programa\n     *\n     * @param args no usamos\n     */\n    public static void main(String[] args) {\n        /*\n        Activa la funcion obterNome , provocando que te\n        pregunte por pantalla tu nombre tal como programamos en la funcion obterNome.\n         */\n        String nomeEstudante = obterNome();\n\n        saudo(1, \"gl\");//llama a la funcion saudo que cree\n        System.out.println(\"Benvido \" + nomeEstudante);\n        saudo(1, \"es\");\n        System.out.println(\"Bienvenido \" + nomeEstudante);\n        saudo(1, \"in\");\n        System.out.println(\"Welcome \" + nomeEstudante);\n\n\n    }//end static void\n\n    /**\n     * Sirve para hacer el saludo\n     *\n     * @param veces  Total de veces que ser repetira el saludo\n     * @param idioma Cada una de las opciones de veces\n     */\n    static void saudo(int veces, String idioma) {\n        for (int i = 0; i < veces; i++) {\n            System.out.println(\"ola\");\n            //Muestra que el idioma es gallego , castellano, ingles , en el static void Main\n            if (idioma.equals(\"gl\")) System.out.println(\"ola\");\n            else if (idioma.equals(\"es\")) System.out.println(\"HOLA\");\n            else if (idioma.equals(\"in\")) System.out.println(\"HELLo\");\n\n        }//end for\n    }//end saudo\n\n\n    //permite crear una funcion que te muestre datos String, en este caso se utiliza para preguntar y almacenar el nombre introducido\n    static String obterNome() {\n        Scanner sc = new Scanner(System.in);\n        System.out.println(\"Escribe o teu nome: \");\n        String nome = sc.next();\n        sc.close();\n        return nome;\n\n    }//end obterNome\n\n\n}//end class\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Practicas/src/Main.java b/../Practicas/src/Main.java
+--- a/../Practicas/src/Main.java	(revision 0db57069ec248bb5175cfbee729bf22072ae15a6)
++++ b/../Practicas/src/Main.java	(date 1731483658804)
+@@ -46,7 +46,11 @@
+     }//end saudo
+ 
+ 
+-    //permite crear una funcion que te muestre datos String, en este caso se utiliza para preguntar y almacenar el nombre introducido
++    /**
++     * permite crear una funcion que te muestre datos String, en este caso se utiliza para preguntar y almacenar el nombre introducido
++     *
++     * @return Nombre Introducido
++     */
+     static String obterNome() {
+         Scanner sc = new Scanner(System.in);
+         System.out.println("Escribe o teu nome: ");

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b2ed8323-ab50-4214-a04a-ad377a057dcc" name="Changes" comment="practicas con string 2.0">
+      <change beforePath="$PROJECT_DIR$/src/practica_con_strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practica_con_strings.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;oliver-miguez&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/oliver-miguez/PROGRAMACION.git&quot;,
+    &quot;accountId&quot;: &quot;306b1a8e-b034-434b-a3fc-31f3b620b77b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2o9JzBFilQzSo7DEoSHzs2jzJbe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.barcos.executor": "Run",
+    "Application.dous_numero_enteiros.executor": "Run",
+    "Application.eje_examen_b.executor": "Run",
+    "Application.funciones_numero_n_elevado_a_numero_m.executor": "Run",
+    "Application.practica_con_strings.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/dam/Escritorio/Programacion_subir_github/Practicas",
+    "onboarding.tips.debug.path": "/home/dam/Escritorio/Programacion_subir_github/Practicas/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2ed8323-ab50-4214-a04a-ad377a057dcc" name="Changes" comment="" />
+      <created>1730276118962</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730276118962</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Apunter y practicas">
+      <option name="closed" value="true" />
+      <created>1730277681026</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730277681026</updated>
+    </task>
+    <task id="LOCAL-00002" summary="dous_numero_enteiros">
+      <option name="closed" value="true" />
+      <created>1730280087002</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730280087002</updated>
+    </task>
+    <task id="LOCAL-00003" summary="aplicando consejos de COD">
+      <option name="closed" value="true" />
+      <created>1730294801037</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730294801037</updated>
+    </task>
+    <task id="LOCAL-00004" summary="aprender a elevar con el res y las funciones">
+      <option name="closed" value="true" />
+      <created>1730727825212</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730727825212</updated>
+    </task>
+    <task id="LOCAL-00005" summary="practicas con string">
+      <option name="closed" value="true" />
+      <created>1734509967045</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734509967045</updated>
+    </task>
+    <task id="LOCAL-00006" summary="practicas con string 2.0">
+      <option name="closed" value="true" />
+      <created>1734510888140</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734510888140</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Apunter y practicas" />
+    <MESSAGE value="dous_numero_enteiros" />
+    <MESSAGE value="aplicando consejos de COD" />
+    <MESSAGE value="aprender a elevar con el res y las funciones" />
+    <MESSAGE value="practicas con string" />
+    <MESSAGE value="practicas con string 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="practicas con string 2.0" />
+  </component>
+</project>

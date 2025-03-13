@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b99bf5d-2afe-4fd1-8e8e-ca7447672a59" name="Changes" comment="Boletin 2 extra">
+      <change afterPath="$PROJECT_DIR$/../Boletin_5/src/eje_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eje_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eje_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eje_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eje_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/eje_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Boletin_5/src/eje_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Boletin_5/src/eje_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica Switch/src/eje_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica Switch/src/eje_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica Switch/src/prueba_eje_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica Switch/src/prueba_eje_2.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;oliver-miguez&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/oliver-miguez/PROGRAMACION.git&quot;,
+    &quot;accountId&quot;: &quot;306b1a8e-b034-434b-a3fc-31f3b620b77b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2nFF2RHhX3AhAOtrtueBId33x6i" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Boletin_2_Extra [:eje_1.main()].executor": "Run",
+    "Gradle.Boletin_2_Extra [:eje_5.main()].executor": "Run",
+    "Gradle.Boletin_2_Extra [:org.example.eje_2.main()].executor": "Run",
+    "Gradle.Boletin_2_Extra [:org.example.eje_3.main()].executor": "Run",
+    "Gradle.Boletin_2_Extra [:org.example.eje_4.main()].executor": "Run",
+    "Gradle.Boletin_2_Extra [:org.example.eje_5.main()].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/dam/Escritorio/Programacion_subir_github/Boletin_5",
+    "onboarding.tips.debug.path": "/home/dam/Escritorio/Programacion_subir_github/Boletin_2_Extra/src/main/java/org/example/Main.java"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b99bf5d-2afe-4fd1-8e8e-ca7447672a59" name="Changes" comment="" />
+      <created>1728560711841</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728560711841</updated>
+    </task>
+    <task id="LOCAL-00001" summary="eje_1">
+      <option name="closed" value="true" />
+      <created>1728561397149</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728561397149</updated>
+    </task>
+    <task id="LOCAL-00002" summary="eje_2">
+      <option name="closed" value="true" />
+      <created>1728562204470</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728562204470</updated>
+    </task>
+    <task id="LOCAL-00003" summary="eje_3">
+      <option name="closed" value="true" />
+      <created>1728562651270</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728562651270</updated>
+    </task>
+    <task id="LOCAL-00004" summary="eje_4">
+      <option name="closed" value="true" />
+      <created>1728563362010</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728563362010</updated>
+    </task>
+    <task id="LOCAL-00005" summary="eje_5">
+      <option name="closed" value="true" />
+      <created>1728903981033</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728903981033</updated>
+    </task>
+    <task id="LOCAL-00006" summary=" arreglando eje_5">
+      <option name="closed" value="true" />
+      <created>1728904580783</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728904580783</updated>
+    </task>
+    <task id="LOCAL-00007" summary="COMENTARIOS">
+      <option name="closed" value="true" />
+      <created>1729235862748</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729235862748</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Boletin 2 extra">
+      <option name="closed" value="true" />
+      <created>1730121419291</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730121419291</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="eje_1" />
+    <MESSAGE value="eje_2" />
+    <MESSAGE value="eje_3" />
+    <MESSAGE value="eje_4" />
+    <MESSAGE value="eje_5" />
+    <MESSAGE value=" arreglando eje_5" />
+    <MESSAGE value="COMENTARIOS" />
+    <MESSAGE value="Boletin 2 extra" />
+    <option name="LAST_COMMIT_MESSAGE" value="Boletin 2 extra" />
+  </component>
+</project>

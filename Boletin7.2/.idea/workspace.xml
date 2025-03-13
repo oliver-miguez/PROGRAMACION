@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b9107477-270d-4334-a334-6f49ba6da437" name="Changes" comment="ejercicios varios" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;OliverMiguez&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/oliver-miguez/PROGRAMACION.git&quot;,
+    &quot;accountId&quot;: &quot;306b1a8e-b034-434b-a3fc-31f3b620b77b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2pkAI4MHewR5dTUr31zr3nzAwJX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.algoritmo_insercion.executor": "Run",
+    "Application.busqueda_ordenada.executor": "Run",
+    "Application.comparar_arrays.executor": "Run",
+    "Application.eje1.executor": "Run",
+    "Application.eje3.executor": "Run",
+    "Application.eje_tres_en_raya.executor": "Run",
+    "Application.hotel.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/dam/Escritorio/Programacion_subir_github/Boletin7.2",
+    "onboarding.tips.debug.path": "/home/dam/Escritorio/Programacion_subir_github/Boletin7.2/src/Main.java"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.hotel">
+    <configuration name="busqueda_ordenada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="busqueda_ordenada" />
+      <module name="Boletin7.2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="comparar_arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comparar_arrays" />
+      <module name="Boletin7.2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eje1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eje1" />
+      <module name="Boletin7.2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eje_tres_en_raya" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eje_tres_en_raya" />
+      <module name="Boletin7.2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hotel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hotel" />
+      <module name="Boletin7.2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.hotel" />
+        <item itemvalue="Application.eje_tres_en_raya" />
+        <item itemvalue="Application.comparar_arrays" />
+        <item itemvalue="Application.busqueda_ordenada" />
+        <item itemvalue="Application.eje1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9107477-270d-4334-a334-6f49ba6da437" name="Changes" comment="" />
+      <created>1733299618235</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733299618235</updated>
+    </task>
+    <task id="LOCAL-00001" summary="eje1">
+      <option name="closed" value="true" />
+      <created>1733307021544</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733307021544</updated>
+    </task>
+    <task id="LOCAL-00002" summary="algoritmo_insercion">
+      <option name="closed" value="true" />
+      <created>1733307037803</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733307037803</updated>
+    </task>
+    <task id="LOCAL-00003" summary="eje_actualizando">
+      <option name="closed" value="true" />
+      <created>1733399188910</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733399188910</updated>
+    </task>
+    <task id="LOCAL-00004" summary="actualizacion general de los ejercicios">
+      <option name="closed" value="true" />
+      <created>1733400035500</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733400035500</updated>
+    </task>
+    <task id="LOCAL-00005" summary="actualizacion ej3">
+      <option name="closed" value="true" />
+      <created>1733402750138</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733402750138</updated>
+    </task>
+    <task id="LOCAL-00006" summary="como hacer una búsqueda ordenada dentro de un array">
+      <option name="closed" value="true" />
+      <created>1733402843536</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733402843536</updated>
+    </task>
+    <task id="LOCAL-00007" summary="comparar arrays">
+      <option name="closed" value="true" />
+      <created>1733404267456</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733404267456</updated>
+    </task>
+    <task id="LOCAL-00008" summary="comparar arrays">
+      <option name="closed" value="true" />
+      <created>1733404412061</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733404412061</updated>
+    </task>
+    <task id="LOCAL-00009" summary="comparar arrays actualizacion">
+      <option name="closed" value="true" />
+      <created>1733405248116</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733405248116</updated>
+    </task>
+    <task id="LOCAL-00010" summary="acabar eje">
+      <option name="closed" value="true" />
+      <created>1733406713156</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733406713156</updated>
+    </task>
+    <task id="LOCAL-00011" summary="acabar tres en raya">
+      <option name="closed" value="true" />
+      <created>1733746125735</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733746125735</updated>
+    </task>
+    <task id="LOCAL-00012" summary="ejercicios varios">
+      <option name="closed" value="true" />
+      <created>1733751888900</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733751888900</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="eje1" />
+    <MESSAGE value="algoritmo_insercion" />
+    <MESSAGE value="eje_actualizando" />
+    <MESSAGE value="actualizacion general de los ejercicios" />
+    <MESSAGE value="actualizacion ej3" />
+    <MESSAGE value="como hacer una búsqueda ordenada dentro de un array" />
+    <MESSAGE value="comparar arrays" />
+    <MESSAGE value="comparar arrays actualizacion" />
+    <MESSAGE value="acabar eje" />
+    <MESSAGE value="acabar tres en raya" />
+    <MESSAGE value="ejercicios varios" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicios varios" />
+  </component>
+</project>

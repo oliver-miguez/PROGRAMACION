@@ -1,0 +1,598 @@
+Index: ../Boletin_2_Extra/src/main/java/org/example/eje_2.java
+===================================================================
+diff --git a/../Boletin_2_Extra/src/main/java/org/example/eje_2.java b/../Boletin_2_Extra/src/main/java/org/example/eje_2.java
+deleted file mode 100644
+--- a/../Boletin_2_Extra/src/main/java/org/example/eje_2.java	(revision 3a60382ed80e04f03b6cab4d4abd84582ca39828)
++++ /dev/null	(revision 3a60382ed80e04f03b6cab4d4abd84582ca39828)
+@@ -1,31 +0,0 @@
+-
+-package org.example;
+-import  java.util.Scanner;
+-
+-/**
+- * calcula de grados a farenheit y kelvin
+- * @version 1.0
+- * @author Oliver Miguez Alonso
+- */
+-
+-
+-public class eje_2 {
+-    public static void main(String[]args){
+-        //Define las variables a guardar
+-        double Celsius;
+-        double Farenheit;
+-        double kelvin;
+-
+-         Scanner entrada = new Scanner(System.in);//Pregunta por consola
+-         System.out.println("Introduce los celsius: ");
+-         Celsius = entrada.nextDouble();//Guarda lo introducido
+-
+-        //Calcula los Farenheit
+-         Farenheit = (Celsius * 1.8) + 32;
+-         System.out.println(Farenheit + " farenheit");//Muestra por pantalla el resultado del calculo anterior
+-
+-        //calcula los kelvin
+-        kelvin = 273 + Celsius;
+-         System.out.println(kelvin+ " kelvin");//Muestra el resultado
+-    }
+-}
+Index: ../Boletin_2_Extra/src/main/java/org/example/eje_3.java
+===================================================================
+diff --git a/../Boletin_2_Extra/src/main/java/org/example/eje_3.java b/../Boletin_2_Extra/src/main/java/org/example/eje_3.java
+deleted file mode 100644
+--- a/../Boletin_2_Extra/src/main/java/org/example/eje_3.java	(revision 3a60382ed80e04f03b6cab4d4abd84582ca39828)
++++ /dev/null	(revision 3a60382ed80e04f03b6cab4d4abd84582ca39828)
+@@ -1,36 +0,0 @@
+-
+-
+-package org.example;
+-import  java.util.Scanner;
+-
+-/**
+- * Calcula el total de billetes utilizados
+- * @version 1.0
+- * @author Oliver Miguez Alonso
+- */
+-
+-
+-public class eje_3 {
+-    public static void main(String[]args){
+-        //Define las variables que se guardaran
+-        int Billete_100;
+-        int Billete_20;
+-        int Billete_5;
+-        int Moneda;
+-        int Total;
+-
+-        Scanner a = new Scanner(System.in);//Para preguntar por consola
+-        System.out.println("cuantos de 100 tienes :");
+-        Billete_100 = a.nextInt();//Guarda el dato introducido por consola
+-        System.out.println("cuantos de 20 tienes :");
+-        Billete_20 = a.nextInt();
+-        System.out.println("cuantos de 5 tienes :");
+-        Billete_5 = a.nextInt();
+-        System.out.println("cuantoas monedas de un euro: ");
+-        Moneda = a.nextInt();
+-
+-        //Calculo del total de billetes
+-        Total = Billete_100*100 + Billete_20 * 20 +Billete_5 *5 +Moneda*1;
+-        System.out.println(Total +" €");
+-    }
+-}
+Index: ../Boletin_2_Extra/src/main/java/org/example/eje_1.java
+===================================================================
+diff --git a/../Boletin_2_Extra/src/main/java/org/example/eje_1.java b/../Boletin_2_Extra/src/main/java/org/example/eje_1.java
+deleted file mode 100644
+--- a/../Boletin_2_Extra/src/main/java/org/example/eje_1.java	(revision 3a60382ed80e04f03b6cab4d4abd84582ca39828)
++++ /dev/null	(revision 3a60382ed80e04f03b6cab4d4abd84582ca39828)
+@@ -1,28 +0,0 @@
+-import java.util.Scanner;
+-
+-/**
+- * Calcula el porcentaje del descuento
+- * @version 1.0
+- * @author Oliver Miguez Alonso
+- */
+-
+-public  class eje_1{
+-    public static void main(String[]args){
+-        //Define las variables a guardar
+-        float precio_producto ;
+-        float precio_con_descuento;
+-        float porcentaje;
+-
+-        Scanner entrada = new Scanner(System.in);//Pregunta por consola
+-        System.out.println("Cuanto vale sin descuento: ");
+-        precio_producto = entrada.nextFloat();//Guarda por consola
+-        System.out.println("Cuanto vale con descuento: ");
+-        precio_con_descuento = entrada.nextFloat();
+-
+-        //Calcula el porcentaje
+-        porcentaje = (precio_con_descuento / precio_producto)*100;
+-        //Muestra el resultado del calculo
+-        System.out.println("El porcentaje de descuento es "+ porcentaje + "%");
+-
+-    }
+-}
+Index: ../Boletin_2_Extra/src/main/java/org/example/eje_4.java
+===================================================================
+diff --git a/../Boletin_2_Extra/src/main/java/org/example/eje_4.java b/../Boletin_2_Extra/src/main/java/org/example/eje_4.java
+deleted file mode 100644
+--- a/../Boletin_2_Extra/src/main/java/org/example/eje_4.java	(revision 3a60382ed80e04f03b6cab4d4abd84582ca39828)
++++ /dev/null	(revision 3a60382ed80e04f03b6cab4d4abd84582ca39828)
+@@ -1,32 +0,0 @@
+-package org.example;
+-import  java.util.Scanner;
+-
+-/**
+- * Muestra el numero exacto de billetes y monedas utilizados
+- * @version 1.0
+- * @author Oliver Miguez Alonso
+- */
+-
+-public class eje_4 {
+-    public  static  void  main(String[]args){
+-        //Define variable que sera introducida por pantalla
+-        int Dinero;
+-        Scanner a = new Scanner(System.in);//Guarda la variable
+-        System.out.println("cual es tu dinero: ");//Permite introducir un dato por consola
+-        Dinero = a.nextInt();
+-
+-        // Calculos para identificar cuantos billetes de cada tipo usa
+-        int num1 = Dinero/100;
+-        int Billete1 = Dinero - (num1 *100);
+-        int num2 = Billete1/20;
+-        int Billete2 = Billete1  - (num2 *20);
+-        int num3 = Billete2/5;
+-        int Billete3 = Billete2 - (num3*5);
+-        int num4 = Billete3/1;
+-        int Billet4 = Billete3 -(num4*1);
+-
+-
+-        //Muestra por pantalla cuantos billetes usó
+-        System.out.println("Billetes 100 :"+ num1+ ", Billetes 20: "+ num2 + ", Billetes 5:"+ num3+ ", Monedas: "+ num4);
+-    }
+-    }
+Index: ../Boletin_2_Extra/src/main/java/org/example/eje_5.java
+===================================================================
+diff --git a/../Boletin_2_Extra/src/main/java/org/example/eje_5.java b/../Boletin_2_Extra/src/main/java/org/example/eje_5.java
+deleted file mode 100644
+--- a/../Boletin_2_Extra/src/main/java/org/example/eje_5.java	(revision 3a60382ed80e04f03b6cab4d4abd84582ca39828)
++++ /dev/null	(revision 3a60382ed80e04f03b6cab4d4abd84582ca39828)
+@@ -1,51 +0,0 @@
+-/*
+-Fai o algoritmo e programa que calcule o soldo bruto e líquido, a percibir por unha
+-persoa. Para iso hai que ter en conta, que o soldo total inclúe os seguintes conceptos:
+- Soldo fixo.
+- Comisión: 5% sobre importe total de vendas
+- Quilometraxe: 2 € por km
+- Dietas: 30 € por día de desprazamento.
+-Para calcular o soldo líquido debemos descontarlle ao soldo bruto:
+- I.R.P.F. = 18 % do soldo total.
+- Retención a seguridade social : 36 €.
+-
+- */
+-package org.example;
+-import  java.util.Scanner;
+-
+-/**
+- * Calcula o soldo bruto e liquido
+- * @version 1.0
+- * @author Oliver Miguez Alonso
+- */
+-
+-public class eje_5 {
+-    public static void main(String[]args){
+-        // Definir los valores que seran introducidos por pantalla
+-        float soldo_bruto;
+-        float soldo_liquido;
+-        float soldo_fixo;
+-        float km;
+-        float dieta;
+-        float comisions;
+-
+-        //Guarda los datos introducidos por pantalla
+-        Scanner a = new Scanner(System.in);
+-        System.out.println("Cal e o teu soldo fixo: ");
+-        soldo_fixo = a.nextFloat();
+-        System.out.println("Cantos km fas a diario: ");
+-        km = a.nextFloat();
+-        System.out.println("Cuantos dias recibes dieta: ");
+-        dieta = a.nextFloat();
+-        System.out.println("Comisions: ");
+-        comisions = a.nextFloat();
+-        //calcula soldo bruto
+-        soldo_bruto = (float) (soldo_fixo + 0.05 * comisions + 2 * km + (dieta*30));
+-        System.out.println("Teu soldo bruto e :"+ soldo_bruto);
+-
+-        //calcula soldo liquido
+-        soldo_liquido = (float) (soldo_bruto-(soldo_bruto*0.18 + 36));
+-        System.out.println("O teu soldo Liquido e : "+ soldo_liquido);
+-
+-    }
+-}
+Index: ../Practicas/src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.Scanner;//permite introducir datos por consola\n\n/**\n * Apuntes\n *\n * @author Oliver Miguez Alonso\n */\npublic class Main {\n    /**\n     * Método principal del programa\n     *\n     * @param args no usamos\n     */\n    public static void main(String[] args) {\n        /*\n        Activa la funcion obterNome , provocando que te\n        pregunte por pantalla tu nombre tal como programamos en la funcion obterNome.\n         */\n        String nomeEstudante = obterNome();\n\n        saudo(1, \"gl\");//llama a la funcion saudo que cree\n        System.out.println(\"Benvido \" + nomeEstudante);\n        saudo(1, \"es\");\n        System.out.println(\"Bienvenido \" + nomeEstudante);\n        saudo(1, \"in\");\n        System.out.println(\"Welcome \" + nomeEstudante);\n\n\n    }//end static void\n\n    /**\n     * Sirve para hacer el saludo\n     *\n     * @param veces  Total de veces que ser repetira el saludo\n     * @param idioma Cada una de las opciones de veces\n     */\n    static void saudo(int veces, String idioma) {\n        for (int i = 0; i < veces; i++) {\n            System.out.println(\"ola\");\n            //Muestra que el idioma es gallego , castellano, ingles , en el static void Main\n            if (idioma.equals(\"gl\")) System.out.println(\"ola\");\n            else if (idioma.equals(\"es\")) System.out.println(\"HOLA\");\n            else if (idioma.equals(\"in\")) System.out.println(\"HELLo\");\n\n        }//end for\n    }//end saudo\n\n\n    //permite crear una funcion que te muestre datos String, en este caso se utiliza para preguntar y almacenar el nombre introducido\n    static String obterNome() {\n        Scanner sc = new Scanner(System.in);\n        System.out.println(\"Escribe o teu nome: \");\n        String nome = sc.next();\n        sc.close();\n        return nome;\n\n    }//end obterNome\n\n\n}//end class\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Practicas/src/Main.java b/../Practicas/src/Main.java
+--- a/../Practicas/src/Main.java	(revision 3a60382ed80e04f03b6cab4d4abd84582ca39828)
++++ b/../Practicas/src/Main.java	(date 1730719849662)
+@@ -46,7 +46,11 @@
+     }//end saudo
+ 
+ 
+-    //permite crear una funcion que te muestre datos String, en este caso se utiliza para preguntar y almacenar el nombre introducido
++    /**
++     * permite crear una funcion que te muestre datos String, en este caso se utiliza para preguntar y almacenar el nombre introducido
++     *
++     * @return Nombre Introducido
++     */
+     static String obterNome() {
+         Scanner sc = new Scanner(System.in);
+         System.out.println("Escribe o teu nome: ");
+Index: ../Practica Switch/src/eje_2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\nimport java.util.Scanner;//para poder introducir cosas por consola\n\n\n/**\n * Convierte el numero introducido del 0 al 99 en su equivalente en letra\n * @version 1.0\n * @author Oliver Miguez Alonso\n */\n\npublic class eje_2 {\n    public static <and> void main(String[]args){\n\n        //Guarda los datos introducidos por consola\n        Scanner a = new Scanner(System.in);\n\n       //Guarda el valor de decena\n        String numero = \"\";\n\n        //Guarda el valor de unidades\n        String numero2 = \"\";\n\n        //para guardar los valores introducidos\n        int unidad ;\n        int decena ;\n\n        //Para preguntar sobre los numero que se van a introducir por consola\n        System.out.println(\"Introduce tu decena del 1-9: \");\n        decena = a.nextInt();//para guardar el numero introducido en el anterior System.out.println\n        System.out.println(\"introduce la unidad del 0-9\");\n        unidad = a.nextInt();\n\n        //Discrimina distintas opciones de decenas\n        switch (decena){\n\n            case 1:\n                numero = (\"diez\");\n                break;\n            case 2 :\n                numero = (\"veinte\");\n                break;\n            case 3:\n               numero = (\"treinta\");\n                break;\n            case 4:\n                numero = (\"cuarenta\");\n                break;\n            case 5:\n                numero = (\"cincuenta\");\n                break;\n            case 6:\n                numero =(\"sesenta\");\n                break;\n            case 7:\n                numero =(\"setenta\");\n                break;\n            case 8:\n                numero =(\"ochenta\");\n                break;\n            case 9:\n                numero =(\"noventa\");\n                break;\n\n\n        }\n        //Discrimina distintas opciones de unidades\n        switch (unidad){\n\n            case 0:\n                numero2 =\"cero\";\n                break;\n            case 1:\n                numero2 =\"uno\";\n                break;\n            case 2:\n                numero2 =\"dos\";\n                break;\n            case 3:\n                numero2 =\"tres\";\n                break;\n            case 4:\n                numero2 =\"cuatro\";\n                break;\n            case 5:\n                numero2 =\"cinco\";\n                break;\n            case 6:\n                numero2 =\"seis\";\n                break;\n            case 7:\n                numero2 =\"siete\";\n                break;\n            case 8:\n                numero2 =\"ocho\";\n                break;\n            case 9:\n                numero2 =\"nueve\";\n                break;\n        }\n\n\n        //para elaborar numero (\"once\")\n        if (numero ==\"diez\" && numero2 == \"uno\"){\n            System.out.println(\"Once\");\n        }\n        //para elaborar el numero (\"doce\")\n        else if (numero ==\"diez\" && numero2 == \"dos\"){\n            System.out.println(\"Doce\");\n        }\n        //para elaborar el numero (\"trece\")\n        else if (numero ==\"diez\" && numero2 == \"tres\"){\n            System.out.println(\"Trece\");\n        }\n\n        // //para elaborar el numero (\"catorce\")\n        else if (numero ==\"diez\" && numero2 == \"cuatro\"){\n            System.out.println(\"Catorce\");\n        }\n        //para elaborar el numero (\"quince\")\n        else if (numero ==\"diez\" && numero2 == \"cinco\"){\n            System.out.println(\"Quince\");\n        }\n        //para elaborar el numero (\"diez\")\n        else if (numero == \"diez\" && numero2 ==\"cero\"){\n            System.out.println(\"Diez\");\n        }\n\n        //elabora los casos no especiales\n        else\n        {\n            System.out.println(numero +  numero2);\n        }\n\n\n\n\n\n\n\n\n\n\n\n    }\n\n\n\n\n    }\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Practica Switch/src/eje_2.java b/../Practica Switch/src/eje_2.java
+--- a/../Practica Switch/src/eje_2.java	(revision 3a60382ed80e04f03b6cab4d4abd84582ca39828)
++++ b/../Practica Switch/src/eje_2.java	(date 1730719849706)
+@@ -1,150 +1,96 @@
+-
+ import java.util.Scanner;//para poder introducir cosas por consola
+-
+-
+ /**
+  * Convierte el numero introducido del 0 al 99 en su equivalente en letra
+  * @version 1.0
+  * @author Oliver Miguez Alonso
+  */
+-
+ public class eje_2 {
+-    public static <and> void main(String[]args){
+-
+-        //Guarda los datos introducidos por consola
+-        Scanner a = new Scanner(System.in);
++    public static void main(String[]args){
+ 
+-       //Guarda el valor de decena
+-        String numero = "";
++        Scanner a = new Scanner(System.in);//Para introducir codigo por pantalla
++        int numero;//variable con la que podremos definir decenas y unidades
+ 
+-        //Guarda el valor de unidades
+-        String numero2 = "";
++        System.out.println("Introduce el numero: ");//Te permite escribir por pantalla
++        numero = a.nextInt();//Almacena la info introducida por pantalla
+ 
+-        //para guardar los valores introducidos
+-        int unidad ;
+-        int decena ;
+-
+-        //Para preguntar sobre los numero que se van a introducir por consola
+-        System.out.println("Introduce tu decena del 1-9: ");
+-        decena = a.nextInt();//para guardar el numero introducido en el anterior System.out.println
+-        System.out.println("introduce la unidad del 0-9");
+-        unidad = a.nextInt();
++        //Definen los valores de las decenas y unidades
++        int decena = numero/10; //Extrae el valor de la decena del numero del numero introducido
++        int unidades = numero % 10;//Extrae el valor de la unidad del numero introducido
++        String decena_guardar  = "";//almacena la decena del numero introducido
++        String unidad_guardar = "";//almacena la unidad del numero introducido
+ 
+         //Discrimina distintas opciones de decenas
+         switch (decena){
+-
+-            case 1:
+-                numero = ("diez");
++            case 1  :
++                if(unidades == 1) unidad_guardar = "once";
++                else if(unidades == 2) unidad_guardar = "doce";
++                else if(unidades == 3) unidad_guardar = "trece";
++                else if(unidades == 4) unidad_guardar = "catorce";
++                else if(unidades == 5) unidad_guardar = "quince";
++                else decena_guardar = "dez";
+                 break;
+             case 2 :
+-                numero = ("veinte");
++                decena_guardar = ("vinte");
+                 break;
+             case 3:
+-               numero = ("treinta");
++                decena_guardar = ("trinta");
+                 break;
+             case 4:
+-                numero = ("cuarenta");
++                decena_guardar = ("corenta");
+                 break;
+             case 5:
+-                numero = ("cincuenta");
++                decena_guardar = ("cincuenta");
+                 break;
+             case 6:
+-                numero =("sesenta");
++                decena_guardar =("sesenta");
+                 break;
+             case 7:
+-                numero =("setenta");
++                decena_guardar =("setenta");
+                 break;
+             case 8:
+-                numero =("ochenta");
++                decena_guardar =("oitenta");
+                 break;
+             case 9:
+-                numero =("noventa");
++                decena_guardar =("noventa");
+                 break;
+-
++        }//Switch decenas
+ 
+-        }
+-        //Discrimina distintas opciones de unidades
+-        switch (unidad){
+-
+-            case 0:
+-                numero2 ="cero";
+-                break;
++        //Discrimina las distintas opciones de las unidades
++        switch (unidades){
+             case 1:
+-                numero2 ="uno";
++                if (decena != 1) unidad_guardar = "un";
+                 break;
+-            case 2:
+-                numero2 ="dos";
++            case 2 :
++                if (decena != 1) unidad_guardar = "dous";
+                 break;
+             case 3:
+-                numero2 ="tres";
++                if (decena != 1) unidad_guardar = "tres";
+                 break;
+             case 4:
+-                numero2 ="cuatro";
++                if (decena != 1) unidad_guardar = "catro";
+                 break;
+             case 5:
+-                numero2 ="cinco";
++                if (decena != 1) unidad_guardar = "cinco";
+                 break;
+             case 6:
+-                numero2 ="seis";
++                if(decena==1) unidad_guardar="aseis";
++                else unidad_guardar =("seis");
+                 break;
+             case 7:
+-                numero2 ="siete";
++                if(decena==1) unidad_guardar="asete";
++                else unidad_guardar =("sete");
+                 break;
+             case 8:
+-                numero2 ="ocho";
++                if(decena==1) unidad_guardar="aoio";
++                else unidad_guardar =("oito");
+                 break;
+             case 9:
+-                numero2 ="nueve";
++                if(decena==1) unidad_guardar="anove";
++                else unidad_guardar =("nove");
+                 break;
+-        }
+-
+-
+-        //para elaborar numero ("once")
+-        if (numero =="diez" && numero2 == "uno"){
+-            System.out.println("Once");
+-        }
+-        //para elaborar el numero ("doce")
+-        else if (numero =="diez" && numero2 == "dos"){
+-            System.out.println("Doce");
+-        }
+-        //para elaborar el numero ("trece")
+-        else if (numero =="diez" && numero2 == "tres"){
+-            System.out.println("Trece");
+-        }
+-
+-        // //para elaborar el numero ("catorce")
+-        else if (numero =="diez" && numero2 == "cuatro"){
+-            System.out.println("Catorce");
+-        }
+-        //para elaborar el numero ("quince")
+-        else if (numero =="diez" && numero2 == "cinco"){
+-            System.out.println("Quince");
+-        }
+-        //para elaborar el numero ("diez")
+-        else if (numero == "diez" && numero2 =="cero"){
+-            System.out.println("Diez");
+-        }
+-
+-        //elabora los casos no especiales
+-        else
+-        {
+-            System.out.println(numero +  numero2);
+-        }
+-
+-
+-
+-
+-
+-
++        }//Switch unidades
+ 
++    System.out.println(decena_guardar + unidad_guardar);
+ 
+-
+-
+-
+-    }
+-
+-
+-
+-
+-    }
+-
++    }//static void
++}//class
+\ No newline at end of file
+Index: src/otra.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/otra.java b/src/otra.java
+new file mode 100644
+--- /dev/null	(date 1730897715465)
++++ b/src/otra.java	(date 1730897715465)
+@@ -0,0 +1,27 @@
++/**
++ * Escribe una función que resuelva la serie de Fibonacci de forma recursiva.
++ *
++ * @author Oliver Miguez Alonso
++ * @version 1.0
++ */
++public class otra {
++    /**
++     * Método principal del programa
++     *
++     * @param args no usamos
++     */
++    public static void main(String[] args) {
++        int n = 9; // número de términos a mostrar de la serie de Fibonacci
++        for (int i = 0; i < n; i++) {
++            System.out.println(fibonacci(i));
++        }
++    }
++
++    static int fibonacci(int n) {
++        if (n <= 1) {
++            return n;
++        } else {
++            return fibonacci(n - 1) + fibonacci(n - 2);
++        }
++    }
++}
+Index: ../Practica Switch/src/prueba_eje_2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.Scanner;//para poder introducir cosas por consola\n/**\n * Convierte el numero introducido del 0 al 99 en su equivalente en letra\n * @version 1.0\n * @author Oliver Miguez Alonso\n */\npublic class prueba_eje_2 {\n    public static void main(String[] args) {\n\n        //Guarda los datos introducidos por consola\n        Scanner a = new Scanner(System.in);\n\n        //Guarda el valor de decena\n        String decenas_guardar = \"\";\n\n        //Guarda el valor de unidades\n        String unidades_guardar = \"\";\n\n\n\n        //para guardar los valores introducidos\n        int unidad;\n        int decena;\n\n        //Para preguntar sobre los numero que se van a introducir por consola\n        System.out.println(\"Introduce tu decena del 1-9: \");\n        decena = a.nextInt();//para guardar el numero introducido en el anterior System.out.println\n        System.out.println(\"introduce la unidad del 0-9\");\n        unidad = a.nextInt();\n\n// guardar el valor de las decenas\n        switch (decena){\n            //si la decena es 0\n            case 0:\n                if(decena==0){\n                    decena =0;\n                    System.out.println(\"cero\");\n                    break;\n                }\n            case 1: // casos especiales\n                if (decena == 1)\n                {\n                    if(unidad == 1){\n                        System.out.println(\"Once\");\n                    }\n                    if(unidad == 2){\n                        System.out.println(\"Doce\");\n                    }\n\n                    if(unidad == 3){\n                        System.out.println(\"Trece\");\n                    }\n                    if (unidad == 4){\n                        System.out.println(\"Catorce\");\n                    }\n                    if(unidad == 5){\n                        System.out.println(\"Quince\");\n                    }\n\n\n                    else{\n                        if (decena !=0) {\n                            decenas_guardar = (\"Diez\");\n                        }\n                        else{\n                            System.out.println(unidades_guardar);\n                        }\n                    }\n\n                }\n                break;\n\n                //para explicar los multiplos de diez\n            case 2:\n                decenas_guardar = (\"Veinte\");\n                break;\n            case 3:\n                decenas_guardar = (\"Trenta\");\n                break;\n\n            case 4:\n                decenas_guardar = (\"Cuarenta\");\n                break;\n\n            case 5:\n                decenas_guardar = (\"Cincuenta\");\n                break;\n            case 6:\n                decenas_guardar = (\"Sesenta\");\n                break;\n            case 7:\n                decenas_guardar = (\"Setenta\");\n                break;\n            case 8:\n                decenas_guardar = (\"Ochenta\");\n                break;\n            case 9:\n                decenas_guardar = (\"Noventa\");\n                break;\n\n\n\n            }//swich decena\n\n\n // guardar el valor  de la unidades\n        switch (unidad){\n\n            case 1:\n                if (decena != 0){//para la unidad de un numero que tenga decena\n                    unidades_guardar = (\"iuno\");\n                }\n                else{\n                    System.out.println(\"uno\");//para un numero que no tenga decena, solo la unidad\n                }\n                break;\n\n                case 2:\n                if (decena != 0){\n                    unidades_guardar = (\"idos\");\n\n                }\n               else{\n                   System.out.println(\"dos\");\n                }\n                break;\n\n            case 3:\n                if (decena != 0){\n                    unidades_guardar = (\" itres\");\n                }\n                else{\n                    System.out.println(\"tres\");\n                }\n                break;\n\n            case 4:\n                if (decena != 0){\n                    unidades_guardar = (\"icuatro\");\n                }\n                else{\n                    System.out.println(\"cuatro\");\n                }\n                break;\n\n            case 5:\n                if (decena != 0){\n                    unidades_guardar = (\"icinco\");\n                }\n                else{\n                    System.out.println(\"cinco\");\n                }\n                break;\n\n            case 6:\n                if (decena != 0){\n                    unidades_guardar = (\"iseis\");\n                }\n                else{\n                    System.out.println(\"seis\");\n                }\n                break;\n\n            case 7:\n                if (decena != 0){\n                    unidades_guardar = (\"isiete\");\n                }\n                else{\n                    System.out.println(\"siete\");\n                }\n                break;\n\n            case 8:\n                if (decena != 0){\n                    unidades_guardar = (\"iocho\");\n                }\n                else{\n                    System.out.println(\"ocho\");\n                }\n                break;\n\n            case 9:\n                if (decena != 0){\n                    unidades_guardar = (\"inueve\");\n                }\n                else{\n                    System.out.println(\"nueve\");\n                }\n                break;\n        }//swich unidad\n\n        //Print del resultado\n        System.out.println(decenas_guardar + unidades_guardar);\n\n    }//public class\n\n}//class
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Practica Switch/src/prueba_eje_2.java b/../Practica Switch/src/prueba_eje_2.java
+--- a/../Practica Switch/src/prueba_eje_2.java	(revision 3a60382ed80e04f03b6cab4d4abd84582ca39828)
++++ b/../Practica Switch/src/prueba_eje_2.java	(date 1730719849770)
+@@ -1,9 +1,11 @@
+ import java.util.Scanner;//para poder introducir cosas por consola
++
+ /**
+  * Convierte el numero introducido del 0 al 99 en su equivalente en letra
+  * @version 1.0
+  * @author Oliver Miguez Alonso
+  */
++
+ public class prueba_eje_2 {
+     public static void main(String[] args) {
+ 
+@@ -16,11 +18,11 @@
+         //Guarda el valor de unidades
+         String unidades_guardar = "";
+ 
+-
+-
+         //para guardar los valores introducidos
+         int unidad;
+         int decena;
++        int numero;
++
+ 
+         //Para preguntar sobre los numero que se van a introducir por consola
+         System.out.println("Introduce tu decena del 1-9: ");
+@@ -108,7 +110,7 @@
+ 
+             case 1:
+                 if (decena != 0){//para la unidad de un numero que tenga decena
+-                    unidades_guardar = ("iuno");
++                    unidades_guardar = ("y uno");
+                 }
+                 else{
+                     System.out.println("uno");//para un numero que no tenga decena, solo la unidad
+@@ -117,7 +119,7 @@
+ 
+                 case 2:
+                 if (decena != 0){
+-                    unidades_guardar = ("idos");
++                    unidades_guardar = (" y dos");
+ 
+                 }
+                else{
+@@ -127,7 +129,7 @@
+ 
+             case 3:
+                 if (decena != 0){
+-                    unidades_guardar = (" itres");
++                    unidades_guardar = (" y tres");
+                 }
+                 else{
+                     System.out.println("tres");
+@@ -136,7 +138,7 @@
+ 
+             case 4:
+                 if (decena != 0){
+-                    unidades_guardar = ("icuatro");
++                    unidades_guardar = (" y cuatro");
+                 }
+                 else{
+                     System.out.println("cuatro");
+@@ -145,7 +147,7 @@
+ 
+             case 5:
+                 if (decena != 0){
+-                    unidades_guardar = ("icinco");
++                    unidades_guardar = (" y cinco");
+                 }
+                 else{
+                     System.out.println("cinco");
+@@ -154,7 +156,7 @@
+ 
+             case 6:
+                 if (decena != 0){
+-                    unidades_guardar = ("iseis");
++                    unidades_guardar = (" y seis");
+                 }
+                 else{
+                     System.out.println("seis");
+@@ -163,7 +165,7 @@
+ 
+             case 7:
+                 if (decena != 0){
+-                    unidades_guardar = ("isiete");
++                    unidades_guardar = (" y siete");
+                 }
+                 else{
+                     System.out.println("siete");
+@@ -172,7 +174,7 @@
+ 
+             case 8:
+                 if (decena != 0){
+-                    unidades_guardar = ("iocho");
++                    unidades_guardar = (" y ocho");
+                 }
+                 else{
+                     System.out.println("ocho");
+@@ -181,7 +183,7 @@
+ 
+             case 9:
+                 if (decena != 0){
+-                    unidades_guardar = ("inueve");
++                    unidades_guardar = (" y nueve");
+                 }
+                 else{
+                     System.out.println("nueve");

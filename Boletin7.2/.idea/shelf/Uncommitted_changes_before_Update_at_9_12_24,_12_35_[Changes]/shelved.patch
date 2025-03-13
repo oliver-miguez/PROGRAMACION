@@ -1,0 +1,90 @@
+Index: ../Practicas/src/eje_examen_b.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Practicas/src/eje_examen_b.java b/../Practicas/src/eje_examen_b.java
+new file mode 100644
+--- /dev/null	(date 1733398088940)
++++ b/../Practicas/src/eje_examen_b.java	(date 1733398088940)
+@@ -0,0 +1,43 @@
++/**
++ * Introduce un numero y te calcula la raiz cuadrada , en caso de que la raiz sea completa te da el valor normal, en caso de ser
++ * compleja te da un valor aproximado + resto
++ */
++
++import java.util.Scanner;
++public class eje_examen_b {
++    /**
++     * Metodo principal del programa
++     * @param args no usamos
++     */
++    public static void main(String[] args) {
++
++        //introducir datos por consola
++        Scanner sc = new Scanner(System.in);    
++        int n;
++        System.out.println("Introduce un numero: ");
++        n = sc.nextInt();
++
++        //calcula la raiz cuadrada
++        double raiz = Math.sqrt(n);
++
++        //comprueba si el resultado de la raiz es entero o no
++        if (raiz == Math.floor(raiz)) {
++            //en caso de ser entero
++            System.out.println("La raiz cuadrada de " + n + " es " + (int)raiz);
++        } else {
++            //en caso de no ser entero
++            int raizEntera = (int)Math.floor(raiz);
++            int resto = n - (raizEntera * raizEntera);
++            System.out.println("La raiz cuadrada de " + n + " es aproximadamente " + raizEntera + " con un resto de " + resto);
++        }
++        
++        sc.close();
++    }//end main
++}//end class
++
++
++/**
++ * TODO
++ *
++ *Hacerlo de la manera indicada en el ordinograma de manuel
++ */
+\ No newline at end of file
+Index: ../practica_array_bidimensional/src/eje.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.Scanner;\n/**\n * cuenta el numeros de una asignatura introducida\n */\npublic class eje {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.println(\"Elige una asignatura: \");\n        String op = sc.next();\n\n        String[][]horario = {\n                {\"BD\",\"BD\",\"BD\",\"BD\",\"PRG\",\"PRG\",\"PRG\"},\n                {\"BD\",\"BD\",\"BD\",\"SI\",\"SI\",\"SASP\",\"IPE\"},\n                {\"PROG\",\"PROG\",\"PROG\",\"LMSXI\",\"LMSXI\",\"COD\",\"COD\"},\n                {\"ING\",\"ING\",\"SI\",\"SI\",\"PROG\",\"PROG\",\"PROG\"},\n                {\"COD\",\"LMSXI\",\"LMSXI\",\"SI\",\"SI\",\"IPE\",\"IPE\"}\n        };\n\n        //comprueba que el valor op se encuentre dentro del array\n        boolean encontrado = false;\n        for (String[] fila : horario) {\n            for (String valor : fila) {\n                if (valor == op) { encontrado = true; break; } }\n        }\n\n    }//end main\n}//end class\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../practica_array_bidimensional/src/eje.java b/../practica_array_bidimensional/src/eje.java
+--- a/../practica_array_bidimensional/src/eje.java	(revision fad505b3244379ca4c13af7f1ccf4b83ec741e07)
++++ b/../practica_array_bidimensional/src/eje.java	(date 1733398088996)
+@@ -8,6 +8,8 @@
+         System.out.println("Elige una asignatura: ");
+         String op = sc.next();
+ 
++        int BD;
++
+         String[][]horario = {
+                 {"BD","BD","BD","BD","PRG","PRG","PRG"},
+                 {"BD","BD","BD","SI","SI","SASP","IPE"},
+@@ -17,10 +19,12 @@
+         };
+ 
+         //comprueba que el valor op se encuentre dentro del array
+-        boolean encontrado = false;
+-        for (String[] fila : horario) {
+-            for (String valor : fila) {
+-                if (valor == op) { encontrado = true; break; } }
++        for(String i = 0; horario.length; i++){
++            for(String j = 0; horario[0].length; j++){
++                if (j == "BD"){
++                    BD++;
++                }
++            }
+         }
+ 
+     }//end main

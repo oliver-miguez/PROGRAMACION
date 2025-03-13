@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d7061a0a-de54-4c42-8596-3a51cc53c965" name="Changes" comment="eje_1 arreglos">
+      <change afterPath="$PROJECT_DIR$/src/eje_10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eje_9_fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Boletin_7/src/eje_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Boletin_2_Extra/src/main/java/org/example/eje_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Boletin_2_Extra/src/main/java/org/example/eje_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Boletin_2_Extra/src/main/java/org/example/eje_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Boletin_2_Extra/src/main/java/org/example/eje_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Boletin_2_Extra/src/main/java/org/example/eje_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Boletin_7/src/eje_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Boletin_7/src/eje_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Boletin_7/src/eje_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Boletin_7/src/eje_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica Switch/src/eje_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica Switch/src/eje_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica Switch/src/prueba_eje_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica Switch/src/prueba_eje_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practicas/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicas/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;oliver-miguez&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/oliver-miguez/PROGRAMACION.git&quot;,
+    &quot;accountId&quot;: &quot;306b1a8e-b034-434b-a3fc-31f3b620b77b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2o9UbIwnioJMbLPLVL3NQIx7w8j" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.eje_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.eje_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.eje_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.eje_5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.eje_6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.eje_7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.eje_8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.eje_9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.eje_9_otro_metdo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ejempl.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ejemplo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.otra.executor&quot;: &quot;Run&quot;,
+    &quot;Application.otra_manera_de_eje_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.otro_9.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dam/Escritorio/Programacion_subir_github/Boletin_7&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/dam/Escritorio/Programacion_subir_github/Boletin_6/src/Main.java&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.eje_1">
+    <configuration name="eje_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eje_1" />
+      <module name="Boletin_6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eje_9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eje_9" />
+      <module name="Boletin_6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eje_9_otro_metdo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eje_9_otro_metdo" />
+      <module name="Boletin_6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="otra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="otra" />
+      <module name="Boletin_6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="otro_9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="otro_9" />
+      <module name="Boletin_6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.eje_1" />
+        <item itemvalue="Application.otro_9" />
+        <item itemvalue="Application.eje_9_otro_metdo" />
+        <item itemvalue="Application.eje_9" />
+        <item itemvalue="Application.otra" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7061a0a-de54-4c42-8596-3a51cc53c965" name="Changes" comment="" />
+      <created>1730281356493</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730281356493</updated>
+    </task>
+    <task id="LOCAL-00001" summary="eje_1">
+      <option name="closed" value="true" />
+      <created>1730281443918</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730281443918</updated>
+    </task>
+    <task id="LOCAL-00002" summary="eje_2">
+      <option name="closed" value="true" />
+      <created>1730281789226</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730281789226</updated>
+    </task>
+    <task id="LOCAL-00003" summary="eje_3 acabar">
+      <option name="closed" value="true" />
+      <created>1730283236692</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730283236692</updated>
+    </task>
+    <task id="LOCAL-00004" summary="eje_3">
+      <option name="closed" value="true" />
+      <created>1730290826620</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730290826620</updated>
+    </task>
+    <task id="LOCAL-00005" summary="eje_3_arreglos">
+      <option name="closed" value="true" />
+      <created>1730290924841</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730290924841</updated>
+    </task>
+    <task id="LOCAL-00006" summary="eje_3 probando comentarios COD">
+      <option name="closed" value="true" />
+      <created>1730294036981</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730294036981</updated>
+    </task>
+    <task id="LOCAL-00007" summary="eje_1 probando comentarios COD">
+      <option name="closed" value="true" />
+      <created>1730294127785</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1730294127785</updated>
+    </task>
+    <task id="LOCAL-00008" summary="eje_2 probando comentarios COD">
+      <option name="closed" value="true" />
+      <created>1730294190377</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730294190377</updated>
+    </task>
+    <task id="LOCAL-00009" summary="colocando bien boletin 6">
+      <option name="closed" value="true" />
+      <created>1730294384645</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730294384645</updated>
+    </task>
+    <task id="LOCAL-00010" summary="colocando bien boletin 6">
+      <option name="closed" value="true" />
+      <created>1730294438562</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730294438562</updated>
+    </task>
+    <task id="LOCAL-00011" summary="eje_5">
+      <option name="closed" value="true" />
+      <created>1730721796990</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1730721796990</updated>
+    </task>
+    <task id="LOCAL-00012" summary="eje_5 arreglos">
+      <option name="closed" value="true" />
+      <created>1730722065315</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1730722065315</updated>
+    </task>
+    <task id="LOCAL-00013" summary="eje_1 arreglos">
+      <option name="closed" value="true" />
+      <created>1730723090283</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1730723090283</updated>
+    </task>
+    <task id="LOCAL-00014" summary="eje_1_version profe">
+      <option name="closed" value="true" />
+      <created>1730723170845</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1730723170845</updated>
+    </task>
+    <task id="LOCAL-00015" summary="eje_1_version profe 1.1">
+      <option name="closed" value="true" />
+      <created>1730723223163</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1730723223163</updated>
+    </task>
+    <task id="LOCAL-00016" summary="eje_1 arreglos">
+      <option name="closed" value="true" />
+      <created>1730723421882</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1730723421882</updated>
+    </task>
+    <task id="LOCAL-00017" summary="eje_1 arreglos">
+      <option name="closed" value="true" />
+      <created>1730723462206</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1730723462206</updated>
+    </task>
+    <task id="LOCAL-00018" summary="eje_6">
+      <option name="closed" value="true" />
+      <created>1730725090016</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1730725090016</updated>
+    </task>
+    <task id="LOCAL-00019" summary="eje_6 fin">
+      <option name="closed" value="true" />
+      <created>1730725650126</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1730725650126</updated>
+    </task>
+    <task id="LOCAL-00020" summary="eje_7">
+      <option name="closed" value="true" />
+      <created>1730881542828</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1730881542828</updated>
+    </task>
+    <task id="LOCAL-00021" summary="eje_7_arreglos">
+      <option name="closed" value="true" />
+      <created>1730881586418</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1730881586418</updated>
+    </task>
+    <task id="LOCAL-00022" summary="eje_8">
+      <option name="closed" value="true" />
+      <created>1730882176855</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1730882176856</updated>
+    </task>
+    <task id="LOCAL-00023" summary="eje_9">
+      <option name="closed" value="true" />
+      <created>1730898371453</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1730898371453</updated>
+    </task>
+    <task id="LOCAL-00024" summary="eje_9">
+      <option name="closed" value="true" />
+      <created>1730898472360</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1730898472360</updated>
+    </task>
+    <task id="LOCAL-00025" summary="eje_9">
+      <option name="closed" value="true" />
+      <created>1730898484860</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1730898484860</updated>
+    </task>
+    <task id="LOCAL-00026" summary="eje_9">
+      <option name="closed" value="true" />
+      <created>1730898529590</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1730898529590</updated>
+    </task>
+    <task id="LOCAL-00027" summary="eje_9_arreglos">
+      <option name="closed" value="true" />
+      <created>1730899070644</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1730899070644</updated>
+    </task>
+    <task id="LOCAL-00028" summary="eje_9_arreglos">
+      <option name="closed" value="true" />
+      <created>1730899151114</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1730899151114</updated>
+    </task>
+    <task id="LOCAL-00029" summary="eje_9_arreglos">
+      <option name="closed" value="true" />
+      <created>1730899301516</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1730899301516</updated>
+    </task>
+    <task id="LOCAL-00030" summary="eje_9_reclusiva">
+      <option name="closed" value="true" />
+      <created>1730899909704</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1730899909704</updated>
+    </task>
+    <task id="LOCAL-00031" summary="eje_9_otro metodo">
+      <option name="closed" value="true" />
+      <created>1730900008801</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1730900008801</updated>
+    </task>
+    <task id="LOCAL-00032" summary="eje_9_otro metodo_ arreglo">
+      <option name="closed" value="true" />
+      <created>1730900092962</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1730900092962</updated>
+    </task>
+    <task id="LOCAL-00033" summary="otro_9 arreglos">
+      <option name="closed" value="true" />
+      <created>1730900736089</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1730900736089</updated>
+    </task>
+    <task id="LOCAL-00034" summary="otro_9 arreglos 1.1">
+      <option name="closed" value="true" />
+      <created>1730900931993</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1730900931993</updated>
+    </task>
+    <task id="LOCAL-00035" summary="eje_1 arreglos">
+      <option name="closed" value="true" />
+      <created>1731415834339</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1731415834339</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="eje_3 acabar" />
+    <MESSAGE value="eje_3" />
+    <MESSAGE value="eje_3_arreglos" />
+    <MESSAGE value="eje_3 probando comentarios COD" />
+    <MESSAGE value="eje_1 probando comentarios COD" />
+    <MESSAGE value="eje_2 probando comentarios COD" />
+    <MESSAGE value="colocando bien boletin 6" />
+    <MESSAGE value="eje_5" />
+    <MESSAGE value="eje_5 arreglos" />
+    <MESSAGE value="eje_1_version profe" />
+    <MESSAGE value="eje_1_version profe 1.1" />
+    <MESSAGE value="eje_6" />
+    <MESSAGE value="eje_6 fin" />
+    <MESSAGE value="eje_7" />
+    <MESSAGE value="eje_7_arreglos" />
+    <MESSAGE value="eje_8" />
+    <MESSAGE value="Practica taboa info" />
+    <MESSAGE value="eje_9" />
+    <MESSAGE value="eje_9_arreglos" />
+    <MESSAGE value="eje_9_reclusiva" />
+    <MESSAGE value="eje_9_otro metodo" />
+    <MESSAGE value="eje_9_otro metodo_ arreglo" />
+    <MESSAGE value="otro_9 arreglos" />
+    <MESSAGE value="otro_9 arreglos 1.1" />
+    <MESSAGE value="eje_1 arreglos" />
+    <option name="LAST_COMMIT_MESSAGE" value="eje_1 arreglos" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/otro_9.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27d1ed53-5f40-465b-b9a4-3a1a74457d19" name="Changes" comment="eje 12 v1.1" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="proba" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;oliver-miguez&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/oliver-miguez/PROGRAMACION.git&quot;,
+    &quot;accountId&quot;: &quot;306b1a8e-b034-434b-a3fc-31f3b620b77b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2rOGybFXd84rgrd50e8fZ7JIEgo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.eje1.executor": "Run",
+    "Application.eje10.executor": "Run",
+    "Application.eje11.executor": "Run",
+    "Application.eje12.executor": "Run",
+    "Application.eje2.executor": "Run",
+    "Application.eje3.executor": "Run",
+    "Application.practica_eje_profe.executor": "Run",
+    "Application.repaso_ahoracado.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/dam/Escritorio/Examen Real Programacion 2 Trimestres",
+    "onboarding.tips.debug.path": "/home/dam/COD/Boletin 8.2/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.eje12">
+    <configuration name="eje10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eje10" />
+      <module name="Boletin 8.2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eje11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eje11" />
+      <module name="Boletin 8.2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eje12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eje12" />
+      <module name="Boletin 8.2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practica_eje_profe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practica_eje_profe" />
+      <module name="Boletin 8.2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="repaso_ahoracado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="repaso_ahoracado" />
+      <module name="Boletin 8.2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.eje12" />
+        <item itemvalue="Application.eje11" />
+        <item itemvalue="Application.eje10" />
+        <item itemvalue="Application.repaso_ahoracado" />
+        <item itemvalue="Application.practica_eje_profe" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27d1ed53-5f40-465b-b9a4-3a1a74457d19" name="Changes" comment="" />
+      <created>1736422964707</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736422964707</updated>
+    </task>
+    <task id="LOCAL-00001" summary="eje 1 y 2 ( 2 sin acabar ) Strings">
+      <option name="closed" value="true" />
+      <created>1736430048255</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736430048255</updated>
+    </task>
+    <task id="LOCAL-00002" summary="eje 2 comentarios">
+      <option name="closed" value="true" />
+      <created>1736497705188</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736497705188</updated>
+    </task>
+    <task id="LOCAL-00003" summary="acabar todo (esta mal)">
+      <option name="closed" value="true" />
+      <created>1736776259266</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736776259266</updated>
+    </task>
+    <task id="LOCAL-00004" summary="funcion tamaño palabra">
+      <option name="closed" value="true" />
+      <created>1736927533462</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736927533463</updated>
+    </task>
+    <task id="LOCAL-00005" summary="funcion letra">
+      <option name="closed" value="true" />
+      <created>1736927904154</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736927904154</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ahorcado fin">
+      <option name="closed" value="true" />
+      <created>1736931909310</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1736931909310</updated>
+    </task>
+    <task id="LOCAL-00007" summary="arreglos ahorcado">
+      <option name="closed" value="true" />
+      <created>1736932544417</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736932544417</updated>
+    </task>
+    <task id="LOCAL-00008" summary="practicar">
+      <option name="closed" value="true" />
+      <created>1736935622008</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1736935622008</updated>
+    </task>
+    <task id="LOCAL-00009" summary="ahorcado y eje 10">
+      <option name="closed" value="true" />
+      <created>1737033775798</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1737033775798</updated>
+    </task>
+    <task id="LOCAL-00010" summary="eje 10">
+      <option name="closed" value="true" />
+      <created>1737033801570</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1737033801570</updated>
+    </task>
+    <task id="LOCAL-00011" summary="eje 11">
+      <option name="closed" value="true" />
+      <created>1737035277131</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1737035277131</updated>
+    </task>
+    <task id="LOCAL-00012" summary="eje 11">
+      <option name="closed" value="true" />
+      <created>1737101078709</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1737101078709</updated>
+    </task>
+    <task id="LOCAL-00013" summary="eje 12 conCaracteres">
+      <option name="closed" value="true" />
+      <created>1737101373116</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1737101373116</updated>
+    </task>
+    <task id="LOCAL-00014" summary="eje 12 conCaracteres">
+      <option name="closed" value="true" />
+      <created>1737102549980</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1737102549980</updated>
+    </task>
+    <task id="LOCAL-00015" summary="eje 12 conCaracteres">
+      <option name="closed" value="true" />
+      <created>1737536954516</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1737536954516</updated>
+    </task>
+    <task id="LOCAL-00016" summary="arreglillos eje 11">
+      <option name="closed" value="true" />
+      <created>1737537019770</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1737537019770</updated>
+    </task>
+    <task id="LOCAL-00017" summary="eje 12 v1.1">
+      <option name="closed" value="true" />
+      <created>1737540135700</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1737540135700</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="eje 1 y 2 ( 2 sin acabar ) Strings" />
+    <MESSAGE value="eje 2 comentarios" />
+    <MESSAGE value="acabar todo (esta mal)" />
+    <MESSAGE value="funcion tamaño palabra" />
+    <MESSAGE value="funcion letra" />
+    <MESSAGE value="ahorcado fin" />
+    <MESSAGE value="arreglos ahorcado" />
+    <MESSAGE value="practicar" />
+    <MESSAGE value="ahorcado y eje 10" />
+    <MESSAGE value="eje 10" />
+    <MESSAGE value="eje 11" />
+    <MESSAGE value="eje 12 conCaracteres" />
+    <MESSAGE value="arreglillos eje 11" />
+    <MESSAGE value="eje 12 v1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="eje 12 v1.1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/eje1.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/eje1.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/practica_eje_profe.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/practica_eje_profe.java</url>
+          <line>105</line>
+          <properties class="practica_eje_profe" method="comprobar">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

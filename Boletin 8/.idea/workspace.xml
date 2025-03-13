@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="19f661f4-1abf-425c-983f-a6b3f72dfb53" name="Changes" comment="eje11" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;OliverMiguez&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/oliver-miguez/PROGRAMACION.git&quot;,
+    &quot;accountId&quot;: &quot;306b1a8e-b034-434b-a3fc-31f3b620b77b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2qNqekdk69ixA8ZxUqclOTbVyFF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.eje1.executor": "Run",
+    "Application.eje10.executor": "Run",
+    "Application.eje11.executor": "Run",
+    "Application.eje2.executor": "Run",
+    "Application.eje3.executor": "Run",
+    "Application.eje4.executor": "Run",
+    "Application.eje5.executor": "Run",
+    "Application.eje6.executor": "Run",
+    "Application.eje7.executor": "Run",
+    "Application.eje8.executor": "Run",
+    "Application.eje9.executor": "Run",
+    "Application.teoria.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/dam/Escritorio/Programacion_subir_github/Boletin 8.2",
+    "onboarding.tips.debug.path": "/home/dam/Escritorio/Programacion_subir_github/Boletin 8/src/Main.java"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19f661f4-1abf-425c-983f-a6b3f72dfb53" name="Changes" comment="" />
+      <created>1734513479127</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734513479127</updated>
+    </task>
+    <task id="LOCAL-00001" summary="eje1">
+      <option name="closed" value="true" />
+      <created>1734514736024</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734514736024</updated>
+    </task>
+    <task id="LOCAL-00002" summary="eje1">
+      <option name="closed" value="true" />
+      <created>1734514751534</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734514751534</updated>
+    </task>
+    <task id="LOCAL-00003" summary="eje2">
+      <option name="closed" value="true" />
+      <created>1734515255545</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734515255545</updated>
+    </task>
+    <task id="LOCAL-00004" summary="teoría Strings">
+      <option name="closed" value="true" />
+      <created>1734515297987</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734515297987</updated>
+    </task>
+    <task id="LOCAL-00005" summary="eje3">
+      <option name="closed" value="true" />
+      <created>1734515899889</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734515899889</updated>
+    </task>
+    <task id="LOCAL-00006" summary="eje4">
+      <option name="closed" value="true" />
+      <created>1734516188515</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734516188515</updated>
+    </task>
+    <task id="LOCAL-00007" summary="eje4,eje5">
+      <option name="closed" value="true" />
+      <created>1736324294916</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736324294916</updated>
+    </task>
+    <task id="LOCAL-00008" summary="eje6">
+      <option name="closed" value="true" />
+      <created>1736324661105</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1736324661105</updated>
+    </task>
+    <task id="LOCAL-00009" summary="@author">
+      <option name="closed" value="true" />
+      <created>1736324928311</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1736324928311</updated>
+    </task>
+    <task id="LOCAL-00010" summary="eje7">
+      <option name="closed" value="true" />
+      <created>1736325177380</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1736325177380</updated>
+    </task>
+    <task id="LOCAL-00011" summary="eje8">
+      <option name="closed" value="true" />
+      <created>1736325428096</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1736325428096</updated>
+    </task>
+    <task id="LOCAL-00012" summary="pequeños cambios eje 8">
+      <option name="closed" value="true" />
+      <created>1736325457103</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1736325457103</updated>
+    </task>
+    <task id="LOCAL-00013" summary="eje9">
+      <option name="closed" value="true" />
+      <created>1736325689366</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1736325689366</updated>
+    </task>
+    <task id="LOCAL-00014" summary="eje10">
+      <option name="closed" value="true" />
+      <created>1736326059177</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1736326059177</updated>
+    </task>
+    <task id="LOCAL-00015" summary="eje10 arreglos">
+      <option name="closed" value="true" />
+      <created>1736326143743</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1736326143743</updated>
+    </task>
+    <task id="LOCAL-00016" summary="eje11">
+      <option name="closed" value="true" />
+      <created>1736327120536</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1736327120536</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="eje1" />
+    <MESSAGE value="eje2" />
+    <MESSAGE value="teoria Strings" />
+    <MESSAGE value="teoría Strings" />
+    <MESSAGE value="eje3" />
+    <MESSAGE value="eje4" />
+    <MESSAGE value="eje4,eje5" />
+    <MESSAGE value="eje6" />
+    <MESSAGE value="@author" />
+    <MESSAGE value="eje7" />
+    <MESSAGE value="eje8" />
+    <MESSAGE value="pequeños cambios eje 8" />
+    <MESSAGE value="eje9" />
+    <MESSAGE value="eje10" />
+    <MESSAGE value="eje10 arreglos" />
+    <MESSAGE value="eje11" />
+    <option name="LAST_COMMIT_MESSAGE" value="eje11" />
+  </component>
+</project>

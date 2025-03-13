@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ea1fdede-89bb-4186-bad1-104a1adae43e" name="Changes" comment="eje dos real!!! sale bien">
+      <change beforePath="$PROJECT_DIR$/src/eje_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eje_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prueba_eje_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prueba_eje_2.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;oliver-miguez&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/oliver-miguez/PROGRAMACION.git&quot;,
+    &quot;accountId&quot;: &quot;306b1a8e-b034-434b-a3fc-31f3b620b77b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2nVeU2r080Om4QNyR4vEY501f5s" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.eje_1.executor": "Run",
+    "Application.eje_2.executor": "Debug",
+    "Application.prueba.executor": "Run",
+    "Application.prueba_eje_2.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/dam/Escritorio/Programacion_subir_github/Practica Switch",
+    "onboarding.tips.debug.path": "/home/dam/Escritorio/Programacion_subir_github/Practica Switch/src/Main.java"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.eje_2">
+    <configuration name="eje_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eje_2" />
+      <module name="Practica Switch" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="prueba_eje_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="prueba_eje_2" />
+      <module name="Practica Switch" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.eje_2" />
+        <item itemvalue="Application.prueba_eje_2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea1fdede-89bb-4186-bad1-104a1adae43e" name="Changes" comment="" />
+      <created>1729062684127</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729062684127</updated>
+    </task>
+    <task id="LOCAL-00001" summary="eje_1">
+      <option name="closed" value="true" />
+      <created>1729064199673</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729064199673</updated>
+    </task>
+    <task id="LOCAL-00002" summary="eje_2">
+      <option name="closed" value="true" />
+      <created>1729068831042</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729068831042</updated>
+    </task>
+    <task id="LOCAL-00003" summary="mejorando eje_2">
+      <option name="closed" value="true" />
+      <created>1729069434333</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729069434333</updated>
+    </task>
+    <task id="LOCAL-00004" summary="eje_2 version 2.0">
+      <option name="closed" value="true" />
+      <created>1729081448893</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729081448893</updated>
+    </task>
+    <task id="LOCAL-00005" summary="eje_1 version 1.0">
+      <option name="closed" value="true" />
+      <created>1729081543783</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729081543783</updated>
+    </task>
+    <task id="LOCAL-00006" summary="eje_1 comentar">
+      <option name="closed" value="true" />
+      <created>1729081807697</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729081807697</updated>
+    </task>
+    <task id="LOCAL-00007" summary="eje_2 comentar">
+      <option name="closed" value="true" />
+      <created>1729082597606</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729082597606</updated>
+    </task>
+    <task id="LOCAL-00008" summary="eje dos real!!! sale bien">
+      <option name="closed" value="true" />
+      <created>1729167685971</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729167685971</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="eje_1" />
+    <MESSAGE value="eje_2" />
+    <MESSAGE value="mejorando eje_2" />
+    <MESSAGE value="eje_2 version 2.0" />
+    <MESSAGE value="eje_1 version 1.0" />
+    <MESSAGE value="eje_1 comentar" />
+    <MESSAGE value="eje_2 comentar" />
+    <MESSAGE value="eje dos real!!! sale bien" />
+    <option name="LAST_COMMIT_MESSAGE" value="eje dos real!!! sale bien" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/prueba_eje_2.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/prueba_eje_2.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/eje_2.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/eje_2.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
