@@ -1,8 +1,8 @@
-public class Node {
+public class Nodo {
     private int  valor ;
-    private Node nodoSeguinte;
+    private Nodo nodoSeguinte;
 
-    public Node(int valor, Node nodoSeguinte){
+    public Nodo(int valor, Nodo nodoSeguinte){
         setValor(valor);
         setNodoSeguinte(nodoSeguinte);
 
@@ -16,10 +16,10 @@ public class Node {
         this.valor = valor;
     }
 
-    public Node  getnodoSeguinte(){
+    public Nodo  getnodoSeguinte(){
         return nodoSeguinte;
     }
-    public void setNodoSeguinte(Node nodoSeguinte){
+    public void setNodoSeguinte(Nodo nodoSeguinte){
         this.nodoSeguinte = nodoSeguinte;
     }
 

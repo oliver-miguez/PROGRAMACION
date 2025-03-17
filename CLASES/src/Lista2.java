@@ -1,5 +1,5 @@
 public class Lista2 {
-    private Node nodoInicial;
+    private Nodo nodoInicial;
     private int tamaño;
 
     /*
@@ -13,7 +13,7 @@ public class Lista2 {
     /*
     *A partir de un nodo inicial
      */
-    public Lista2(Node nodoInicial){
+    public Lista2(Nodo nodoInicial){
         this.nodoInicial = nodoInicial;
         tamaño = 1;
     }//end Lista2
@@ -43,15 +43,15 @@ public class Lista2 {
      * Engade un nodo ao final da lista
      */
     public void engadirUltimo(int nValor){
-        Node novoNode = new Node(nValor, null); //añadimos un nuevo valor al nodo
-        if(estaValeira()==true){ //entonces como la lista está vacía el nodo inicial será el nuevo nodo e aumentará el tamaño de null a 1
+        Nodo novoNode = new Nodo(nValor, null); //añadimos un nuevo valor al nodo
+        if(estaValeira()){ //entonces como la lista está vacía el nodo inicial será el nuevo nodo e aumentará el tamaño de null a 1
             nodoInicial = novoNode;
             tamaño++;
         }//end if
         else{
-           Node nodoActual = nodoInicial;
-           while (nodoActual.getnodoSeguinte() != null){
-               nodoActual = nodoActual.getnodoSeguinte();
+           Nodo nodoActual = nodoInicial;
+           while (nodoActual.getnodoSeguinte() != null){ //recorre la lista hasta llegar al ultimo valor
+               nodoActual = nodoActual.getnodoSeguinte(); //añade un valor como ultimo
            }//end while
 
             nodoActual.setNodoSeguinte(novoNode);
@@ -65,29 +65,57 @@ public class Lista2 {
     /**
      * Engade un nodo ao principio da lista
      */
-    public void engadirPrimeiron(){
+    public void engadirPrimeiro(int nValor){
+        Nodo newNode = new Nodo(nValor, nodoInicial); //Nodo inicial es el valor que tenemos almacenado en el constructor
+        nodoInicial = newNode; //transformamos el primero nodo el el nuevo nodo
+        tamaño++; //aumentamos el tamaño para hacer consistente la lista
 
-    }//end engadirPrimeiro
+    }//end engadir Primeiro
 
-    /**
-     * Recorre todos los valores y los muestra
-     */
-    public void listar(){
-    }//end listar
+    public void quitarPrimero(){
+        if(!estaValeira()) {
+            nodoInicial = nodoInicial.getnodoSeguinte();
+            tamaño--;
+        }//end if estaValeira
 
-    /**
-     * Obtiene el valor del último nodo
-     */
-    public  void obterUltimo(){
+    }// end quitarPrimero
 
-    }
+    public void quitarUltimo(){
+        if(!estaValeira()){
+            Nodo nodoAnterior = null;
 
-    /**
-     * Obtiene en valor del primero nodo
-     */
-    public void obterPrimeiro(){
+            if(tamaño != 1){
+                Nodo nodoActual = nodoInicial;
+                while(nodoActual.getnodoSeguinte()!= null){ //verifica que ningun valor de la lista sea null mientras se recorra , cuando sea null se sabe que el anterior es el ultimo
+                    nodoAnterior = nodoActual;//almacena la referencia actual
+                    nodoActual = nodoActual.getnodoSeguinte(); //transforma el valor actual en el siguiente recorre toda la lista (recorre la lista)
+                }//end while
+                nodoAnterior.setNodoSeguinte(null); //transforma el ultimo valor en null
+            }//end if
+            else{
+                nodoInicial = null; //porque eliminamos todos los valores que tendria
+            }//end else
 
-    }
+            tamaño--;
+        }//end if
+    }//end quitar ultimo
+
+
+    public void mostrarValores(){
+        if(!estaValeira()){
+            if (tamaño != 1){
+                Nodo nodoActual = nodoInicial;
+                while(nodoActual.getnodoSeguinte() != null){ //permite mostrar todos los datos menos el ultimo que no lo detecta
+                    System.out.println(nodoActual.getValor());
+                    nodoActual = nodoActual.getnodoSeguinte();
+                }//end while
+                System.out.println(nodoActual.getValor()); //muestra el ultimo nodo
+            }//end if
+            else{
+                System.out.println(nodoInicial.getValor());
+            }//end else
+        }//end if
+    }//end mostrarValores
 
 
 }//end Lista2

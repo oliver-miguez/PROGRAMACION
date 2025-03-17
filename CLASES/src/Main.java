@@ -1,3 +1,5 @@
+import org.w3c.dom.Node;
+
 import java.sql.SQLOutput;
 
 /**
@@ -6,14 +8,14 @@ import java.sql.SQLOutput;
  */
 public class Main {
     public static void main(String[] args) {
-        String[]habilidades = {"cavar", "salto olimpico","voar"};
-        String[]equipamentos = {"pala", "pertiga","alas", "piedra" , "pau", "verme","serra"};
+        String[] habilidades = {"cavar", "salto olimpico", "voar"};
+        String[] equipamentos = {"pala", "pertiga", "alas", "piedra", "pau", "verme", "serra"};
 
-        personaxe goku =  new personaxe("Dolar",2,4,-15,50,21,"soldado",habilidades,equipamentos);
-        System.out.println("A velocidade de goku e : " +goku.getVelocidade()); //consulta a propiedade velocidade en Personaxe
+        personaxe goku = new personaxe("Dolar", 2, 4, -15, 50, 21, "soldado", habilidades, equipamentos);
+        System.out.println("A velocidade de goku e : " + goku.getVelocidade()); //consulta a propiedade velocidade en Personaxe
 
 
-        Centro p1 = new Centro(1,7);
+        Centro p1 = new Centro(1, 7);
         Centro p2 = new Centro(-15); //como solo permite valores negativos lo iguala a 0
 
         p1.setX(-10);
@@ -29,7 +31,7 @@ public class Main {
 
 
         //Pruebas con clase círculo
-        Circulo circulo1 = new Circulo(5,4,3);
+        Circulo circulo1 = new Circulo(5, 4, 3);
 
         //utilizar toString directa e indirectamente
         System.out.println(circulo1.toString());
@@ -50,11 +52,10 @@ public class Main {
 
         //PRUEBA DE CLASE CILINDRO
 
-        Cilindro cilindro1 = new Cilindro(2,3,4,5);
+        Cilindro cilindro1 = new Cilindro(2, 3, 4, 5);
         System.out.println(cilindro1.toString());
         System.out.println("O volumen do Cilindro e: " + cilindro1.volumenCilindro());
         System.out.println("A superficie do cilindro e " + cilindro1.calculoSuperficie());
-
 
 
         //PRUEBA contaCorrente
@@ -82,6 +83,7 @@ public class Main {
             lista.engadirUltimo(-16);
 
           */
+        /*
         System.out.println("____________________________________________________________________--");
 
         //PRUEBA DE CLASES ABSTRACTAS
@@ -110,14 +112,43 @@ public class Main {
 
         System.out.println("____________________________________________________________________--");
 
-//        Can pepe = new Can("FungaFunga",3);
-//        pepe.desprazarse();
-//        pepe.voz();
-//    so
+        Can pepe = new Can("FungaFunga",3);
+        pepe.desprazarse();
+       pepe.voz();
 
-        //APLICACION DE INTERFACES EXTENDIDAS ENTRE SO CON CLASE CANGURO
-        Canguro cang1 = new Canguro("Samuel", 3);
+
+       //APLICACION DE INTERFACES EXTENDIDAS ENTRE SO CON CLASE CANGURO
+       Canguro cang1 = new Canguro("Samuel", 3);
         cang1.ronroneo();
         cang1.voz();
-    }//end main
-}//end class
+   }//end main
+
+        */
+
+
+        System.out.println("____________________________________________________________________--");
+
+
+        Lista2 NEE = new Lista2(new Nodo(4,null));
+        NEE.engadirPrimeiro(2);
+
+        System.out.println(NEE.getTamaño());
+
+        NEE.estaValeira();
+
+        System.out.println("____________________________________________________________________--");
+
+        Lista2 list = new Lista2(new Nodo(4, null));
+
+        list.engadirPrimeiro(3);
+        list.engadirUltimo(6);
+        list.engadirUltimo(7);
+        list.mostrarValores();
+
+        list.quitarPrimero();
+        list.quitarUltimo();
+
+        list.mostrarValores();
+
+    }//end class
+}

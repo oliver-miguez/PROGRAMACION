@@ -14,6 +14,8 @@ public class personaxe {
     private String[] habilidades;
     private String[] equipamiento;
 
+    //CONSTRUCTORES
+
     //Proporciona directamente los valores que quieras del personaje
     public personaxe(){
         nome = "anónimo";
@@ -176,6 +178,7 @@ public class personaxe {
         String[] hab = {"saltar", "disparar", "transformarse","X-ray"};
         String[] equip = {"pistola","katana","lanzallamas", "Ballesta"};
         personaxe mario = new personaxe("Mario bros",5,6,7,8,9,"rojo",hab,equip);
+        System.out.println(mario.getNome());
     }//end main
 
 
