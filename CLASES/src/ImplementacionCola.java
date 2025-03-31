@@ -1,6 +1,6 @@
-public class Pila extends Lista2 implements Cola{
+public class ImplementacionCola extends Lista2 implements Cola{
 
-    public Pila(){
+    public ImplementacionCola(){
         super();
     }//end Constructor
 
@@ -13,6 +13,8 @@ public class Pila extends Lista2 implements Cola{
 
     @Override
     public int desencolar() {
-
+        int valor =  elementoN(0); //coge el primer valor de la lista
+        quitarPrimero();
+        return valor;
     }
 }//end class

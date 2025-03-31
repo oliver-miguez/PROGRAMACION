@@ -117,6 +117,25 @@ public class Lista2 {
         }//end if
     }//end mostrarValores
 
+    /**
+     * Devuelve el valor de la posición N de la lista
+     * @param nValor valor n que buscamos en la lista
+     */
+    public int elementoN(int nValor){
+        if(nValor > tamaño -1 || nValor < 0){
+            System.out.println("La posición "+ nValor+" no existe el tamaño de la lista es "+ getTamaño() );
+            return  -1;
+        }//end if
+        else {
+            Nodo nodo = nodoInicial;
+            for (int i = 0; i < nValor; i ++){ //Recorre toda la lista hasta que llegue a la posición del índice nValor
+                nodo = nodo.getnodoSeguinte();//Obtiene la posición del nValor
+            }//end for
+            return nodo.getValor(); //Muestra el valor que tiene la posición nValor
+        }//end else
+
+    }//end elementoN
+
 
 }//end Lista2
 
