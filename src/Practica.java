@@ -44,25 +44,23 @@ public class Practica {
                 String[]caracteres = linea.split(" ");
 
                 //Recorremos el array
-                if(linea != null) {
-                    for (String caracter : caracteres) {
+                for (String caracter : caracteres) {
 
-                        /*
-                        Debug
-                        System.out.println(carácter);
-                        */
+                    /*
+                    Debug
+                    System.out.println(carácter);
+                    */
 
-                        //transforma al array de Strings en un array de integers y los suma / suma de todos los valores
-                        suma = suma + Integer.parseInt(caracter);
-                        //cuenta cuantos números hay en el array
-                        contador++;
-                        //cálculo de la media
-                        media = suma / contador;
+                    //transforma al array de Strings en un array de integers y los suma / suma de todos los valores
+                    suma = suma + Integer.parseInt(caracter);
+                    //cuenta cuantos números hay en el array
+                    contador++;
+                    //cálculo de la media
+                    media = suma / contador;
 
-                    }//end for
-                    //Cambia de linea
+                }//end for
+                //Cambia de linea
 
-                }
                 linea = entrada.readLine();
 
             }//end while
