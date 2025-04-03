@@ -1,5 +1,5 @@
 /**
- * Calcular con todos los números del archivo de Texto
+ * Calcular con todos los números del archivo de Texto los cuales tienen saltos de línea entre ellos
  * Repaso de BufferedReader y de FileReader
  * @author Oliver Miguez Alonso
  */
