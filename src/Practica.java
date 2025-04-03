@@ -22,32 +22,38 @@ public class Practica {
             int suma = 0;
             int media = 0;
             int contador = 0;
+
             //dirección del archivo de texto
             entrada = new BufferedReader(new FileReader("/home/dam/Escritorio/Recu Progra/StremsJava/src/textoNumeros"));
+
             //Guarda como String toda la info del archivo de texto
             String linea = entrada.readLine();
+
             //Si los datos de archivo no son nulos
             while (linea != null) {
+
                 //Crea un array de Strings dividiendo cada grupo de caracteres según el número de espacios en blanco que tengan en el texto
-                String[]caracteres = linea.split(" ");//crea un array con todos los números del texto
-                //crea un array de int para introducir los nuevos números que son String
-                int[]numero = new int[caracteres.length];
+                String[]caracteres = linea.split(" ");
+
                 //Recorremos el array
                 for(int i = 0; i < caracteres.length; i++){
-                    //Almacena en el array de int todos los Strings transformados a integer del array de Strings
-                    numero[i] = Integer.parseInt(caracteres[i]);
-                    //Distintas operaciones matemáticas con los nuevos números obtenidos del array de integers
-                    //suma todos los números del array
-                    suma = suma + numero[i];
+
+                    //transforma al array de Strings en un array de integers y los suma / suma de todos los valores
+                    suma = suma + Integer.parseInt(caracteres[i]);
                     //cuenta cuantos números hay en el array
                     contador++;
+                    //cálculo de la media
                     media = suma / contador;
-                    System.out.println(media);
-                    System.out.println(suma);
 
                 }//end for
+
+                //Resultados de las operaciones
+                System.out.println(media);
+                System.out.println(suma);
+
             }//end while
-            //Excepciones en caso de error en el código
+
+            // Excepciones en caso de error en el código
         }catch(IOException e){
             System.out.println("Error de entrada o salida: "+ e.getMessage());
         }//end catch
