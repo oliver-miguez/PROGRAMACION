@@ -59,8 +59,8 @@ public class Practica {
                     media = suma / contador;
 
                 }//end for
-                //Cambia de linea
 
+                //Cambia de linea
                 linea = entrada.readLine();
 
             }//end while
