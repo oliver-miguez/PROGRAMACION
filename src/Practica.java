@@ -46,6 +46,7 @@ public class Practica {
                 //Recorremos el array
                 if(linea != null) {
                     for (String caracter : caracteres) {
+
                         /*
                         Debug
                         System.out.println(caracter);
@@ -81,7 +82,11 @@ public class Practica {
                 } catch (IOException e) {
                     System.out.println("Erro dentro do segundo catch: " + e.getMessage());
                 }//end catch
+
             }//end if
+
         }//end finally
+
     }//end main
+
 } //end class
