@@ -31,28 +31,44 @@ public class Practica {
 
             //Si los datos de archivo no son nulos
             while (linea != null) {
+                /*
+                Otra forma:
+                Scanner sc = new Scanner(linea)
 
+                while(sc.hasNext()){
+                suma = suma + sc.nextInt;
+                }
+
+                 */
                 //Crea un array de Strings dividiendo cada grupo de caracteres según el número de espacios en blanco que tengan en el texto
                 String[]caracteres = linea.split(" ");
 
                 //Recorremos el array
-                for (String caracter : caracteres) {
+                if(linea != null) {
+                    for (String caracter : caracteres) {
+                        /*
+                        Debug
+                        System.out.println(caracter);
+                        */
 
-                    //transforma al array de Strings en un array de integers y los suma / suma de todos los valores
-                    suma = suma + Integer.parseInt(caracter);
-                    //cuenta cuantos números hay en el array
-                    contador++;
-                    //cálculo de la media
-                    media = suma / contador;
+                        //transforma al array de Strings en un array de integers y los suma / suma de todos los valores
+                        suma = suma + Integer.parseInt(caracter);
+                        //cuenta cuantos números hay en el array
+                        contador++;
+                        //cálculo de la media
+                        media = suma / contador;
 
-                }//end for
+                    }//end for
+                    //Cambia de linea
+                    linea = entrada.readLine();
 
-                //Resultados de las operaciones
-                System.out.println(media);
-                System.out.println(suma);
+                }else{
+                    linea = entrada.readLine();
+                }
 
             }//end while
-
+            System.out.println("Media: "+ media);
+            System.out.println("Suma: "+ suma);
 
             // Excepciones en caso de error en el código
         }catch(IOException e){
