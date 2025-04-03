@@ -61,11 +61,9 @@ public class Practica {
 
                     }//end for
                     //Cambia de linea
-                    linea = entrada.readLine();
 
-                }else{
-                    linea = entrada.readLine();
                 }
+                linea = entrada.readLine();
 
             }//end while
             System.out.println("Media: "+ media);
