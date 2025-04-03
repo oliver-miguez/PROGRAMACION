@@ -49,7 +49,7 @@ public class Practica {
 
                         /*
                         Debug
-                        System.out.println(caracter);
+                        System.out.println(carácter);
                         */
 
                         //transforma al array de Strings en un array de integers y los suma / suma de todos los valores
