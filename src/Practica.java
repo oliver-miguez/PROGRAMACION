@@ -36,10 +36,10 @@ public class Practica {
                 String[]caracteres = linea.split(" ");
 
                 //Recorremos el array
-                for(int i = 0; i < caracteres.length; i++){
+                for (String caracter : caracteres) {
 
                     //transforma al array de Strings en un array de integers y los suma / suma de todos los valores
-                    suma = suma + Integer.parseInt(caracteres[i]);
+                    suma = suma + Integer.parseInt(caracter);
                     //cuenta cuantos números hay en el array
                     contador++;
                     //cálculo de la media
@@ -52,6 +52,7 @@ public class Practica {
                 System.out.println(suma);
 
             }//end while
+
 
             // Excepciones en caso de error en el código
         }catch(IOException e){
