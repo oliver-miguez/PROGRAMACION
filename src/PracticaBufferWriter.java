@@ -11,7 +11,7 @@ public class PracticaBufferWriter {
      * @param args No usamos
      */
     public static void main(String[] args) {
-
+/*
         BufferedWriter saida = null;
 
         try{
@@ -19,6 +19,6 @@ public class PracticaBufferWriter {
         }catch (IOException e){
             System.out.println("Error en la verificación de la existencia del archivo: " + e.getMessage());
         }
-
+    */
     }//end main
 }//end class
