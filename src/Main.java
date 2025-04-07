@@ -6,12 +6,13 @@ public class Main {
         new LecturaTaboaNumerosBinario("numeros.dat");
         */
 
+        /*
         int[]par = {2,4,6};
         int[]impar = { 1,3,5};
 
         new EscrituraParesImpares(par,impar);
         new LecturaParesImapres("numeros.datos", "numeros.datos2");
-
+        */
 
 
     }

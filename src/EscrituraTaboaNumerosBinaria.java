@@ -5,7 +5,7 @@ import java.io.ObjectOutputStream;
 
 public class EscrituraTaboaNumerosBinaria {
     //CONSTRUCTOR
-    EscrituraTaboaNumerosBinaria(int [] taboa){
+    public EscrituraTaboaNumerosBinaria(int [] taboa){
         ObjectOutputStream fluxoSaida = null;
         try {
             fluxoSaida = new ObjectOutputStream (new FileOutputStream("numeros.dat"));
