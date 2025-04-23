@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
+
+        //Formas de utilizar los contenedores(collection) en java
+
         //Contenedor solo para objetos tipo integer
         //1ºForma
         Contedor<Integer> num = new Contedor<Integer>();
@@ -14,6 +17,28 @@ public class Main {
         Contedor ele = new Contedor();
         ele.gardar(6);
         System.out.println(ele.extraer());
+        System.out.println("______________________________________________________________");
+        //Probando Pila y ContedorElementos
+
+        //Array de valores que utilizaremos para probar la interfaz
+        Double[] temp = new Double[5];
+        temp[0] = 2.3;
+        temp[1] = 15.53;
+        temp[2] = 22.43;
+        temp[3] = -5.66;
+        temp[4] = 15.77;
+
+        ContedorElementos<Double> t = new ContedorElementos<>(temp);
+        t.apilar(2.33);
+        t.apilar(56.7);
+        t.apilar(777.2);
+
+        System.out.println(t.desapilar());
+        System.out.println(t.desapilar());
+        System.out.println(t.desapilar());
+        System.out.println(t.desapilar());
+
+
 
     }
 }
