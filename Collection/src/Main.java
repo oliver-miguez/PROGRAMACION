@@ -4,5 +4,9 @@ public class Main {
         Contedor<Integer> num = new Contedor<Integer>();
         num.gardar(5);
         System.out.println(num.extraer());
+        Contedor<String > cad = new Contedor<String>();
+        cad.gardar("Ola mundo");
+        System.out.println(cad.extraer());
+
     }
 }
