@@ -49,6 +49,11 @@ public class Main {
         t.encolar(5.54);
         System.out.println(t.desencolar());
         System.out.println(t.desencolar());
+        System.out.println(t.desencolar());
+        System.out.println(t.desencolar());
+        System.out.println(t.desencolar());
+        System.out.println(t.desencolar());
+
 
     }
 }
