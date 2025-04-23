@@ -2,9 +2,12 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+<<<<<<< HEAD
     <mapping directory="$PROJECT_DIR$/Boletin12" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Examen Real Programacion 2 Trimestres" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Recu Progra/PracticaConTryYCatch" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Recu Progra/StremsJava" vcs="Git" />
+=======
+>>>>>>> origin/main
   </component>
 </project>
