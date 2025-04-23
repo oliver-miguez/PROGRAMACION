@@ -8,16 +8,20 @@ public class Main {
         Contedor<Integer> num = new Contedor<Integer>();
         num.gardar(5);
         System.out.println(num.extraer());
+
         //Contenedor para Strings
         //2ºForma
         Contedor<String > cad = new Contedor<>();
         cad.gardar("Ola mundo");
         System.out.println(cad.extraer());
+
         //3ºForma
         Contedor ele = new Contedor();
         ele.gardar(6);
         System.out.println(ele.extraer());
+
         System.out.println("______________________________________________________________");
+
         //Probando Pila y ContedorElementos
 
         //Array de valores que utilizaremos para probar la interfaz
@@ -37,6 +41,7 @@ public class Main {
         System.out.println(t.desapilar());
         System.out.println(t.desapilar());
         System.out.println(t.desapilar());
+
         System.out.println("______________________________________________________________");
 
         //Probando Fila
