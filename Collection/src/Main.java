@@ -24,7 +24,7 @@ public class Main {
 
         //Probando Pila y ContedorElementos
 
-        //Array de valores que utilizaremos para probar la interfaz
+        //Array de valores que utilizaremos para probar las interfaces
         Double[] temp = new Double[5];
         temp[0] = 2.3;
         temp[1] = 15.53;
