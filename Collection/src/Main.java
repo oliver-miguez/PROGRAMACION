@@ -37,8 +37,13 @@ public class Main {
         System.out.println(t.desapilar());
         System.out.println(t.desapilar());
         System.out.println(t.desapilar());
+        System.out.println("______________________________________________________________");
 
-
+        //Probando Fila
+        t.encolar(1.34);
+        t.encolar(5.54);
+        System.out.println(t.desencolar());
+        System.out.println(t.desencolar());
 
     }
 }

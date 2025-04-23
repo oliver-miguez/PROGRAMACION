@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class ContedorElementos<T> implements Pila<T>{
+public class ContedorElementos<T> implements Pila<T> , Fila <T>{
     private T[] obxectos; //array de obxectos xenérico (de cualquier tipo)
 
     //CONSTRUCTOR
@@ -9,6 +9,11 @@ public class ContedorElementos<T> implements Pila<T>{
     }
 
     //MÉTODOS DE LA INTERFAZ
+
+    /**
+     * Añade elementos al final de la pila
+     * @param novo array de datos
+     */
     @Override
     public void apilar(T novo) {
         //crea un array nuevo con los mismo valores que el copiado añadiendo un espacio más
@@ -19,6 +24,10 @@ public class ContedorElementos<T> implements Pila<T>{
         obxectos[obxectos.length-1] = novo;
     }
 
+    /**
+     * Quita el último elemento de la pila
+     * @return el último elemento de la pila
+     */
     @Override
     public T desapilar() {
         T res = null;//resultado
@@ -30,5 +39,31 @@ public class ContedorElementos<T> implements Pila<T>{
             obxectos = Arrays.copyOf(obxectos, obxectos.length-1);
         }
         return res;
+    }
+
+    /**
+     * Añade elementos al final de la fila
+     * @param novo array de datos
+     */
+    @Override
+    public void encolar(T novo) {
+        apilar(novo); //aplica la misma función que realiza apilar
+    }
+
+    /**
+     * Quita el primer elemento de la fila
+     */
+    @Override
+    public T desencolar() {
+        T res = null;
+        //verifica si el array no está vacío
+        if(obxectos.length > 0){
+            //Inicia el array a 0
+            res = obxectos[0];
+            //copia en un nuevo array los valores del array obxectos pero desde la posición de memoria 1 (despreciando asi la posición 0) hasta el final del array original
+            obxectos = Arrays.copyOfRange(obxectos,1,obxectos.length);
+        }
+        return res;
+
     }
 }
