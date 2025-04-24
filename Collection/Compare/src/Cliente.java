@@ -36,7 +36,7 @@ public class Cliente implements Comparable<Cliente> {
      * @return
      */
     int edade(){
-        return (int) dataNacemento.until(LocalDate.now(),ChronoUnit.YEARS);
+        return (int) dataNacemento.until(LocalDate.now(),ChronoUnit.YEARS); //representa la edad del cliente, gracias a calcular la diferencia entre la data actual con la data de nacimiento
     }
 
     /**
