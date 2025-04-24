@@ -42,7 +42,7 @@ public class Cliente implements Comparable<Cliente> {
     /**
      * Compara dos clientes, si por ejemplo el cliente anteriormente creado tiene una edad mayor mostrará una cosa con respecto a si tiene la misma edad
      * o una edad menor.
-     * En coso de que sea un dni el compareTo lo verificará de manera distinta
+     * En coso de que sea un dni el compareTo lo verificará de manera distinta debido a que es un String
      * @param outro cliente nuevo con el que se comparará
      * @return
      */
