@@ -33,7 +33,7 @@ public class Cliente implements Comparable<Cliente> {
      *
      * Conversión a int: Aunque el metodo until devuelve un valor de tipo long, se hace un "cast" explícito a int porque
      * la edad suele representarse como un número entero.
-     * @return
+     * @return la edad del cliente
      */
     int edade(){
         return (int) dataNacemento.until(LocalDate.now(),ChronoUnit.YEARS); //representa la edad del cliente, gracias a calcular la diferencia entre la data actual con la data de nacimiento
