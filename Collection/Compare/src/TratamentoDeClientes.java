@@ -50,10 +50,11 @@ public class TratamentoDeClientes {
             System.out.println(indice.next());//Muestra el cliente siempre que exista un objeto a continuación
         }//end for
         System.out.println("________");
-        for (Cliente cli : coleccionCliente){//por cada elemento cliente de la colección de clientes lo muestra
+        for (Cliente cli : coleccionCliente){//por cada elemento cliente de la colección de clientes extrae cada objeto
             System.out.println(cli);
         }//end for
 
+        //Todo calcular la media de edad de los clientes
 
     }
 }//end class
