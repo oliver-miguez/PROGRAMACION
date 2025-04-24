@@ -62,6 +62,10 @@ public class Cliente implements Comparable<Cliente> {
 
     }
 
+    /**
+     * Muestra los datos por pantalla
+     * @return todos los datos de la clase Cliente
+     */
     public String toString(){
         return "DNI:"+ dni+" Nome:"+ nome + " Data de nacemento :"+ dataNacemento.toString();
         /*
