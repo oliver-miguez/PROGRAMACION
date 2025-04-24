@@ -21,6 +21,8 @@ public class TratamentoDeClientes {
         Cliente unCliente = new Cliente("77777777W","Jaime","06/11/2000");
         coleccionCliente.add(unCliente);//lo añadimos al arrayList
 
+        //dispone de un toString
+        System.out.println(coleccionCliente.toString());
         //Muestra el total de objetos que tiene la colección
         System.out.println(coleccionCliente.size());
         //Muestra si está o no vacía
@@ -31,5 +33,6 @@ public class TratamentoDeClientes {
         coleccionCliente.remove(unCliente);
         //elimina cualquier elemento que tenga el ArrayList
         coleccionCliente.clear();
+
     }
 }//end class
