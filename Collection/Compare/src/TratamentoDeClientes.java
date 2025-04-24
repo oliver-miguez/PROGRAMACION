@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
 
 /**
  * Aprendiendo ArrayList
@@ -30,11 +31,29 @@ public class TratamentoDeClientes {
         //Verifica si contiene un determinado elemento
         System.out.println(coleccionCliente.contains(unCliente));
         //elimina el cliente creado que fue añadido al arrayList
-        coleccionCliente.remove(unCliente);
+        //coleccionCliente.remove(unCliente);
         //elimina cualquier elemento que tenga el ArrayList
-        coleccionCliente.clear();
+        //coleccionCliente.clear();
         //Referencia a cada elemento del array
         Object[]clientes = coleccionCliente.toArray();
+
+
+        /*
+        Es un objeto que permite ir señalando los objetos y nos permite desplazarnos por dentro del collection.
+        Para ello disponemos de metodos coo hasNext() para verificar si existen aún objetos dentro del collection
+        y next() para ir saltando de objeto en objeto
+        Muestra los valores de los objetos del Collection
+         */
+        Iterator <Cliente> indice = coleccionCliente.iterator();
+        //Diferentes métodos para desplazarse por el Collection
+        for( ; indice.hasNext();){
+            System.out.println(indice.next());//Muestra el cliente siempre que exista un objeto a continuación
+        }//end for
+        System.out.println("________");
+        for (Cliente cli : coleccionCliente){//por cada elemento cliente de la colección de clientes lo muestra
+            System.out.println(cli);
+        }//end for
+
 
     }
 }//end class
