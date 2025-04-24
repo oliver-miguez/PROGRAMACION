@@ -50,6 +50,11 @@ public class Cliente implements Comparable<Cliente> {
 
        return res;
         */
+
+    }
+
+    public String toString(){
+        return "DNI:"+ dni+" Nome:"+ nome + " Data de nacemento :"+ dataNacemento.toString();//como la dataNacemento viene de una clase LocalDate tenemos que llamarla con el toString
     }
 
 }//end class
