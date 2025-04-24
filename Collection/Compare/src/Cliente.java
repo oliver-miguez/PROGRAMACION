@@ -11,6 +11,7 @@ public class Cliente implements Comparable<Cliente> {
     String nome;
     LocalDate dataNacemento; //clase para trabajar con datas
 
+    //CONSTRUCTOR
     public Cliente(String dni, String nome, String dataNacemento){
         this.dni = dni;
         this.nome = nome;
