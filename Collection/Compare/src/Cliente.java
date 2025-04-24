@@ -72,6 +72,11 @@ public class Cliente implements Comparable<Cliente> {
         Usamos el toString predeterminado de dataNacemento que proviene de la clase LocalDate.
         Este mostrará la fecha en formato ISO 8601 (YYYY-MM-DD) porque el formato creado en el constructor
          solo se aplica al momento de inicializar la fecha y no afecta el comportamiento de este metodo.
+
+         Otro forma de hacerlo para aplicarle el formato deseado:
+         DateTimeFormatter formatoDatas = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+         return "DNI:" + dni + " Nome:" + nome + " Data de nacemento:" + dataNacemento.format(formatoDatas);
+
         */
     }
 
