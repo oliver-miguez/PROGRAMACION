@@ -26,6 +26,15 @@ public class Cliente implements Comparable<Cliente> {
         this.dataNacemento = LocalDate.parse(dataNacemento,formatoDatas);//a la "dataNacemento" se le aplicará el forma creando anteriormente
     }//end constructor
 
+    /**
+     * Aquí se utiliza el metodo until de la clase LocalDate. Este metodo calcula la diferencia entre dos fechas,
+     * la fecha de nacimiento (dataNacemento) y la fecha actual (LocalDate.now()), usando la unidad de tiempo especificada.
+     * ChronoUnit.YEARS: Este es el tipo de unidad de tiempo que se pasa a until, lo que indica que queremos calcular la diferencia en años.
+     *
+     * Conversión a int: Aunque el metodo until devuelve un valor de tipo long, se hace un "cast" explícito a int porque
+     * la edad suele representarse como un número entero.
+     * @return
+     */
     int edade(){
         return (int) dataNacemento.until(LocalDate.now(),ChronoUnit.YEARS);
     }
