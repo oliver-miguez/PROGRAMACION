@@ -33,6 +33,8 @@ public class TratamentoDeClientes {
         coleccionCliente.remove(unCliente);
         //elimina cualquier elemento que tenga el ArrayList
         coleccionCliente.clear();
+        //Referencia a cada elemento del array
+        Object[]clientes = coleccionCliente.toArray();
 
     }
 }//end class
