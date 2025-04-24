@@ -63,7 +63,12 @@ public class Cliente implements Comparable<Cliente> {
     }
 
     public String toString(){
-        return "DNI:"+ dni+" Nome:"+ nome + " Data de nacemento :"+ dataNacemento.toString();//como la dataNacemento viene de una clase LocalDate tenemos que llamarla con el toString
+        return "DNI:"+ dni+" Nome:"+ nome + " Data de nacemento :"+ dataNacemento.toString();
+        /*
+        usamos el toString en dataNacemento porque proviene de otra clase aunque la
+        mostrará en formato americano debido a que el formato que creamos al no estar declarado dentro de este metodo solo sirve de manera
+        momentánea en la creación del cliente
+        */
     }
 
 }//end class
