@@ -34,12 +34,17 @@ public class Cliente implements Comparable<Cliente> {
      */
     @Override
     public int compareTo(Cliente outro) {
+
+        return this.edade()- outro.edade(); //si la edad de this.edad > outro.edad devuelve un valor positivo, en caso contrario negativo y en empate 0
+
+        /*
+       Otra Forma de hacerlo
        int res = 0;
        if(this.edade() > outro.edade()) res = 1;
        if(this.edade() < outro.edade()) res = -1;
 
        return res;
+        */
     }
-
 
 }//end class
