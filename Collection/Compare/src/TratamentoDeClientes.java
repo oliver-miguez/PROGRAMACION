@@ -16,6 +16,14 @@ public class TratamentoDeClientes {
         coleccionCliente.add(new Cliente("00000000T","Oliver","3/06/2006"));
         coleccionCliente.add(new Cliente("12345678Y","Pepe","2/05/2005"));
         coleccionCliente.add(new Cliente("87654321R","Arturo","1/04/2004"));
-        coleccionCliente.clear();//elimina cualquier elemento que tenga el ArrayList
+
+        //creamos un nuevo cliente
+        Cliente unCliente = new Cliente("77777777W","Jaime","6/11/2000");
+        coleccionCliente.add(unCliente);//lo añadimos al arrayList
+
+        //elimina el cliente creado que fué añadido al arrayList
+        coleccionCliente.remove(unCliente);
+        //elimina cualquier elemento que tenga el ArrayList
+        coleccionCliente.clear();
     }
 }//end class
