@@ -20,7 +20,7 @@ public class Main {
         ele.gardar(6);
         System.out.println(ele.extraer());
 
-        //Contenedor para Cualquier tipo
+        //Contenedor para Cualquier tipo (comodín)
         //4ºForma
         Contedor<?> contedorParaCalqueraTipo = new Contedor<Integer>();//se le asigna a un contenedor de cualquier tipo un objeto integer
         contedorParaCalqueraTipo = new Contedor<Double>();
