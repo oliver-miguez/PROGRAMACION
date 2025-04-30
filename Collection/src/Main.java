@@ -15,14 +15,16 @@ public class Main {
         cad.gardar("Ola mundo");
         System.out.println(cad.extraer());
 
-        //Contenedor para calquera tipo
-        //3ºForma
-        Contedor<?> contedorParaCalqueraTipo = new Contedor<>();
-
         //3ºForma
         Contedor ele = new Contedor();
         ele.gardar(6);
         System.out.println(ele.extraer());
+
+        //Contenedor para Cualquier tipo
+        //4ºForma
+        Contedor<?> contedorParaCalqueraTipo = new Contedor<Integer>();//se le asigna a un contenedor de cualquier tipo un objeto integer
+        contedorParaCalqueraTipo = new Contedor<Double>();
+        con
 
         System.out.println("______________________________________________________________");
 
