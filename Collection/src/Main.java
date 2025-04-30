@@ -25,6 +25,14 @@ public class Main {
         Contedor<?> contedorParaCalqueraTipo = new Contedor<Integer>();//se le asigna a un contenedor de cualquier tipo un objeto integer
         contedorParaCalqueraTipo = new Contedor<Double>();
 
+        /*
+        QUE NO SE PUEDE HACER CON LOS TIPOS GENÉRICOS:
+        1- No se pueden usar primitivos: int, float, double --> en cambio hay que usar clases como Int, Float, Double(clases envoltorio)
+        2- No se puede hacer instancias de genéricos , no se puede hacer un "new T()"
+        3- No se pueden crear tablas de esos genéricos "new T[10]"
+        4- No se pueden crear tablas de clases parametrizadas " new Contedor <integer>[5] "
+        5- No pueden usar excepciones genéricas
+         */
 
         System.out.println("______________________________________________________________");
 
