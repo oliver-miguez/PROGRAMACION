@@ -24,7 +24,7 @@ public class Main {
         //4ºForma
         Contedor<?> contedorParaCalqueraTipo = new Contedor<Integer>();//se le asigna a un contenedor de cualquier tipo un objeto integer
         contedorParaCalqueraTipo = new Contedor<Double>();
-        con
+
 
         System.out.println("______________________________________________________________");
 
