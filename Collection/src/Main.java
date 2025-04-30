@@ -15,6 +15,10 @@ public class Main {
         cad.gardar("Ola mundo");
         System.out.println(cad.extraer());
 
+        //Contenedor para calquera tipo
+        //3ºForma
+        Contedor<?> contedorParaCalqueraTipo = new Contedor<>();
+
         //3ºForma
         Contedor ele = new Contedor();
         ele.gardar(6);
