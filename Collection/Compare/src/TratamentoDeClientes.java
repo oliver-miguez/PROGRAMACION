@@ -10,7 +10,7 @@ public class TratamentoDeClientes {
     public static void main(String[] args) {
         //De momento solo lo declaramos como collection y no como list
         Collection<Cliente> coleccionCliente;
-        //creamos un arrayList
+        //creamos un arrayList(cabe calquera tipo de obxeto)
         coleccionCliente = new ArrayList<>();
         //Añade al array 3 nuevos clientes, ya que la lista solo permite añadir objetos formato "CLIENTE"
         //el add devuelve true si se añadió o se modificó el tamaño del array a la lista y falso si la lista se mantiene igual y no cambia es decir si no se añade
