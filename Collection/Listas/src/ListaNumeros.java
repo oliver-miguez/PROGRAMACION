@@ -20,6 +20,8 @@ public class ListaNumeros {
         listaEnteiros.add(3,25);
         //añade en la posicion deseada toda una lista de collections
         listaEnteiros.addAll(5, listaEnteiros);
+        //Elimina un elemento de la lista(elimina el segundo elemento de la lista)
+        listaEnteiros.remove(1);
         //Devolta o cuarto elemento xa que empeza desde 0 (método propio de la clase LIST)
         System.out.println(listaEnteiros.get(3));
 
