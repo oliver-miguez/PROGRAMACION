@@ -53,8 +53,31 @@ public class TratamentoDeClientes {
         for (Cliente cli : coleccionCliente){//por cada elemento cliente de la colección de clientes extrae cada objeto
             System.out.println(cli);
         }//end for
+/*
+        System.out.println("_");
+        for(Cliente cli : coleccionCliente){
+            System.out.println(cli);
+            if(cli.dni.equals("00000000T") )coleccionCliente.remove(cli);
+        }
+        System.out.println(coleccionCliente.toString());
 
-        //Todo calcular la media de edad de los clientes
-
+        for(;indice.hasNext();){
+            Cliente cli = indice.next();
+            System.out.println();
+            if(cli.dni.equals("12345678Y")) indice.remove();
+        }
+        System.out.println(coleccionCliente.toString());
+*/
+        Collection<Cliente>outrosClientes = new ArrayList<>();
+        outrosClientes.add(new Cliente("1111110T","Paco","03/06/2006"));
+        outrosClientes.add(new Cliente("22222222Y","Carlos","02/05/2005"));
+        outrosClientes.add(new Cliente("333333333R","Berta","01/04/2004"));
+        coleccionCliente.addAll(outrosClientes);
+        System.out.println(coleccionCliente.toString());
+        System.out.println(coleccionCliente.containsAll(outrosClientes));
+        System.out.println(coleccionCliente.toString());
+        coleccionCliente.retainAll(outrosClientes);
+        System.out.println(coleccionCliente.containsAll(outrosClientes));
+        System.out.println(coleccionCliente.containsAll(outrosClientes));
     }
 }//end class
