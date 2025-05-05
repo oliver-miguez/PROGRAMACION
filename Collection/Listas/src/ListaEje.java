@@ -32,15 +32,22 @@ public class ListaEje {
         }//end while
         System.out.println("Todos los numeros:"+numerosTodos);
 
+        //viaja por los indices de la lista de 2 en dos(por los indices positivos)
+        for(int i = 0; i < numerosTodos.size(); i = i+2){
+            System.out.println(numerosTodos.get(i));
+        }
+
+
         /*
+        1ºForma
         Aquí se crea un ListIterator para recorrer la lista numerosTodos.
          El ListIterator es una versión mejorada de un iterador que permite avanzar, retroceder y modificar la lista durante la iteración.
-         */
+
         ListIterator<Integer> iterador = numerosTodos.listIterator();
-        /*
+
         Se inicializa un índice en 0 y se empieza un bucle while, que se ejecuta mientras haya elementos en la lista
         (hasNext() devuelve true cuando hay un siguiente elemento).
-         */
+
         int indice = 0;
         while (iterador.hasNext()) {
             //Cada vez que se ejecuta iterador.next(), el iterador avanza al siguiente elemento de la lista.
@@ -53,7 +60,7 @@ public class ListaEje {
             indice++;//después de cada iteración se actualiza el índice para indicar la posición actual en la lista
         }
         System.out.println("Numeros de indice par:"+numerosTodos);
-
+        */
 
     }//end main
 }//end class
