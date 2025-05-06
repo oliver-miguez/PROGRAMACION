@@ -1,6 +1,9 @@
+import com.sun.tools.jconsole.JConsoleContext;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
+import java.util.TreeSet;
 
 /**
  * Aprendiendo ArrayList
@@ -67,7 +70,8 @@ public class TratamentoDeClientes {
             if(cli.dni.equals("12345678Y")) indice.remove();
         }
         System.out.println(coleccionCliente.toString());
-*/
+*/        System.out.println("________");
+
         Collection<Cliente>outrosClientes = new ArrayList<>();
         outrosClientes.add(new Cliente("1111110T","Paco","03/06/2006"));
         outrosClientes.add(new Cliente("22222222Y","Carlos","02/05/2005"));
@@ -79,5 +83,16 @@ public class TratamentoDeClientes {
         coleccionCliente.retainAll(outrosClientes);
         System.out.println(coleccionCliente.containsAll(outrosClientes));
         System.out.println(coleccionCliente.containsAll(outrosClientes));
-    }
+        System.out.println("________");
+
+        //No da opciones de mostrar objetos repetidos
+        TreeSet<Cliente> conxuntoClientes = new TreeSet<>();
+        conxuntoClientes.add(new Cliente("1111110T","Paco","03/06/2006"));
+        conxuntoClientes.add(new Cliente("22222222Y","Carlos","02/05/2005"));
+        conxuntoClientes.add(new Cliente("333333333R","Berta","01/04/2004"));
+        conxuntoClientes.add(unCliente);
+        System.out.println(conxuntoClientes);
+        System.out.println(conxuntoClientes.add(unCliente));//no muestra dos veces a "unCliente", solo lo muestra una vez
+
+    }//end main
 }//end class
