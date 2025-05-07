@@ -17,7 +17,7 @@ public class ExemploMap {
 
         System.out.println(mapa);
         System.out.println(mapa.get("Ana"));//muestra a partir de la clave "Ana" su valor (25)
-
+        mapa.remove("Ana");//elimina el elemento de clave "Ana"
 
     }//end main
 }//end class
