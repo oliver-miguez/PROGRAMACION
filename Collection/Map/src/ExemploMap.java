@@ -40,5 +40,14 @@ public class ExemploMap {
         Collection<Integer> valores = mapa.values(); //conjunto de valores
         System.out.println(valores);
 
+        Set<Map.Entry<String,Integer>> entradas = mapa.entrySet();//lista de entradas (tanto como los valores como las claves, obtenemos un set(una colección de valores)
+        System.out.println(entradas);
+        Iterator<Map.Entry<String,Integer>>it;//con este iterador nos podemos mover a traves de los elementos de la colección
+        for (it = entradas.iterator();it.hasNext();){
+            Map.Entry<String,Integer>elemento = it.next();
+            System.out.println("Valores:"+elemento.getValue());
+            System.out.println("Claves:"+ elemento.getKey());
+        }
+
     }//end main
 }//end class
