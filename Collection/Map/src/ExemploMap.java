@@ -16,6 +16,7 @@ public class ExemploMap {
         mapa.put("Luis",11);//cambia el valor anterior de Luis y muestra el nuevo
 
         System.out.println(mapa);
+        System.out.println(mapa.get("Ana"));//muestra a partir de la clave "Ana" su valor (25)
 
 
     }//end main
