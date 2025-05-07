@@ -21,6 +21,10 @@ public class ExemploMap {
         System.out.println(mapa);
 
         System.out.println(mapa.containsKey("Ana"));//comprueba si "mapa" tiene un elemento con la llave "Ana" (false/true)
+        if(mapa.containsKey("Juan")) System.out.println("Juan Existe");
+        else System.out.println("Juan no existe");
+        if(mapa.containsKey("Ana")) System.out.println("Ana existe");
+        else System.out.println("Ana no existe");
 
 
     }//end main
