@@ -1,9 +1,9 @@
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Crea listas a las que a cada valor de ella se le da una clave con la que se puede identificar y llamar
  * No repite valores
+ * Map es una clase "distinta" a collection, pero tienen cierta relación
  * @author Oliver Miguez Alonso
  */
 public class ExemploMap {
@@ -27,10 +27,18 @@ public class ExemploMap {
         else System.out.println("Ana no existe");
 
         System.out.println(mapa.containsValue(11));//muestra si existe el valor en el mapa
-
+        /*
         mapa.clear();//vacía el mapa
         System.out.println(mapa);
+        */
 
+        //Vistas
+        //Set es una interfaz de las colecciones
+        Set<String> claves = mapa.keySet();//conjunto de claves
+        System.out.println(claves);
+
+        Collection<Integer> valores = mapa.values(); //conjunto de valores
+        System.out.println(valores);
 
     }//end main
 }//end class
