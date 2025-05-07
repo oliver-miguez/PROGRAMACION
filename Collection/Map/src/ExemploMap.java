@@ -14,10 +14,12 @@ public class ExemploMap {
         mapa.put("Juan", 30);
         mapa.put("Luis", 28);
         mapa.put("Luis",11);//cambia el valor anterior de Luis y muestra el nuevo
+        mapa.put("Carme",67);
+        mapa.put("Eustakio",102);
 
         System.out.println(mapa);
         System.out.println(mapa.get("Ana"));//muestra a partir de la clave "Ana" su valor (25)
-        mapa.remove("Ana");//elimina el elemento de clave "Ana"
+        //mapa.remove("Ana");//elimina el elemento de clave "Ana"
         System.out.println(mapa);
 
         System.out.println(mapa.containsKey("Ana"));//comprueba si "mapa" tiene un elemento con la llave "Ana" (false/true)
@@ -31,6 +33,7 @@ public class ExemploMap {
         mapa.clear();//vacía el mapa
         System.out.println(mapa);
         */
+        System.out.println("_________");
 
         //Vistas
         //Set es una interfaz de las colecciones
@@ -62,7 +65,11 @@ public class ExemploMap {
             Map.Entry<String,Integer>elemento = it.next();
             System.out.println("Valores:"+elemento.getValue());
             System.out.println("Claves:"+ elemento.getKey());
+            if (elemento.getValue()>40) it.remove(); //elimina de la colección del mapa general los elementos con valores > 40
         }
+        System.out.println("_________");
+        System.out.println(mapa);
+        System.out.println("_________");
 
     }//end main
 }//end class
