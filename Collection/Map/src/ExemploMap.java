@@ -28,6 +28,9 @@ public class ExemploMap {
 
         System.out.println(mapa.containsValue(11));//muestra si existe el valor en el mapa
 
+        mapa.clear();//vacía el mapa
+        System.out.println(mapa);
+
 
     }//end main
 }//end class
