@@ -13,6 +13,7 @@ public class ExemploMap {
         mapa.put("Ana", 25);
         mapa.put("Juan", 30);
         mapa.put("Luis", 28);
+        mapa.put("Luis",11);//cambia el valor anterior de Luis y muestra el nuevo
 
         System.out.println(mapa);
 
