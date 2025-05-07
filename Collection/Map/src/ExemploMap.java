@@ -26,6 +26,8 @@ public class ExemploMap {
         if(mapa.containsKey("Ana")) System.out.println("Ana existe");
         else System.out.println("Ana no existe");
 
+        System.out.println(mapa.containsValue(11));//muestra si existe el valor en el mapa
+
 
     }//end main
 }//end class
