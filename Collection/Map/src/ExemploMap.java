@@ -20,5 +20,8 @@ public class ExemploMap {
         mapa.remove("Ana");//elimina el elemento de clave "Ana"
         System.out.println(mapa);
 
+        System.out.println(mapa.containsKey("Ana"));//comprueba si "mapa" tiene un elemento con la llave "Ana" (false/true)
+
+
     }//end main
 }//end class
