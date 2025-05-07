@@ -1,9 +1,6 @@
 import com.sun.tools.jconsole.JConsoleContext;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.TreeSet;
+import java.util.*;
 
 /**
  * Aprendiendo ArrayList
@@ -93,6 +90,15 @@ public class TratamentoDeClientes {
         conxuntoClientes.add(unCliente);
         System.out.println(conxuntoClientes);
         System.out.println(conxuntoClientes.add(unCliente));//no muestra dos veces a "unCliente", solo lo muestra una vez
+
+        //metodos de collections
+        /*
+        TODO
+        lo trae mañana el profe
+        System.out.println(coleccionCliente);
+        Collections.sort(coleccionCliente, new ComparadorDni());
+        */
+
 
     }//end main
 }//end class
