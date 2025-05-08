@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class ListaNumeros {
@@ -25,6 +26,9 @@ public class ListaNumeros {
         //Devolta o cuarto elemento xa que empeza desde 0 (método propio de la clase LIST)
         System.out.println(listaEnteiros.get(3));
 
+        System.out.println(listaEnteiros);
+
+        Collections.sort(listaEnteiros);//ordena la lista
         System.out.println(listaEnteiros);
 
 

@@ -1,8 +1,8 @@
 import java.util.Comparator;
 
-public class ComparadorDni implements Comparator<String> {
+public class ComparadorDni implements Comparator<Cliente> {
     @Override
-    public int compare(String dni1, String dni2) {
-        return dni1.compareTo(dni2);
+    public int compare(Cliente c1, Cliente c2) {
+        return c1.dni.compareTo(c2.dni);
     }
 }
