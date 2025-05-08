@@ -13,7 +13,7 @@ public class TratamentoDeClientes {
 
         //Añade al array 3 nuevos clientes, ya que la lista solo permite añadir objetos formato "CLIENTE"
         //el add devuelve true si se añadió o se modificó el tamaño del array a la lista y falso si la lista se mantiene igual y no cambia es decir si no se añade
-        coleccionCliente.add(new Cliente("00000000T","Oliver","03/06/2006"));
+        coleccionCliente.add(new Cliente("00000000T","Oliver","03/06/0001"));
         coleccionCliente.add(new Cliente("12345678Y","Pepe","02/05/2005"));
         coleccionCliente.add(new Cliente("87654321R","Arturo","01/04/2004"));
 
@@ -76,6 +76,12 @@ public class TratamentoDeClientes {
 
         System.out.println("::::::::");
 
+        System.out.println("Max:");
+        Cliente maior = Collections.max((coleccionCliente)); //muestra únicamente el que mayor valor tenga
+        System.out.println(maior);
+        System.out.println(maior.dni);
+
+        System.out.println("::::::::");
 
         /*
         Es un objeto que permite ir señalando los objetos y nos permite desplazarnos por dentro del collection.
@@ -95,7 +101,6 @@ public class TratamentoDeClientes {
         for (Cliente cli : coleccionCliente){//por cada elemento cliente de la colección de clientes extrae cada objeto
             System.out.println(cli);
         }//end for
-
 
         /*
         2ºOtra forma de hacer Iterator
@@ -140,8 +145,6 @@ public class TratamentoDeClientes {
         System.out.println(conxuntoClientes.add(unCliente));//no muestra dos veces a "unCliente", solo lo muestra una vez
 
         System.out.println("::::::::");
-
-
 
     }//end main
 }//end class
