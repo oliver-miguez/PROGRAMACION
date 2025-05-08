@@ -51,16 +51,28 @@ public class TratamentoDeClientes {
         System.out.println("::::::::");
 
         System.out.println("Fill: ");
-        Collections.fill(coleccionCliente,new Cliente("11111R","Fernando","01/07/2080"));//cambia todos los valores de la lista por el valor del nuevo cliente
-        System.out.println(coleccionCliente);
+        //Collections.fill(coleccionCliente,new Cliente("11111R","Fernando","01/07/2080"));//cambia todos los valores de la lista por el valor del nuevo cliente
+        System.out.println("Usando Fill para modificar la lista:"+coleccionCliente);
 
         System.out.println("::::::::");
 
         System.out.println("Copia de Listas:");
         List<Cliente>outraLista = new ArrayList<>();
         outraLista.add(new Cliente("43214321R","Paquiño","03/06/2006"));
-        Collections.copy(coleccionCliente,outraLista);//copia en outraLista en coleccionCliente
+        Collections.copy(coleccionCliente,outraLista);//copia en outraLista en coleccionCliente (añade los elementos de outraLista en colecionCliente)
         System.out.println("Lista copiada:"+coleccionCliente);
+
+        System.out.println("::::::::");
+
+        System.out.println("Shuffle:");
+        Collections.shuffle(coleccionCliente);//Baraja la coleccion/Cambia de posición los objetos que tiene la lista
+        System.out.println("Coleccion barajada:"+ coleccionCliente);
+
+        System.out.println("::::::::");
+
+        System.out.println("Frequency: ");
+        int frecuencia = Collections.frequency(coleccionCliente, coleccionCliente.get(0)); //Muestra la frecuencia de aparición de un objeto en una lista
+        System.out.println("Frequencia de apariencia de objetos de la lista:"+frecuencia);
 
         System.out.println("::::::::");
 
@@ -77,12 +89,13 @@ public class TratamentoDeClientes {
         for( ; indice.hasNext();){
             System.out.println(indice.next());//Muestra el cliente siempre que exista un objeto a continuación
         }//end for
-        System.out.println("________");
+
+        System.out.println("::::::::");
+
         for (Cliente cli : coleccionCliente){//por cada elemento cliente de la colección de clientes extrae cada objeto
             System.out.println(cli);
         }//end for
 
-        System.out.println("::::::::");
 
         /*
         2ºOtra forma de hacer Iterator
@@ -114,7 +127,8 @@ public class TratamentoDeClientes {
         coleccionCliente.retainAll(outrosClientes);
         System.out.println(coleccionCliente.containsAll(outrosClientes));
         System.out.println(coleccionCliente.containsAll(outrosClientes));
-        System.out.println("________");
+
+        System.out.println("::::::::");
 
         //No da opciones de mostrar objetos repetidos
         TreeSet<Cliente> conxuntoClientes = new TreeSet<>();
