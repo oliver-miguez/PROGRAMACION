@@ -58,8 +58,9 @@ public class TratamentoDeClientes {
 
         System.out.println("Copia de Listas:");
         List<Cliente>outraLista = new ArrayList<>();
-        Collections.copy();//copia en outraLista coleccionCliente
-        System.out.println("Lista copiada:"+outraLista);
+        outraLista.add(new Cliente("43214321R","Paquiño","03/06/2006"));
+        Collections.copy(coleccionCliente,outraLista);//copia en outraLista en coleccionCliente
+        System.out.println("Lista copiada:"+coleccionCliente);
 
         System.out.println("::::::::");
 
