@@ -55,6 +55,8 @@ Y por ultimo boletines como:
 
 [Boletín 10](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin%2010)
 
+[Boletín 11](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Bol11)
+
 Ademas de varios ejercicios fuera de boletines practicando clases y métodos 
 
 Centrados principalmente en programar directamente en el IDE
