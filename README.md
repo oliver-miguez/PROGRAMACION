@@ -107,8 +107,9 @@ https://github.com/oliver-miguez/PROGRAMACION/tree/main/Examen2
 ### Examen acabado: 
 
 
-#Repaso 3 Trimestre
-Collection y sus derivados:https://github.com/oliver-miguez/PROGRAMACION/tree/main/Collection
+# Repaso 3 Trimestre
+## Collection y sus derivados:https://github.com/oliver-miguez/PROGRAMACION/tree/main/Collection
+## Buffer readers , etc https://github.com/oliver-miguez/PROGRAMACION/tree/StremsJava
 
 ## IDE
 A lo largo del curso hemos programado principal y unicamente en el Intellij 
