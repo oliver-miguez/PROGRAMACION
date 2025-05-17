@@ -110,6 +110,7 @@ https://github.com/oliver-miguez/PROGRAMACION/tree/main/Examen2
 # Repaso 3 Trimestre
 ## Collection y sus derivados:https://github.com/oliver-miguez/PROGRAMACION/tree/main/Collection
 ## Buffer readers , etc https://github.com/oliver-miguez/PROGRAMACION/tree/StremsJava
+## Try y catch ejes boletin 11 : https://github.com/oliver-miguez/PROGRAMACION/tree/main/Bol11
 
 ## IDE
 A lo largo del curso hemos programado principal y unicamente en el Intellij 
