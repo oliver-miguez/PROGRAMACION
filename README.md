@@ -107,6 +107,9 @@ https://github.com/oliver-miguez/PROGRAMACION/tree/main/Examen2
 ### Examen acabado: 
 
 
+#Repaso 3 Trimestre
+Collection y sus derivados:https://github.com/oliver-miguez/PROGRAMACION/tree/main/Collection
+
 ## IDE
 A lo largo del curso hemos programado principal y unicamente en el Intellij 
 
