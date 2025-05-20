@@ -5,6 +5,8 @@ import java.util.Scanner; // Importa Scanner para entrada de datos desde la cons
 import java.util.Set; // Importa Set para trabajar con conjuntos de datos únicos
 import java.util.TreeMap; // Importa TreeMap, un mapa ordenado por clave
 
+//Todo Hacer con arrayLis
+
 /*
  * Clase que gestiona productos con referencias y cantidades.
  * Utiliza archivos para almacenar los datos mediante serialización.
