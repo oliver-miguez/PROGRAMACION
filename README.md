@@ -4,7 +4,7 @@
 
 >Aqui subiré todos mis trabajos y tareas de programacíon de todo el año
 
-![imagen](https://rosamarfil.es/tutoriales/wp-content/uploads/2019/08/java-logo-png.png)
+![imagen](https://i.blogs.es/8d2420/650_1000_java/450_1000.webp)
 
 Hasta el momento hemos estado trabajando con:
 
@@ -55,6 +55,8 @@ Y por ultimo boletines como:
 
 [Boletín 10](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin%2010)
 
+[Boletín 11](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Bol11)
+
 Ademas de varios ejercicios fuera de boletines practicando clases y métodos 
 
 Centrados principalmente en programar directamente en el IDE
@@ -104,6 +106,11 @@ https://github.com/oliver-miguez/PROGRAMACION/tree/main/Examen2
 
 ### Examen acabado: 
 
+
+# Repaso 3 Trimestre
+## Collection y sus derivados:https://github.com/oliver-miguez/PROGRAMACION/tree/main/Collection
+## Buffer readers , etc https://github.com/oliver-miguez/PROGRAMACION/tree/StremsJava
+## Try y catch ejes boletin 11 : https://github.com/oliver-miguez/PROGRAMACION/tree/main/Bol11
 
 ## IDE
 A lo largo del curso hemos programado principal y unicamente en el Intellij 
