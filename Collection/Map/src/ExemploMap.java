@@ -9,7 +9,7 @@ import java.util.*;
 public class ExemploMap {
     public static void main(String[] args) {
         Map<String,Integer> mapa = new HashMap<>();
-
+        //añade valores al mapa
         mapa.put("Ana", 25);
         mapa.put("Juan", 30);
         mapa.put("Luis", 28);
