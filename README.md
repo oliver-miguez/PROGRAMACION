@@ -23,16 +23,24 @@
 
 A lo largo del curso hemos trabajado con un total de **9 boletines** + ejercicios adicionales, que me han permitido practicar y afianzar conceptos:
 
-- **Boletines de práctica con ordinogramas**  
-  - [Boletín 4 (PDF)](https://github.com/oliver-miguez/PROGRAMACION/blob/main/Ordinogramas.pdf)  
-  - [Boletín 2 (código)](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin_2/src)
+- Boletín 1: ejercicios de conceptos  
+- [Boletín 4 (PDF)](https://github.com/oliver-miguez/PROGRAMACION/blob/main/Ordinogramas.pdf)  
+- [Boletín 2 (código)](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin_2/src)  
+- [Boletín 2 extra](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin_2_Extra)  
+- [Boletín 3](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin_3)  
+- [Boletín 5](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin_5/src)  
+- [Boletín 6](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin_6)  
+- [Boletín 7](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin_7/src)  
+- [Boletín 7.2](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin7.2/src)  
+- [Boletín 8](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin%208/src)  
+- [Boletín 8.2](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin%208.2/src)  
+- [Boletín 8.3](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin%208.3)  
+- [Boletín 9](https://github.com/oliver-miguez/PROGRAMACION/tree/main/CLASES)  
+- [Boletín 10](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin%2010)  
+- [Boletín 11](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Bol11)  
+- [Boletín 13](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin13)
 
-- **Boletines de programación avanzada**  
-  - [Boletín 2 extra](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin_2_Extra)  
-  - [Boletín 3](https://github.com/oliver-miguez/PROGRAMACION/tree/main/Boletin_3)  
-  - [Boletines 5 a 9 y más](https://github.com/oliver-miguez/PROGRAMACION/tree/main/CLASES)
-
-- Además, ejercicios variados centrados en clases, métodos y programación directa en IDE.
+Además de varios ejercicios fuera de boletines practicando clases y métodos, centrados principalmente en programar directamente en el IDE.
 
 ---
 
