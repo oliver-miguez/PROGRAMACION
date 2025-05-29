@@ -75,7 +75,7 @@ Además de varios ejercicios fuera de boletines practicando clases y métodos, c
 
 ## 🛠️ IDE utilizado
 
-Durante todo el curso he programado principalmente en **IntelliJ IDEA** de JetBrains, la herramienta más potente para Java.  
+Durante todo el curso he programado principalmente en **IntelliJ IDEA** de JetBrains, de las herramienta más potente para Java.  
 [https://www.jetbrains.com/es-es/idea/](https://www.jetbrains.com/es-es/idea/)
 
 ---
